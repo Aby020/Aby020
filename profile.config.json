@@ -1,0 +1,157 @@
+{
+  "$schema": "./profile.schema.json",
+
+  "profile": {
+    "name": "Abi Thomas",
+    "username": "Aby020",
+    "headline": "Software Engineer",
+    "affiliation": "MCA — APJ Abdul Kalam Technological University",
+    "location": "Kerala, India",
+    "status": "Open to Software Engineer Opportunities",
+    "about": [
+  "Backend Engineer focused on building scalable REST APIs and full-stack web applications with Python, Django, Django REST Framework, and PostgreSQL — and AI-powered systems with LLMs (RAG, MCP)."
+]
+  },
+
+  "research": {
+    "primary": "Backend Development",
+    "direction": "Scalable Software Engineering",
+    "themes": "Python • Django • PostgreSQL • REST APIs",
+    "narrative": "Focused on developing reliable backend systems, RESTful APIs, and full-stack applications using modern software engineering practices."
+  },
+
+  "focus": [
+    "Python",
+    "Django",
+    "Django REST Framework",
+    "REST API Development",
+    "PostgreSQL",
+    "Database Design",
+    "Authentication & Authorization",
+    "Full-Stack Development",
+    "AI Integration",
+    "System Design (Learning)",
+    "Microservices (Learning)",
+    "Clean Code & Best Practices"
+  ],
+
+  "learning": [
+    "Spring Security",
+    "Microservices",
+    "Model Context Protocol (MCP)",
+    "Retrieval-Augmented Generation (RAG)",
+    "AI Integration with LLM APIs"
+  ],
+
+  "projects": [
+    {
+      "name": "ResumeAI",
+      "url": "https://github.com/Aby020/ResumeAI",
+      "homepage": "",
+      "focus": "AI Resume Analysis Platform",
+      "summary": "AI-powered resume analysis with ATS scoring, job-description matching, and intelligent feedback.",
+      "status": "Completed",
+      "heroLabel": "AI Project",
+      "tech": ["Python","Django","PostgreSQL","OCR","PDF Parsing","Bootstrap"]
+    },
+    {
+      "name": "TrackWise",
+      "url": "https://github.com/Aby020/TrackWise",
+      "homepage": "",
+      "focus": "Employee Attendance Management System",
+      "summary": "Full-stack attendance tracking with secure auth and role-based admin dashboards.",
+      "status": "Completed",
+      "heroLabel": "Full-Stack Project",
+      "tech": ["React","Node.js","Express.js","PostgreSQL","JWT","Tailwind CSS"]
+    },
+    {
+  "name": "NEXVENT",
+  "url": "https://github.com/Aby020/Nexvent",
+  "homepage": "https://nexvent.pythonanywhere.com/",
+  "focus": "Event Management Platform",
+  "summary": "Cloud-based event management for organizers and attendees.",
+  "status": "Completed",
+  "heroLabel": "Featured Project",
+  "tech": ["Django","Python","MySQL","Bootstrap"]
+   },
+    {
+      "name": "NanoServ",
+      "url": "https://github.com/Aby020/Nanoserv",
+      "homepage": "https://nanoserv.pythonanywhere.com/",
+      "focus": "Home Service Booking",
+      "summary": "Location-based home service booking connecting customers and providers.",
+      "status": "Completed",
+      "heroLabel": "Live Project",
+      "tech": [
+"Python",
+"HTML",
+"CSS",
+"JavaScript",
+"Google Maps API",
+"MySQL"
+]
+    }
+  ],
+
+  "techStack": {
+    "core": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "REST API Development"
+    ],
+    "groups": [
+      {
+        "name": "Backend",
+        "items": ["Python", "Django", "Django REST Framework", "Java", "Spring Boot"]
+      },
+      {
+        "name": "Frontend",
+        "items": ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
+      },
+      {
+        "name": "Database",
+        "items": ["PostgreSQL", "MySQL", "MongoDB"]
+      },
+      {
+        "name": "DevOps & Deployment",
+        "items": ["Git", "GitHub Actions", "PythonAnywhere", "Render", "Cloudinary"]
+      }
+    ]
+  },
+
+  "links": [
+    {
+      "label": "GitHub",
+      "value": "Aby020",
+      "url": "https://github.com/Aby020",
+      "logo": "github",
+      "color": "181717"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "Abi Thomas",
+      "url": "https://www.linkedin.com/in/abithomas-dev",
+      "logo": "linkedin",
+      "color": "0A66C2"
+    },
+    {
+      "label": "Email",
+      "value": "abithomas520@gmail.com",
+      "url": "mailto:abithomas520@gmail.com",
+      "logo": "gmail",
+      "color": "EA4335"
+    }
+  ],
+
+  "activity": {
+    "enabled": false,
+    "limit": 1
+  },
+
+  "appearance": {
+    "palette": "github"
+  },
+
+  "footer": "Code • Build • Improve"
+}

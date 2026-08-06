@@ -1,0 +1,23 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+
+# Portrait sources are private inputs. Keep them outside the repository when possible.
+input/
+portrait-source.*
+*.source.png
+*.source.jpg
+*.source.jpeg
+
+# Local portrait and resume sources — never commit.
+image/
+Resume/
+
+# Build preview artifacts — regenerate with `npm run generate`.
+assets/_preview/
+
+# Local IDE / agent settings — never commit.
+/.claude/

@@ -1,0 +1,29 @@
+{
+  "name": "abi-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animated GitHub Profile README with an ASCII portrait hero, generated from structured configuration.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "generate": "node scripts/generate.mjs",
+    "generate:hero": "node scripts/generate-hero.mjs",
+    "generate:readme": "node scripts/generate-readme.mjs",
+    "validate": "node scripts/validate.mjs",
+    "check": "npm run validate"
+  },
+  "keywords": [
+    "github-profile",
+    "readme",
+    "ascii-art",
+    "svg-animation",
+    "developer-portfolio"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}

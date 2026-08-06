@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GitHub Profile Configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["profile", "research", "focus", "projects", "techStack", "links", "activity", "appearance", "footer"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "username", "headline", "affiliation", "location", "status", "about"],
+      "properties": {
+        "name": { "type": "string", "minLength": 2, "maxLength": 40 },
+        "username": { "type": "string", "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$" },
+        "headline": { "type": "string", "minLength": 3, "maxLength": 46 },
+        "affiliation": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "location": { "type": "string", "minLength": 2, "maxLength": 32 },
+        "status": { "type": "string", "minLength": 2, "maxLength": 42 },
+        "about": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": { "type": "string", "minLength": 20, "maxLength": 320 }
+        }
+      }
+    },
+    "research": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary", "direction", "themes", "narrative"],
+      "properties": {
+        "primary": { "type": "string", "minLength": 2, "maxLength": 28 },
+        "direction": { "type": "string", "minLength": 2, "maxLength": 38 },
+        "themes": { "type": "string", "minLength": 2, "maxLength": 46 },
+        "narrative": { "type": "string", "minLength": 20, "maxLength": 420 }
+      }
+    },
+    "focus": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 12,
+      "items": { "type": "string", "minLength": 2, "maxLength": 40 }
+    },
+    "learning": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 12,
+      "items": { "type": "string", "minLength": 2, "maxLength": 60 }
+    },
+    "projects": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "url", "focus", "summary", "heroLabel"],
+        "properties": {
+          "name": { "type": "string", "minLength": 2, "maxLength": 18 },
+          "url": {
+  "type": "string"
+ 
+},
+          "homepage": { "type": "string" },
+          "focus": { "type": "string", "minLength": 2, "maxLength": 44 },
+          "summary": { "type": "string", "minLength": 10, "maxLength": 220 },
+          "status": { "type": "string", "minLength": 2, "maxLength": 20 },
+          "heroLabel": {
+  "type": "string",
+  "minLength": 2,
+  "maxLength": 30
+},
+"tech": {
+  "type": "array",
+  "items": {
+    "type": "string"
+  }
+}
+        }
+      }
+    },
+    "techStack": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["core", "groups"],
+      "properties": {
+        "core": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "items": { "type": "string", "minLength": 1, "maxLength": 30 }
+        },
+        "groups": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "items"],
+            "properties": {
+              "name": { "type": "string", "minLength": 1, "maxLength": 24 },
+              "items": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 12,
+                "items": { "type": "string", "minLength": 1, "maxLength": 30 }
+              }
+            }
+          }
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "value", "url", "logo", "color"],
+        "properties": {
+          "label": { "type": "string", "minLength": 2, "maxLength": 14 },
+          "value": { "type": "string", "minLength": 1, "maxLength": 28 },
+          "url": {
+  "type": "string"
+ 
+},
+          "logo": { "type": "string", "maxLength": 30 },
+          "color": { "type": "string", "pattern": "^[A-Fa-f0-9]{6}$" }
+        }
+      }
+    },
+    "activity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["enabled", "limit"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "limit": { "type": "integer", "minimum": 1, "maximum": 10 }
+      }
+    },
+    "appearance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["palette"],
+      "properties": {
+        "palette": { "enum": ["signal", "ocean", "solar", "github"] }
+      }
+    },
+    "footer": { "type": "string", "minLength": 4, "maxLength": 120 }
+  }
+}
