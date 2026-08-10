@@ -88,7 +88,7 @@ Currently focusing on building scalable backend systems and production-ready web
 
 <td width="50%" valign="top">
 
-**📁 [NanoServ](https://github.com/Aby020/Nanoserv)** · *Home Service Booking*
+**📁 [ServiGo](https://github.com/Aby020/Nanoserv)** · *Home Service Booking*
 
 > Location-based home service booking connecting customers and providers.
 
