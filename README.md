@@ -15,7 +15,7 @@
   <a href="https://github.com/Aby020"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Aby020-21262D?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=c9d1d9"></a>
   <a href="https://www.linkedin.com/in/abithomas-dev"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Abi_Thomas-21262D?style=for-the-badge&labelColor=0D1117&logo=linkedin&logoColor=0A66C2"></a>
   <a href="mailto:abithomas520@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-abithomas520%40gmail.com-21262D?style=for-the-badge&labelColor=0D1117&logo=gmail&logoColor=EA4335"></a>
-  <a href="https://abi-thomas-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-%E2%86%97%20VIEW%20MY%20PORTFOLIO%20%E2%86%92-21262D?style=for-the-badge&labelColor=0D1117&color=58a6ff&logo=vercel&logoColor=white"></a>
+  <a href="https://abi-thomas-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-%E2%86%97%20VIEW%20MY%20PORTFOLIO%20%E2%86%92-21262D?style=for-the-badge&labelColor=0D1117&color=21262D&logo=vercel&logoColor=white"></a>
 
 </p>
 
@@ -166,7 +166,7 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 
 ## // roadmap
 
-**Currently Exploring** → <code><a href="https://github.com/topics/spring-security" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Spring_Security-58a6ff?style=flat-square&labelColor=0D1117&color=58a6ff" alt="Spring Security"></a></code> <code><a href="https://github.com/topics/microservices" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microservices-79c0ff?style=flat-square&labelColor=0D1117&color=79c0ff" alt="Microservices"></a></code> <code><a href="https://github.com/topics/model-context-protocol-(mcp)" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-bc8cff?style=flat-square&labelColor=0D1117&color=bc8cff" alt="Model Context Protocol (MCP)"></a></code> <code><a href="https://github.com/topics/retrieval-augmented-generation-(rag)" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Retrieval--Augmented_Generation_(RAG)-7ee787?style=flat-square&labelColor=0D1117&color=7ee787" alt="Retrieval-Augmented Generation (RAG)"></a></code> <code><a href="https://github.com/topics/ai-integration-with-llm-apis" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/AI_Integration_with_LLM_APIs-58a6ff?style=flat-square&labelColor=0D1117&color=58a6ff" alt="AI Integration with LLM APIs"></a></code>
+**Currently Exploring** → <code><a href="https://github.com/topics/spring-security" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Spring_Security-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Spring Security"></a></code> <code><a href="https://github.com/topics/microservices" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microservices-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Microservices"></a></code> <code><a href="https://github.com/topics/model-context-protocol-(mcp)" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Model Context Protocol (MCP)"></a></code> <code><a href="https://github.com/topics/retrieval-augmented-generation-(rag)" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Retrieval--Augmented_Generation_(RAG)-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Retrieval-Augmented Generation (RAG)"></a></code> <code><a href="https://github.com/topics/ai-integration-with-llm-apis" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/AI_Integration_with_LLM_APIs-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="AI Integration with LLM APIs"></a></code>
 
 
 <hr>
@@ -206,6 +206,6 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 
 <p align="center">
 
-<code>Code • Build • Improve</code> <code><a href="https://github.com/garrytan/gstack" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/gstack-58a6ff?style=flat-square&labelColor=0D1117&color=58a6ff" alt="gstack"></a></code>
+<code>Code • Build • Improve</code>
 
 </p>
