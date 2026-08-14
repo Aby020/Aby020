@@ -65,7 +65,7 @@
       "tech": ["React","Node.js","Express.js","PostgreSQL","JWT","Tailwind CSS"]
     },
     {
-  "name": "NEXVENT",
+  "name": "Plannix",
   "url": "https://github.com/Aby020/Nexvent",
   "homepage": "https://nexvent.pythonanywhere.com/",
   "focus": "Event Management Platform",
@@ -75,7 +75,7 @@
   "tech": ["Django","Python","MySQL","Bootstrap"]
    },
     {
-      "name": "NanoServ",
+      "name": "ServiGo",
       "url": "https://github.com/Aby020/Nanoserv",
       "homepage": "https://nanoserv.pythonanywhere.com/",
       "focus": "Home Service Booking",
@@ -153,5 +153,6 @@
     "palette": "github"
   },
 
+  "portfolio": "https://abi-thomas-portfolio.vercel.app/",
   "footer": "Code • Build • Improve"
 }

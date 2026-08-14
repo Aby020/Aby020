@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220" role="img" aria-labelledby="title">
+<title id="title">NanoServ project preview</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+  <linearGradient id="accent-green" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3fb950"/><stop offset="1" stop-color="#7ee787"/></linearGradient>
+  <style>
+    .mono { font-family: 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Consolas', monospace; }
+    .keyword { fill: #ff7b72; }
+    .string { fill: #a5d6ff; }
+    .comment { fill: #8b949e; }
+    .function { fill: #d2a8ff; }
+    .operator { fill: #79c0ff; }
+    .builtin { fill: #f0883e; }
+  </style>
+</defs>
+<rect width="400" height="220" rx="8" fill="url(#bg)"/>
+<rect x="0" y="0" width="400" height="36" rx="8" fill="#161b22"/>
+<circle cx="14" cy="18" r="6" fill="#ff5f57"/><circle cx="30" cy="18" r="6" fill="#ffbd2e"/><circle cx="46" cy="18" r="6" fill="#28ca42"/>
+<text x="200" y="23" text-anchor="middle" class="mono" font-size="11" fill="#8b949e">nanoserv / services.py</text>
+<rect x="0" y="36" width="400" height="1" fill="#30363d"/>
+<text x="16" y="58" class="mono" font-size="11.5" fill="#e6edf3"><tspan class="keyword">import</tspan> <tspan>requests</tspan></text>
+<text x="16" y="76" class="mono" font-size="11.5" fill="#e6edf3"><tspan class="keyword">from</tspan> <tspan>geopy.distance</tspan> <tspan class="keyword">import</tspan> <tspan>geodesic</tspan></text>
+<text x="16" y="100" class="mono" font-size="11.5" fill="#e6edf3"><tspan class="comment"># Location-based service booking</tspan></text>
+<text x="16" y="118" class="mono" font-size="11.5" fill="#e6edf3"><tspan class="keyword">def</tspan> <tspan class="function">find_nearby_providers</tspan>(<tspan>lat</tspan>, <tspan>lng</tspan>, <tspan>radius_km</tspan><tspan class="operator">=</tspan><tspan class="builtin">10</tspan>):</text>
+<text x="32" y="136" class="mono" font-size="11.5" fill="#e6edf3"><tspan>user_loc</tspan> <tspan class="operator">=</tspan> (<tspan>lat</tspan>, <tspan>lng</tspan>)</text>
+<text x="32" y="154" class="mono" font-size="11.5" fill="#e6edf3"><tspan>providers</tspan> <tspan class="operator">=</tspan> <tspan>Provider.objects.filter</tspan>(<tspan>active</tspan><tspan class="operator">=</tspan><tspan class="string">True</tspan>)</text>
+<text x="32" y="172" class="mono" font-size="11.5" fill="#e6edf3"><tspan class="keyword">return</tspan> <tspan>[p for p in providers if geodesic(user_loc, p.location).km < radius_km]</tspan></text>
+<text x="16" y="190" class="mono" font-size="11.5" fill="#e6edf3"><tspan class="keyword">def</tspan> <tspan class="function">create_booking</tspan>(<tspan>user</tspan>, <tspan>provider</tspan>, <tspan>service_type</tspan>): <tspan class="keyword">...</tspan></text>
+<rect x="4" y="4" width="392" height="212" rx="8" fill="none" stroke="url(#accent-green)" stroke-width="1.5" opacity="0.6"/>
+</svg>
