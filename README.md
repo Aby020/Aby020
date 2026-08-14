@@ -79,76 +79,32 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 
 ## // repositories
 
-<table width="100%" style="border-collapse:collapse;width:100%;"><tr>
+<table width="100%" style="border-collapse:collapse;width:100%;"><style>@media (max-width: 760px) { .projects-grid td { width: 100% !important; display: block; padding: 0 0 24px 0 !important; } }</style><tr>
 
-<td width="50%" valign="top" style="padding:0 8px 16px 8px;vertical-align:top;">
+<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;">
 
-<div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;overflow:hidden;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;--accent:#ff7b72;">
-  <!-- Terminal Header -->
-  <div style="background:#161b22;border-bottom:1px solid #30363d;padding:8px 12px;display:flex;align-items:center;gap:10px;">
-    <div style="display:flex;gap:6px;">
-      <span style="width:12px;height:12px;border-radius:50%;background:#ff5f57;flex-shrink:0;"></span>
-      <span style="width:12px;height:12px;border-radius:50%;background:#ffbd2e;flex-shrink:0;"></span>
-      <span style="width:12px;height:12px;border-radius:50%;background:#28ca42;flex-shrink:0;"></span>
-    </div>
-    <div style="font-size:11px;color:#8b949e;font-weight:400;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">resumeai / resume_analyzer.py</div>
-    <div style="font-size:10px;color:#484f58;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:180px;">resumeai > models > analyzer</div>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;display:flex;flex-direction:column;height:100%;min-height:160px;">
+  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
+    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;">ResumeAI</h3>
+    <p style="margin:0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">AI-powered resume analysis with ATS scoring, job-description matching, and intelligent feedback.</p>
   </div>
-
-  <!-- Terminal Body -->
-  <div style="background:#0d1117;padding:12px 14px;min-height:120px;max-height:200px;overflow:auto;font-size:12px;line-height:1.6;color:#e6edf3;">
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;"><span style="color:#ff7b72;font-weight:600;margin-right:6px;">$</span> <span style="color:#d2a8ff;">python resume_analyzer.py --resume resume.pdf --jd job.txt</span></div>
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">📄 Parsing resume...</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">🔍 Extracting skills & experience...</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">🤖 Running ATS analysis...</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">✅ ATS Score: 92/100</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">📊 JD Match: 87% (12/14 keywords)</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">💡 Feedback generated: 3 suggestions</div>
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;"><span style="color:#ff7b72;font-weight:600;margin-right:6px;">$</span> <span style="color:#d2a8ff;">cat analysis_report.json</span></div>
-  </div>
-
-  <!-- Project Info Footer -->
-  <div style="background:#161b22;border-top:1px solid #30363d;padding:12px 14px 14px 14px;">
-    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;flex-wrap:wrap;">
-      <h3 style="margin:0;font-size:14px;font-weight:600;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">ResumeAI</h3>
-      <span style="display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:500;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:2px 8px;border-radius:12px;background:color-mix(in srgb, #3fb950 15%, transparent);border:1px solid color-mix(in srgb, #3fb950 30%, transparent);"><span style="width:6px;height:6px;border-radius:50%;background:#3fb950;animation:pulse 2s infinite;"></span>Completed</span>
-    </div>
-    <p style="margin:0 0 6px 0;font-size:12px;color:#8b949e;line-height:1.5;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">AI-powered resume analysis with ATS scoring, job-description matching, and intelligent feedback.</p>
-    <div style="margin:0 0 10px 0;font-size:11px;color:#6e7681;font-style:italic;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">AI Resume Analysis Platform</div>
-    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;"><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">Python</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">Django</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">PostgreSQL</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">OCR</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">PDF Parsing</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">Bootstrap</span></div>
-    <div><a href="https://github.com/Aby020/ResumeAI" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:500;color:#ff7b72;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #ff7b72;border-radius:6px;background:color-mix(in srgb, #ff7b72 10%, transparent);">↗ Repository</a></div>
+  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;">
+    <a href="https://github.com/Aby020/ResumeAI" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#ff7b72;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #ff7b72 40%, transparent);transition:transform 0.15s ease,box-shadow 0.15s ease;">View Repository →</a>
   </div>
 </div>
 
 </td>
 
 
-<td width="50%" valign="top" style="padding:0 8px 16px 8px;vertical-align:top;">
+<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;">
 
-<div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;overflow:hidden;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;--accent:#f0883e;">
-  <!-- Terminal Header -->
-  <div style="background:#161b22;border-bottom:1px solid #30363d;padding:8px 12px;display:flex;align-items:center;gap:10px;">
-    <div style="display:flex;gap:6px;">
-      <span style="width:12px;height:12px;border-radius:50%;background:#ff5f57;flex-shrink:0;"></span>
-      <span style="width:12px;height:12px;border-radius:50%;background:#ffbd2e;flex-shrink:0;"></span>
-      <span style="width:12px;height:12px;border-radius:50%;background:#28ca42;flex-shrink:0;"></span>
-    </div>
-    <div style="font-size:11px;color:#8b949e;font-weight:400;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">trackwise / dashboard.js</div>
-    <div style="font-size:10px;color:#484f58;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:180px;">trackwise > src > components > Dashboard</div>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;display:flex;flex-direction:column;height:100%;min-height:160px;">
+  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
+    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;">TrackWise</h3>
+    <p style="margin:0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Full-stack attendance tracking with secure auth and role-based admin dashboards.</p>
   </div>
-
-  <!-- Terminal Body -->
-  <div style="background:#0d1117;padding:12px 14px;min-height:120px;max-height:200px;overflow:auto;font-size:12px;line-height:1.6;color:#e6edf3;">
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;"><span style="color:#f0883e;font-weight:600;margin-right:6px;">$</span> <span style="color:#d2a8ff;">npm run dev</span></div>
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">▶ VITE v5.2.0  ready in 347ms</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">➜ Local:   http://localhost:5173/</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">➜ Network: http://192.168.1.42:5173/</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">⚡ React 18 + Tailwind CSS loaded</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">📊 AttendanceChart mounted</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">🔐 JWT auth verified</div>
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;"><span style="color:#f0883e;font-weight:600;margin-right:6px;">$</span> <span style="color:#d2a8ff;">curl -X GET /api/attendance/stats</span></div>
-  </div>
-
-  <!-- Project Info Footer -->
-  <div style="background:#161b22;border-top:1px solid #30363d;padding:12px 14px 14px 14px;">
-    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;flex-wrap:wrap;">
-      <h3 style="margin:0;font-size:14px;font-weight:600;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">TrackWise</h3>
-      <span style="display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:500;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:2px 8px;border-radius:12px;background:color-mix(in srgb, #3fb950 15%, transparent);border:1px solid color-mix(in srgb, #3fb950 30%, transparent);"><span style="width:6px;height:6px;border-radius:50%;background:#3fb950;animation:pulse 2s infinite;"></span>Completed</span>
-    </div>
-    <p style="margin:0 0 6px 0;font-size:12px;color:#8b949e;line-height:1.5;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Full-stack attendance tracking with secure auth and role-based admin dashboards.</p>
-    <div style="margin:0 0 10px 0;font-size:11px;color:#6e7681;font-style:italic;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Employee Attendance Management System</div>
-    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;"><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">React</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">Node.js</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">Express.js</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">PostgreSQL</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">JWT</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">Tailwind CSS</span></div>
-    <div><a href="https://github.com/Aby020/TrackWise" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:500;color:#f0883e;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #f0883e;border-radius:6px;background:color-mix(in srgb, #f0883e 10%, transparent);">↗ Repository</a></div>
+  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;">
+    <a href="https://github.com/Aby020/TrackWise" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#f0883e;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #f0883e 40%, transparent);transition:transform 0.15s ease,box-shadow 0.15s ease;">View Repository →</a>
   </div>
 </div>
 
@@ -157,74 +113,30 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 </tr>
 <tr>
 
-<td width="50%" valign="top" style="padding:0 8px 16px 8px;vertical-align:top;">
+<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;">
 
-<div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;overflow:hidden;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;--accent:#79c0ff;">
-  <!-- Terminal Header -->
-  <div style="background:#161b22;border-bottom:1px solid #30363d;padding:8px 12px;display:flex;align-items:center;gap:10px;">
-    <div style="display:flex;gap:6px;">
-      <span style="width:12px;height:12px;border-radius:50%;background:#ff5f57;flex-shrink:0;"></span>
-      <span style="width:12px;height:12px;border-radius:50%;background:#ffbd2e;flex-shrink:0;"></span>
-      <span style="width:12px;height:12px;border-radius:50%;background:#28ca42;flex-shrink:0;"></span>
-    </div>
-    <div style="font-size:11px;color:#8b949e;font-weight:400;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">plannix / events/views.py</div>
-    <div style="font-size:10px;color:#484f58;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:180px;">plannix > events > views</div>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;display:flex;flex-direction:column;height:100%;min-height:160px;">
+  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
+    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;">Plannix</h3>
+    <p style="margin:0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Cloud-based event management for organizers and attendees.</p>
   </div>
-
-  <!-- Terminal Body -->
-  <div style="background:#0d1117;padding:12px 14px;min-height:120px;max-height:200px;overflow:auto;font-size:12px;line-height:1.6;color:#e6edf3;">
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;"><span style="color:#79c0ff;font-weight:600;margin-right:6px;">$</span> <span style="color:#d2a8ff;">python manage.py runserver 8000</span></div>
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">🚀 Starting development server at http://127.0.0.1:8000/</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">📦 Django 5.1.3 loaded</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">🔌 Connected to MySQL database</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">📋 EventListView: 24 events loaded</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">✅ All migrations applied</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">🌐 Server ready — accepting requests</div>
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;"><span style="color:#79c0ff;font-weight:600;margin-right:6px;">$</span> <span style="color:#d2a8ff;">curl -X GET /api/events/</span></div>
-  </div>
-
-  <!-- Project Info Footer -->
-  <div style="background:#161b22;border-top:1px solid #30363d;padding:12px 14px 14px 14px;">
-    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;flex-wrap:wrap;">
-      <h3 style="margin:0;font-size:14px;font-weight:600;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Plannix</h3>
-      <span style="display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:500;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:2px 8px;border-radius:12px;background:color-mix(in srgb, #3fb950 15%, transparent);border:1px solid color-mix(in srgb, #3fb950 30%, transparent);"><span style="width:6px;height:6px;border-radius:50%;background:#3fb950;animation:pulse 2s infinite;"></span>Completed</span>
-    </div>
-    <p style="margin:0 0 6px 0;font-size:12px;color:#8b949e;line-height:1.5;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Cloud-based event management for organizers and attendees.</p>
-    <div style="margin:0 0 10px 0;font-size:11px;color:#6e7681;font-style:italic;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Event Management Platform</div>
-    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;"><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">Django</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">Python</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">MySQL</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">Bootstrap</span></div>
-    <div><a href="https://github.com/Aby020/Nexvent" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:500;color:#79c0ff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #79c0ff;border-radius:6px;background:color-mix(in srgb, #79c0ff 10%, transparent);">↗ Repository</a></div>
+  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;">
+    <a href="https://github.com/Aby020/Nexvent" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#79c0ff;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #79c0ff 40%, transparent);transition:transform 0.15s ease,box-shadow 0.15s ease;">View Repository →</a>
   </div>
 </div>
 
 </td>
 
 
-<td width="50%" valign="top" style="padding:0 8px 16px 8px;vertical-align:top;">
+<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;">
 
-<div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;overflow:hidden;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;--accent:#a371f7;">
-  <!-- Terminal Header -->
-  <div style="background:#161b22;border-bottom:1px solid #30363d;padding:8px 12px;display:flex;align-items:center;gap:10px;">
-    <div style="display:flex;gap:6px;">
-      <span style="width:12px;height:12px;border-radius:50%;background:#ff5f57;flex-shrink:0;"></span>
-      <span style="width:12px;height:12px;border-radius:50%;background:#ffbd2e;flex-shrink:0;"></span>
-      <span style="width:12px;height:12px;border-radius:50%;background:#28ca42;flex-shrink:0;"></span>
-    </div>
-    <div style="font-size:11px;color:#8b949e;font-weight:400;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">servigo / booking.js</div>
-    <div style="font-size:10px;color:#484f58;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:180px;">servigo > src > services > booking</div>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;display:flex;flex-direction:column;height:100%;min-height:160px;">
+  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
+    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;">ServiGo</h3>
+    <p style="margin:0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Location-based home service booking connecting customers and providers.</p>
   </div>
-
-  <!-- Terminal Body -->
-  <div style="background:#0d1117;padding:12px 14px;min-height:120px;max-height:200px;overflow:auto;font-size:12px;line-height:1.6;color:#e6edf3;">
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;"><span style="color:#a371f7;font-weight:600;margin-right:6px;">$</span> <span style="color:#d2a8ff;">node booking.js --provider spa --location kochi</span></div>
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">🗺️  Loading Google Maps...</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">📍 Location: Kochi, Kerala (9.9312, 76.2673)</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#79c0ff;">🔍 Searching nearby providers...</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">✅ Found 8 providers within 5km</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">📱 Booking request sent to: UrbanClap</div><div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:#3fb950;">✨ Confirmation: #SG-2024-0892</div>
-    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;"><span style="color:#a371f7;font-weight:600;margin-right:6px;">$</span> <span style="color:#d2a8ff;">cat booking_confirmation.json</span></div>
-  </div>
-
-  <!-- Project Info Footer -->
-  <div style="background:#161b22;border-top:1px solid #30363d;padding:12px 14px 14px 14px;">
-    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;flex-wrap:wrap;">
-      <h3 style="margin:0;font-size:14px;font-weight:600;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">ServiGo</h3>
-      <span style="display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:500;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:2px 8px;border-radius:12px;background:color-mix(in srgb, #3fb950 15%, transparent);border:1px solid color-mix(in srgb, #3fb950 30%, transparent);"><span style="width:6px;height:6px;border-radius:50%;background:#3fb950;animation:pulse 2s infinite;"></span>Completed</span>
-    </div>
-    <p style="margin:0 0 6px 0;font-size:12px;color:#8b949e;line-height:1.5;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Location-based home service booking connecting customers and providers.</p>
-    <div style="margin:0 0 10px 0;font-size:11px;color:#6e7681;font-style:italic;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Home Service Booking</div>
-    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;"><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">Python</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">HTML</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">CSS</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">JavaScript</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">Google Maps API</span><span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">MySQL</span></div>
-    <div><a href="https://github.com/Aby020/Nanoserv" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:500;color:#a371f7;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #a371f7;border-radius:6px;background:color-mix(in srgb, #a371f7 10%, transparent);">↗ Repository</a></div>
+  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;">
+    <a href="https://github.com/Aby020/Nanoserv" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#a371f7;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #a371f7 40%, transparent);transition:transform 0.15s ease,box-shadow 0.15s ease;">View Repository →</a>
   </div>
 </div>
 
