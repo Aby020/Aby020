@@ -114,13 +114,12 @@ function renderProjectCard(project) {
 
   const tech = project.tech ? project.tech.map((t) => `<code>${escapeCell(t)}</code>`).join(" ") : "";
   const links = [`<a href="${project.url}" target="_blank" rel="noopener noreferrer">Repository</a>`];
-  if (project.homepage) links.push(`<a href="${project.homepage}" target="_blank" rel="noopener noreferrer">Live Demo</a>`);
 
   // Status badge
   const statusMap = {
     "Completed": { icon: "●", color: "3fb950", text: "Completed" },
     "In Progress": { icon: "○", color: "d29922", text: "In Progress" },
-    "Live": { icon: "���", color: "3fb950", text: "Live" }
+    "Live": { icon: "����", color: "3fb950", text: "Live" }
   };
   const statusInfo = statusMap[project.status] || { icon: "●", color: "8b949e", text: project.status || "Project" };
   const statusBadge = `<img src="https://img.shields.io/badge/${statusInfo.icon}%20${badgeSegment(statusInfo.text)}-${statusInfo.color}?style=flat-square&labelColor=0D1117&color=${statusInfo.color}" alt="${project.status}">`;
@@ -202,25 +201,15 @@ ${snake}
 `;
 }
 
-function renderFooterCta(config) {
+function renderTopPortfolioCta(config) {
   const portfolioUrl = config.portfolio || "https://abi-thomas-portfolio.vercel.app/";
-  const linkedinUrl = "https://www.linkedin.com/in/abithomas-dev";
 
   return `
-<table width="100%">
-<tr>
-<td width="50%" valign="top" align="center">
+<p align="center" style="margin-top: 16px;">
   <a href="${portfolioUrl}" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/View%20My%20Portfolio%20%E2%86%92-00d4aa?style=for-the-badge&labelColor=0D1117&color=00d4aa&logo=vercel&logoColor=white" alt="View My Portfolio">
+    <img src="https://img.shields.io/badge/%E2%86%97%20VIEW%20MY%20PORTFOLIO%20%E2%86%92-00d4aa?style=for-the-badge&labelColor=0D1117&color=00d4aa&logo=vercel&logoColor=white" alt="View My Portfolio">
   </a>
-</td>
-<td width="50%" valign="top" align="center">
-  <a href="${linkedinUrl}" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&labelColor=0D1117&color=0A66C2&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-</td>
-</tr>
-</table>
+</p>
 `;
 }
 
@@ -269,6 +258,8 @@ ${renderLinks(config.links)}
 
 </p>
 
+${renderTopPortfolioCta(config)}
+
 <hr>
 
 ${section("profile.json", renderProfileJson(config))}
@@ -296,12 +287,6 @@ ${section("activity", renderStatsSection(config))}
 ${activitySection}
 
 <hr>
-
-<p align="center">
-
-${renderFooterCta(config)}
-
-</p>
 
 <p align="center">
 
