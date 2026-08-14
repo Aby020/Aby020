@@ -35,11 +35,16 @@ function badgeSegment(value) {
 }
 
 function renderLinks(links) {
-  return links.map((link) => {
+  const portfolioUrl = "https://abi-thomas-portfolio.vercel.app/";
+  const portfolioBadge = `  <a href="${portfolioUrl}" target="_blank" rel="noopener noreferrer"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-%E2%86%97%20VIEW%20MY%20PORTFOLIO%20%E2%86%92-21262D?style=for-the-badge&labelColor=0D1117&color=58a6ff&logo=vercel&logoColor=white"></a>`;
+
+  const linkBadges = links.map((link) => {
     const logo = link.logo ? `&logo=${encodeURIComponent(link.logo)}&logoColor=${logoColors[link.logo] || link.color || "c9d1d9"}` : "";
     const image = `https://img.shields.io/badge/${badgeSegment(link.label)}-${badgeSegment(link.value)}-21262D?style=for-the-badge&labelColor=0D1117${logo}`;
     return `  <a href="${link.url}"><img alt="${link.label}" src="${image}"></a>`;
-  }).join("\n");
+  });
+
+  return [...linkBadges, portfolioBadge].join("\n");
 }
 
 function renderProfileJson(config) {
@@ -124,9 +129,9 @@ function renderProjectCard(project) {
   const statusInfo = statusMap[project.status] || { icon: "●", color: "8b949e", text: project.status || "Project" };
   const statusBadge = `<img src="https://img.shields.io/badge/${statusInfo.icon}%20${badgeSegment(statusInfo.text)}-${statusInfo.color}?style=flat-square&labelColor=0D1117&color=${statusInfo.color}" alt="${project.status}">`;
 
-  // Preview image - use project.name to derive filename
+  // Preview image - use GitHub raw URL for profile page compatibility
   const previewName = project.name.toLowerCase().replaceAll(" ", "-");
-  const previewSrc = `./assets/previews/${previewName}-preview.svg`;
+  const previewSrc = `https://raw.githubusercontent.com/Aby020/Aby020/main/assets/previews/${previewName}-preview.svg`;
 
   return `
 <td width="50%" valign="top" align="center">
@@ -161,9 +166,12 @@ function renderProjects(projects) {
 
 function renderLearning(config) {
   const learning = Array.isArray(config.learning) ? config.learning : DEFAULT_LEARNING;
+  // Use developer palette: cyan, blue, violet, green (cycle through)
+  const devColors = ["58a6ff", "79c0ff", "bc8cff", "7ee787"];
 
-  const badges = learning.map((item) => {
-    return `<code><a href="https://github.com/topics/${encodeURIComponent(item.toLowerCase().replaceAll(" ", "-"))}" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/${badgeSegment(item)}-d29922?style=flat-square&labelColor=0D1117&color=d29922" alt="${item}"></a></code>`;
+  const badges = learning.map((item, index) => {
+    const color = devColors[index % devColors.length];
+    return `<code><a href="https://github.com/topics/${encodeURIComponent(item.toLowerCase().replaceAll(" ", "-"))}" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/${badgeSegment(item)}-${color}?style=flat-square&labelColor=0D1117&color=${color}" alt="${item}"></a></code>`;
   }).join(" ");
 
   return `**Currently Exploring** → ${badges}`;
@@ -201,17 +209,6 @@ ${snake}
 `;
 }
 
-function renderTopPortfolioCta(config) {
-  const portfolioUrl = config.portfolio || "https://abi-thomas-portfolio.vercel.app/";
-
-  return `
-<p align="center" style="margin-top: 16px;">
-  <a href="${portfolioUrl}" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/%E2%86%97%20VIEW%20MY%20PORTFOLIO%20%E2%86%92-00d4aa?style=for-the-badge&labelColor=0D1117&color=00d4aa&logo=vercel&logoColor=white" alt="View My Portfolio">
-  </a>
-</p>
-`;
-}
 
 function extractActivity(readme) {
   const startIndex = readme.indexOf(ACTIVITY_START);
@@ -258,8 +255,6 @@ ${renderLinks(config.links)}
 
 </p>
 
-${renderTopPortfolioCta(config)}
-
 <hr>
 
 ${section("profile.json", renderProfileJson(config))}
@@ -290,7 +285,7 @@ ${activitySection}
 
 <p align="center">
 
-<code>${config.footer}</code>
+<code>${config.footer}</code> <code><a href="https://github.com/garrytan/gstack" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/gstack-58a6ff?style=flat-square&labelColor=0D1117&color=58a6ff" alt="gstack"></a></code>
 
 </p>
 `;
