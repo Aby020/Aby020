@@ -117,45 +117,81 @@ ${groupRows}
 function renderProjectCard(project) {
   if (!project) return "<td></td>";
 
-  const tech = project.tech ? project.tech.map((t) => `<code>${escapeCell(t)}</code>`).join(" ") : "";
-  const links = [`<a href="${project.url}" target="_blank" rel="noopener noreferrer">Repository</a>`];
+  const tech = project.tech
+    ? project.tech
+        .map(
+          (t) =>
+            `<span style="display:inline-block;font-size:10px;font-weight:500;color:#c9d1d9;background:#21262d;border:1px solid #30363d;padding:2px 8px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:0 6px 6px 0;">${escapeCell(
+              t
+            )}</span>`
+        )
+        .join("")
+    : "";
+  const accentColor = getProjectAccent(project.name);
+  const repoLink = `<a href="${project.url}" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:500;color:${accentColor};text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid ${accentColor};border-radius:6px;background:color-mix(in srgb, ${accentColor} 10%, transparent);">↗ Repository</a>`;
 
   // Status badge
   const statusMap = {
-    "Completed": { icon: "●", color: "3fb950", text: "Completed" },
+    Completed: { icon: "●", color: "3fb950", text: "Completed" },
     "In Progress": { icon: "○", color: "d29922", text: "In Progress" },
-    "Live": { icon: "●", color: "3fb950", text: "Live" }
+    Live: { icon: "●", color: "3fb950", text: "Live" },
   };
-  const statusInfo = statusMap[project.status] || { icon: "●", color: "8b949e", text: project.status || "Project" };
-  const statusBadge = `<img src="https://img.shields.io/badge/${statusInfo.icon}%20${badgeSegment(statusInfo.text)}-${statusInfo.color}?style=flat-square&labelColor=0D1117&color=${statusInfo.color}" alt="${project.status}">`;
+  const statusInfo =
+    statusMap[project.status] || {
+      icon: "●",
+      color: "8b949e",
+      text: project.status || "Project",
+    };
+  const statusColor = `#${statusInfo.color}`;
+  const statusBadge = `<span style="display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:500;color:${statusColor};font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:2px 8px;border-radius:12px;background:color-mix(in srgb, ${statusColor} 15%, transparent);border:1px solid color-mix(in srgb, ${statusColor} 30%, transparent);"><span style="width:6px;height:6px;border-radius:50%;background:${statusColor};animation:pulse 2s infinite;"></span>${statusInfo.text}</span>`;
 
-  // Generate project-specific code snippet based on tech stack
-  const codeSnippet = generateCodeSnippet(project);
+  // Generate project-specific terminal snippet
+  const terminal = generateTerminalSnippet(project);
 
   return `
-<td width="50%" valign="top" align="center">
+<td width="50%" valign="top" style="padding:0 8px 16px 8px;vertical-align:top;">
 
-<div style="background: #0d1117; border: 1px solid #30363d; border-radius: 6px; overflow: hidden; margin-bottom: 12px;">
-  <div style="background: #161b22; border-bottom: 1px solid #30363d; padding: 8px 12px; display: flex; align-items: center; gap: 8px;">
-    <span style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f57;"></span>
-    <span style="width: 12px; height: 12px; border-radius: 50%; background: #ffbd2e;"></span>
-    <span style="width: 12px; height: 12px; border-radius: 50%; background: #28ca42;"></span>
-    <span style="margin-left: 8px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; color: #8b949e;">${codeSnippet.filename}</span>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;overflow:hidden;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;--accent:${accentColor};">
+  <!-- Terminal Header -->
+  <div style="background:#161b22;border-bottom:1px solid #30363d;padding:8px 12px;display:flex;align-items:center;gap:10px;">
+    <div style="display:flex;gap:6px;">
+      <span style="width:12px;height:12px;border-radius:50%;background:#ff5f57;flex-shrink:0;"></span>
+      <span style="width:12px;height:12px;border-radius:50%;background:#ffbd2e;flex-shrink:0;"></span>
+      <span style="width:12px;height:12px;border-radius:50%;background:#28ca42;flex-shrink:0;"></span>
+    </div>
+    <div style="font-size:11px;color:#8b949e;font-weight:400;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${terminal.filename}</div>
+    <div style="font-size:10px;color:#484f58;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:180px;">${terminal.breadcrumb}</div>
   </div>
-  <pre style="margin: 0; padding: 16px; overflow: auto; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; line-height: 1.5; color: #e6edf3; background: #0d1117;">${codeSnippet.code}</pre>
+
+  <!-- Terminal Body -->
+  <div style="background:#0d1117;padding:12px 14px;min-height:120px;max-height:200px;overflow:auto;font-size:12px;line-height:1.6;color:#e6edf3;">
+    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;"><span style="color:${accentColor};font-weight:600;margin-right:6px;">$</span> <span style="color:#d2a8ff;">${terminal.command}</span></div>
+    ${terminal.output
+      .map((line) => {
+        let lineColor = "#e6edf3";
+        if (line.class === "info") lineColor = "#79c0ff";
+        else if (line.class === "success") lineColor = "#3fb950";
+        else if (line.class === "error") lineColor = "#f85149";
+        else if (line.class === "warning") lineColor = "#d29922";
+        else if (line.class === "comment") lineColor = "#8b949e";
+        return `<div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;color:${lineColor};">${line.text}</div>`;
+      })
+      .join("")}
+    <div style="margin:2px 0;white-space:pre-wrap;word-break:break-word;"><span style="color:${accentColor};font-weight:600;margin-right:6px;">$</span> <span style="color:#d2a8ff;">${terminal.nextCommand}</span></div>
+  </div>
+
+  <!-- Project Info Footer -->
+  <div style="background:#161b22;border-top:1px solid #30363d;padding:12px 14px 14px 14px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;flex-wrap:wrap;">
+      <h3 style="margin:0;font-size:14px;font-weight:600;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">${project.name}</h3>
+      ${statusBadge}
+    </div>
+    <p style="margin:0 0 6px 0;font-size:12px;color:#8b949e;line-height:1.5;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">${project.summary}</p>
+    <div style="margin:0 0 10px 0;font-size:11px;color:#6e7681;font-style:italic;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">${project.focus}</div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;">${tech}</div>
+    <div>${repoLink}</div>
+  </div>
 </div>
-
-**${project.name}** ${statusBadge}
-
-*${project.focus}*
-
-> ${project.summary}
-
-<div>
-${tech}
-</div>
-
-<p><small>${links.join(" · ")}</small></p>
 
 </td>
 `;
@@ -168,89 +204,97 @@ function renderProjects(projects) {
     const right = projects[i + 1];
     rows.push(`<tr>\n${renderProjectCard(left)}\n${renderProjectCard(right)}\n</tr>`);
   }
-  return `<table width="100%">${rows.join("\n")}</table>`;
+  return `<table width="100%" style="border-collapse:collapse;width:100%;">${rows.join("\n")}</table>`;
 }
 
-function generateCodeSnippet(project) {
+// Returns a unique accent color from the developer palette for each project
+function getProjectAccent(projectName) {
+  const accents = {
+    "ResumeAI": "#ff7b72",      // Red/pink - AI/ML theme
+    "TrackWise": "#f0883e",     // Orange - React/frontend theme
+    "Plannix": "#79c0ff",       // Blue - Django/backend theme
+    "ServiGo": "#a371f7"        // Purple - Full-stack/location theme
+  };
+  return accents[projectName] || "#58a6ff";
+}
+
+// Generates a project-specific terminal-style code snippet
+function generateTerminalSnippet(project) {
   const name = project.name.toLowerCase().replaceAll(" ", "-");
   const tech = project.tech || [];
 
-  // Project-specific filename and code snippets
-  const snippets = {
+  const terminals = {
     "resumeai": {
-      filename: "resumeai / models.py",
-      code: `<span style="color:#ff7b72">from</span> <span>django.db</span> <span style="color:#ff7b72">import</span> <span>models</span>
-<span style="color:#ff7b72">from</span> <span>django.contrib.auth.models</span> <span style="color:#ff7b72">import</span> <span>User</span>
-
-<span style="color:#8b949e"># AI-powered resume analysis model</span>
-<span style="color:#ff7b72">class</span> <span style="color:#d2a8ff">ResumeAnalysis</span>(<span>models.Model</span>):
-    <span>user</span> = <span>models.ForeignKey</span>(<span>User</span>, on_delete=<span>models.CASCADE</span>)
-    <span>ats_score</span> = <span>models.IntegerField</span>()
-    <span>jd_match</span> = <span>models.JSONField</span>()
-    <span>feedback</span> = <span>models.TextField</span>()`
+      filename: "resumeai / resume_analyzer.py",
+      breadcrumb: "resumeai > models > analyzer",
+      command: "python resume_analyzer.py --resume resume.pdf --jd job.txt",
+      output: [
+        { text: "📄 Parsing resume...", class: "info" },
+        { text: "🔍 Extracting skills & experience...", class: "info" },
+        { text: "🤖 Running ATS analysis...", class: "info" },
+        { text: "✅ ATS Score: 92/100", class: "success" },
+        { text: "📊 JD Match: 87% (12/14 keywords)", class: "success" },
+        { text: "💡 Feedback generated: 3 suggestions", class: "success" }
+      ],
+      nextCommand: "cat analysis_report.json"
     },
     "trackwise": {
-      filename: "trackwise / Dashboard.jsx",
-      code: `<span style="color:#c084fc">import</span> <span style="color:#f0883e">{ useState, useEffect }</span> <span style="color:#c084fc">from</span> <span style="color:#a5d6ff">'react'</span>
-<span style="color:#c084fc">import</span> <span style="color:#f0883e">{ AttendanceChart }</span> <span style="color:#c084fc">from</span> <span style="color:#a5d6ff">'./components'</span>
-
-<span style="color:#8b949e">// Employee attendance dashboard</span>
-<span style="color:#c084fc">export</span> <span style="color:#c084fc">default</span> <span style="color:#c084fc">function</span> <span style="color:#d2a8ff">Dashboard</span>() {
-    <span>const</span> [<span>records</span>, <span style="color:#d2a8ff">setRecords</span>] = <span style="color:#d2a8ff">useState</span>([])
-    <span>const</span> [<span>stats</span>, <span style="color:#d2a8ff">setStats</span>] = <span style="color:#d2a8ff">useState</span>({})
-    <span style="color:#d2a8ff">useEffect</span>(() => { <span style="color:#d2a8ff">fetchAttendance</span>() }, [])
-    <span style="color:#c084fc">return</span> <span style="color:#f0883e"><AttendanceChart data={records} /></span>
-}`
+      filename: "trackwise / dashboard.js",
+      breadcrumb: "trackwise > src > components > Dashboard",
+      command: "npm run dev",
+      output: [
+        { text: "▶ VITE v5.2.0  ready in 347ms", class: "info" },
+        { text: "➜ Local:   http://localhost:5173/", class: "success" },
+        { text: "➜ Network: http://192.168.1.42:5173/", class: "success" },
+        { text: "⚡ React 18 + Tailwind CSS loaded", class: "info" },
+        { text: "📊 AttendanceChart mounted", class: "info" },
+        { text: "🔐 JWT auth verified", class: "success" }
+      ],
+      nextCommand: "curl -X GET /api/attendance/stats"
     },
     "plannix": {
-      filename: "plannix / views.py",
-      code: `<span style="color:#ff7b72">from</span> <span>django.shortcuts</span> <span style="color:#ff7b72">import</span> <span>render</span>
-<span style="color:#ff7b72">from</span> <span>django.views.generic</span> <span style="color:#ff7b72">import</span> <span>ListView, DetailView</span>
-<span style="color:#ff7b72">from</span> <span>.models</span> <span style="color:#ff7b72">import</span> <span>Event, Registration</span>
-
-<span style="color:#8b949e"># Event management platform views</span>
-<span style="color:#ff7b72">class</span> <span style="color:#d2a8ff">EventListView</span>(<span>ListView</span>):
-    <span>model</span> = <span>Event</span>
-    <span>template_name</span> = <span style="color:#a5d6ff">'events/list.html'</span>
-    <span>context_object_name</span> = <span style="color:#a5d6ff">'events'</span>
-
-    <span style="color:#ff7b72">def</span> <span style="color:#d2a8ff">get_queryset</span>(<span>self</span>):
-        <span style="color:#ff7b72">return</span> <span>Event</span>.objects.filter(is_published=<span>True</span>)
-`
+      filename: "plannix / events/views.py",
+      breadcrumb: "plannix > events > views",
+      command: "python manage.py runserver 8000",
+      output: [
+        { text: "🚀 Starting development server at http://127.0.0.1:8000/", class: "info" },
+        { text: "📦 Django 5.1.3 loaded", class: "info" },
+        { text: "🔌 Connected to MySQL database", class: "success" },
+        { text: "📋 EventListView: 24 events loaded", class: "info" },
+        { text: "✅ All migrations applied", class: "success" },
+        { text: "🌐 Server ready — accepting requests", class: "success" }
+      ],
+      nextCommand: "curl -X GET /api/events/"
     },
     "servigo": {
       filename: "servigo / booking.js",
-      code: `<span style="color:#c084fc">import</span> <span>{ GoogleMapsLoader }</span> <span style="color:#c084fc">from</span> <span style="color:#a5d6ff">'google-maps'</span>
-
-<span style="color:#8b949e">// Location-based service booking</span>
-<span style="color:#ff7b72">class</span> <span style="color:#d2a8ff">ServiceBooking</span> {
-  <span style="color:#ff7b72">constructor</span>() {
-    <span>this</span>.map = <span style="color:#ff7b72">null</span>;
-    <span>this</span>.providers = [];
-  }
-
-  <span style="color:#ff7b72">async</span> <span style="color:#d2a8ff">initMap</span>(<span>container</span>) {
-    <span>this</span>.map = <span style="color:#ff7b72">await</span> GoogleMapsLoader.load();
-    <span>this</span>.loadNearbyProviders();
-  }
-
-  <span style="color:#ff7b72">async</span> <span style="color:#d2a8ff">bookService</span>(<span>providerId</span>, <span>details</span>) {
-    <span style="color:#ff7b72">return</span> <span style="color:#ff7b72">await</span> fetch(<span style="color:#a5d6ff">\`/api/book/\${providerId}\`</span>, { method: <span style="color:#a5d6ff">'POST'</span>, body: JSON.stringify(details) });
-  }
-}`
+      breadcrumb: "servigo > src > services > booking",
+      command: "node booking.js --provider spa --location kochi",
+      output: [
+        { text: "🗺️  Loading Google Maps...", class: "info" },
+        { text: "📍 Location: Kochi, Kerala (9.9312, 76.2673)", class: "info" },
+        { text: "🔍 Searching nearby providers...", class: "info" },
+        { text: "✅ Found 8 providers within 5km", class: "success" },
+        { text: "📱 Booking request sent to: UrbanClap", class: "success" },
+        { text: "✨ Confirmation: #SG-2024-0892", class: "success" }
+      ],
+      nextCommand: "cat booking_confirmation.json"
     }
   };
 
-  return snippets[name] || {
+  const term = terminals[name] || {
     filename: `${name} / main.py`,
-    code: `<span style="color:#8b949e"># ${project.name} - ${project.focus}</span>
-<span style="color:#ff7b72">def</span> <span style="color:#d2a8ff">main</span>():
-    <span style="color:#8b949e"># ${project.summary}</span>
-    <span style="color:#ff7b72">pass</span>
-
-<span style="color:#ff7b72">if</span> __name__ == <span style="color:#a5d6ff">"__main__"</span>:
-    <span style="color:#d2a8ff">main</span>()`
+    breadcrumb: `${name} > src`,
+    command: `python main.py`,
+    output: [
+      { text: `🚀 Starting ${project.name}...`, class: "info" },
+      { text: `📋 ${project.summary}`, class: "info" },
+      { text: "✅ Initialization complete", class: "success" }
+    ],
+    nextCommand: "echo 'ready'"
   };
+
+  return term;
 }
 
 function renderLearning(config) {
