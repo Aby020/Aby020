@@ -36,7 +36,7 @@ function badgeSegment(value) {
 
 function renderLinks(links) {
   const portfolioUrl = "https://abi-thomas-portfolio.vercel.app/";
-  const portfolioBadge = `  <a href="${portfolioUrl}" target="_blank" rel="noopener noreferrer"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-%E2%86%97%20VIEW%20MY%20PORTFOLIO%20%E2%86%92-21262D?style=for-the-badge&labelColor=0D1117&color=58a6ff&logo=vercel&logoColor=white"></a>`;
+  const portfolioBadge = `  <a href="${portfolioUrl}" target="_blank" rel="noopener noreferrer"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-%E2%86%97%20VIEW%20MY%20PORTFOLIO%20%E2%86%92-21262D?style=for-the-badge&labelColor=0D1117&color=21262D&logo=vercel&logoColor=white"></a>`;
 
   const linkBadges = links.map((link) => {
     const logo = link.logo ? `&logo=${encodeURIComponent(link.logo)}&logoColor=${logoColors[link.logo] || link.color || "c9d1d9"}` : "";
@@ -166,11 +166,10 @@ function renderProjects(projects) {
 
 function renderLearning(config) {
   const learning = Array.isArray(config.learning) ? config.learning : DEFAULT_LEARNING;
-  // Use developer palette: cyan, blue, violet, green (cycle through)
-  const devColors = ["58a6ff", "79c0ff", "bc8cff", "7ee787"];
+  // Match surrounding README code-style tags: neutral dark badge, no color
+  const color = "21262d";
 
-  const badges = learning.map((item, index) => {
-    const color = devColors[index % devColors.length];
+  const badges = learning.map((item) => {
     return `<code><a href="https://github.com/topics/${encodeURIComponent(item.toLowerCase().replaceAll(" ", "-"))}" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/${badgeSegment(item)}-${color}?style=flat-square&labelColor=0D1117&color=${color}" alt="${item}"></a></code>`;
   }).join(" ");
 
@@ -285,7 +284,7 @@ ${activitySection}
 
 <p align="center">
 
-<code>${config.footer}</code> <code><a href="https://github.com/garrytan/gstack" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/gstack-58a6ff?style=flat-square&labelColor=0D1117&color=58a6ff" alt="gstack"></a></code>
+<code>${config.footer}</code>
 
 </p>
 `;
