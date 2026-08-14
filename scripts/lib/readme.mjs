@@ -118,17 +118,17 @@ function renderProjectCard(project) {
   if (!project) return "<td></td>";
 
   const accentColor = getProjectAccent(project.name);
-  const repoLink = `<a href="${project.url}" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:${accentColor};border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, ${accentColor} 40%, transparent);transition:transform 0.15s ease,box-shadow 0.15s ease;">View Repository →</a>`;
+  const repoLink = `<a href="${project.url}" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:14px 28px;background:${accentColor};border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, ${accentColor} 40%, transparent);border:2px solid ${accentColor};">View Repository →</a>`;
 
   return `
-<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;">
+<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;min-width:280px;">
 
-<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;display:flex;flex-direction:column;height:100%;min-height:160px;">
-  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
-    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;">${project.name}</h3>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;min-height:160px;">
+  <div>
+    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid ${accentColor};border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:${accentColor};font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">${project.name}</code></h3>
     <p style="margin:0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">${project.summary}</p>
   </div>
-  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;">
+  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;text-align:center;">
     ${repoLink}
   </div>
 </div>
@@ -144,7 +144,7 @@ function renderProjects(projects) {
     const right = projects[i + 1];
     rows.push(`<tr>\n${renderProjectCard(left)}\n${renderProjectCard(right)}\n</tr>`);
   }
-  return `<table width="100%" style="border-collapse:collapse;width:100%;"><style>@media (max-width: 760px) { .projects-grid td { width: 100% !important; display: block; padding: 0 0 24px 0 !important; } }</style>${rows.join("\n")}</table>`;
+  return `<table width="100%" style="border-collapse:collapse;width:100%;table-layout:fixed;">${rows.join("\n")}</table>`;
 }
 
 // Returns a unique accent color from the developer palette for each project

@@ -79,32 +79,32 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 
 ## // repositories
 
-<table width="100%" style="border-collapse:collapse;width:100%;"><style>@media (max-width: 760px) { .projects-grid td { width: 100% !important; display: block; padding: 0 0 24px 0 !important; } }</style><tr>
+<table width="100%" style="border-collapse:collapse;width:100%;table-layout:fixed;"><tr>
 
-<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;">
+<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;min-width:280px;">
 
-<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;display:flex;flex-direction:column;height:100%;min-height:160px;">
-  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
-    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;">ResumeAI</h3>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;min-height:160px;">
+  <div>
+    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid #ff7b72;border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:#ff7b72;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">ResumeAI</code></h3>
     <p style="margin:0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">AI-powered resume analysis with ATS scoring, job-description matching, and intelligent feedback.</p>
   </div>
-  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;">
-    <a href="https://github.com/Aby020/ResumeAI" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#ff7b72;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #ff7b72 40%, transparent);transition:transform 0.15s ease,box-shadow 0.15s ease;">View Repository →</a>
+  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;text-align:center;">
+    <a href="https://github.com/Aby020/ResumeAI" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:14px 28px;background:#ff7b72;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #ff7b72 40%, transparent);border:2px solid #ff7b72;">View Repository →</a>
   </div>
 </div>
 
 </td>
 
 
-<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;">
+<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;min-width:280px;">
 
-<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;display:flex;flex-direction:column;height:100%;min-height:160px;">
-  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
-    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;">TrackWise</h3>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;min-height:160px;">
+  <div>
+    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid #f0883e;border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:#f0883e;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">TrackWise</code></h3>
     <p style="margin:0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Full-stack attendance tracking with secure auth and role-based admin dashboards.</p>
   </div>
-  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;">
-    <a href="https://github.com/Aby020/TrackWise" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#f0883e;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #f0883e 40%, transparent);transition:transform 0.15s ease,box-shadow 0.15s ease;">View Repository →</a>
+  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;text-align:center;">
+    <a href="https://github.com/Aby020/TrackWise" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:14px 28px;background:#f0883e;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #f0883e 40%, transparent);border:2px solid #f0883e;">View Repository →</a>
   </div>
 </div>
 
@@ -113,30 +113,30 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 </tr>
 <tr>
 
-<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;">
+<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;min-width:280px;">
 
-<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;display:flex;flex-direction:column;height:100%;min-height:160px;">
-  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
-    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;">Plannix</h3>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;min-height:160px;">
+  <div>
+    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid #79c0ff;border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:#79c0ff;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Plannix</code></h3>
     <p style="margin:0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Cloud-based event management for organizers and attendees.</p>
   </div>
-  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;">
-    <a href="https://github.com/Aby020/Nexvent" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#79c0ff;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #79c0ff 40%, transparent);transition:transform 0.15s ease,box-shadow 0.15s ease;">View Repository →</a>
+  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;text-align:center;">
+    <a href="https://github.com/Aby020/Nexvent" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:14px 28px;background:#79c0ff;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #79c0ff 40%, transparent);border:2px solid #79c0ff;">View Repository →</a>
   </div>
 </div>
 
 </td>
 
 
-<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;">
+<td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;min-width:280px;">
 
-<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;display:flex;flex-direction:column;height:100%;min-height:160px;">
-  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
-    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;">ServiGo</h3>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;min-height:160px;">
+  <div>
+    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid #a371f7;border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:#a371f7;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">ServiGo</code></h3>
     <p style="margin:0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Location-based home service booking connecting customers and providers.</p>
   </div>
-  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;">
-    <a href="https://github.com/Aby020/Nanoserv" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:13px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#a371f7;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #a371f7 40%, transparent);transition:transform 0.15s ease,box-shadow 0.15s ease;">View Repository →</a>
+  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;text-align:center;">
+    <a href="https://github.com/Aby020/Nanoserv" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:14px 28px;background:#a371f7;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #a371f7 40%, transparent);border:2px solid #a371f7;">View Repository →</a>
   </div>
 </div>
 
