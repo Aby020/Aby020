@@ -124,19 +124,26 @@ function renderProjectCard(project) {
   const statusMap = {
     "Completed": { icon: "●", color: "3fb950", text: "Completed" },
     "In Progress": { icon: "○", color: "d29922", text: "In Progress" },
-    "Live": { icon: "����", color: "3fb950", text: "Live" }
+    "Live": { icon: "●", color: "3fb950", text: "Live" }
   };
   const statusInfo = statusMap[project.status] || { icon: "●", color: "8b949e", text: project.status || "Project" };
   const statusBadge = `<img src="https://img.shields.io/badge/${statusInfo.icon}%20${badgeSegment(statusInfo.text)}-${statusInfo.color}?style=flat-square&labelColor=0D1117&color=${statusInfo.color}" alt="${project.status}">`;
 
-  // Preview image - use GitHub raw URL for profile page compatibility
-  const previewName = project.name.toLowerCase().replaceAll(" ", "-");
-  const previewSrc = `https://raw.githubusercontent.com/Aby020/Aby020/main/assets/previews/${previewName}-preview.svg`;
+  // Generate project-specific code snippet based on tech stack
+  const codeSnippet = generateCodeSnippet(project);
 
   return `
 <td width="50%" valign="top" align="center">
 
-<img src="${previewSrc}" alt="${project.name} preview" width="100%" style="max-width: 380px; border-radius: 6px; border: 1px solid #30363d; margin-bottom: 12px;">
+<div style="background: #0d1117; border: 1px solid #30363d; border-radius: 6px; overflow: hidden; margin-bottom: 12px;">
+  <div style="background: #161b22; border-bottom: 1px solid #30363d; padding: 8px 12px; display: flex; align-items: center; gap: 8px;">
+    <span style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f57;"></span>
+    <span style="width: 12px; height: 12px; border-radius: 50%; background: #ffbd2e;"></span>
+    <span style="width: 12px; height: 12px; border-radius: 50%; background: #28ca42;"></span>
+    <span style="margin-left: 8px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; color: #8b949e;">${codeSnippet.filename}</span>
+  </div>
+  <pre style="margin: 0; padding: 16px; overflow: auto; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; line-height: 1.5; color: #e6edf3; background: #0d1117;">${codeSnippet.code}</pre>
+</div>
 
 **${project.name}** ${statusBadge}
 
@@ -162,6 +169,88 @@ function renderProjects(projects) {
     rows.push(`<tr>\n${renderProjectCard(left)}\n${renderProjectCard(right)}\n</tr>`);
   }
   return `<table width="100%">${rows.join("\n")}</table>`;
+}
+
+function generateCodeSnippet(project) {
+  const name = project.name.toLowerCase().replaceAll(" ", "-");
+  const tech = project.tech || [];
+
+  // Project-specific filename and code snippets
+  const snippets = {
+    "resumeai": {
+      filename: "resumeai / models.py",
+      code: `<span style="color:#ff7b72">from</span> <span>django.db</span> <span style="color:#ff7b72">import</span> <span>models</span>
+<span style="color:#ff7b72">from</span> <span>django.contrib.auth.models</span> <span style="color:#ff7b72">import</span> <span>User</span>
+
+<span style="color:#8b949e"># AI-powered resume analysis model</span>
+<span style="color:#ff7b72">class</span> <span style="color:#d2a8ff">ResumeAnalysis</span>(<span>models.Model</span>):
+    <span>user</span> = <span>models.ForeignKey</span>(<span>User</span>, on_delete=<span>models.CASCADE</span>)
+    <span>ats_score</span> = <span>models.IntegerField</span>()
+    <span>jd_match</span> = <span>models.JSONField</span>()
+    <span>feedback</span> = <span>models.TextField</span>()`
+    },
+    "trackwise": {
+      filename: "trackwise / Dashboard.jsx",
+      code: `<span style="color:#c084fc">import</span> <span style="color:#f0883e">{ useState, useEffect }</span> <span style="color:#c084fc">from</span> <span style="color:#a5d6ff">'react'</span>
+<span style="color:#c084fc">import</span> <span style="color:#f0883e">{ AttendanceChart }</span> <span style="color:#c084fc">from</span> <span style="color:#a5d6ff">'./components'</span>
+
+<span style="color:#8b949e">// Employee attendance dashboard</span>
+<span style="color:#c084fc">export</span> <span style="color:#c084fc">default</span> <span style="color:#c084fc">function</span> <span style="color:#d2a8ff">Dashboard</span>() {
+    <span>const</span> [<span>records</span>, <span style="color:#d2a8ff">setRecords</span>] = <span style="color:#d2a8ff">useState</span>([])
+    <span>const</span> [<span>stats</span>, <span style="color:#d2a8ff">setStats</span>] = <span style="color:#d2a8ff">useState</span>({})
+    <span style="color:#d2a8ff">useEffect</span>(() => { <span style="color:#d2a8ff">fetchAttendance</span>() }, [])
+    <span style="color:#c084fc">return</span> <span style="color:#f0883e"><AttendanceChart data={records} /></span>
+}`
+    },
+    "plannix": {
+      filename: "plannix / views.py",
+      code: `<span style="color:#ff7b72">from</span> <span>django.shortcuts</span> <span style="color:#ff7b72">import</span> <span>render</span>
+<span style="color:#ff7b72">from</span> <span>django.views.generic</span> <span style="color:#ff7b72">import</span> <span>ListView, DetailView</span>
+<span style="color:#ff7b72">from</span> <span>.models</span> <span style="color:#ff7b72">import</span> <span>Event, Registration</span>
+
+<span style="color:#8b949e"># Event management platform views</span>
+<span style="color:#ff7b72">class</span> <span style="color:#d2a8ff">EventListView</span>(<span>ListView</span>):
+    <span>model</span> = <span>Event</span>
+    <span>template_name</span> = <span style="color:#a5d6ff">'events/list.html'</span>
+    <span>context_object_name</span> = <span style="color:#a5d6ff">'events'</span>
+
+    <span style="color:#ff7b72">def</span> <span style="color:#d2a8ff">get_queryset</span>(<span>self</span>):
+        <span style="color:#ff7b72">return</span> <span>Event</span>.objects.filter(is_published=<span>True</span>)
+`
+    },
+    "servigo": {
+      filename: "servigo / booking.js",
+      code: `<span style="color:#c084fc">import</span> <span>{ GoogleMapsLoader }</span> <span style="color:#c084fc">from</span> <span style="color:#a5d6ff">'google-maps'</span>
+
+<span style="color:#8b949e">// Location-based service booking</span>
+<span style="color:#ff7b72">class</span> <span style="color:#d2a8ff">ServiceBooking</span> {
+  <span style="color:#ff7b72">constructor</span>() {
+    <span>this</span>.map = <span style="color:#ff7b72">null</span>;
+    <span>this</span>.providers = [];
+  }
+
+  <span style="color:#ff7b72">async</span> <span style="color:#d2a8ff">initMap</span>(<span>container</span>) {
+    <span>this</span>.map = <span style="color:#ff7b72">await</span> GoogleMapsLoader.load();
+    <span>this</span>.loadNearbyProviders();
+  }
+
+  <span style="color:#ff7b72">async</span> <span style="color:#d2a8ff">bookService</span>(<span>providerId</span>, <span>details</span>) {
+    <span style="color:#ff7b72">return</span> <span style="color:#ff7b72">await</span> fetch(<span style="color:#a5d6ff">\`/api/book/\${providerId}\`</span>, { method: <span style="color:#a5d6ff">'POST'</span>, body: JSON.stringify(details) });
+  }
+}`
+    }
+  };
+
+  return snippets[name] || {
+    filename: `${name} / main.py`,
+    code: `<span style="color:#8b949e"># ${project.name} - ${project.focus}</span>
+<span style="color:#ff7b72">def</span> <span style="color:#d2a8ff">main</span>():
+    <span style="color:#8b949e"># ${project.summary}</span>
+    <span style="color:#ff7b72">pass</span>
+
+<span style="color:#ff7b72">if</span> __name__ == <span style="color:#a5d6ff">"__main__"</span>:
+    <span style="color:#d2a8ff">main</span>()`
+  };
 }
 
 function renderLearning(config) {
