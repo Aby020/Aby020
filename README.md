@@ -18,6 +18,14 @@
 
 </p>
 
+
+<p align="center" style="margin-top: 16px;">
+  <a href="https://abi-thomas-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/%E2%86%97%20VIEW%20MY%20PORTFOLIO%20%E2%86%92-00d4aa?style=for-the-badge&labelColor=0D1117&color=00d4aa&logo=vercel&logoColor=white" alt="View My Portfolio">
+  </a>
+</p>
+
+
 <hr>
 
 
@@ -134,7 +142,7 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 <code>Django</code> <code>Python</code> <code>MySQL</code> <code>Bootstrap</code>
 </div>
 
-<p><small><a href="https://github.com/Aby020/Nexvent" target="_blank" rel="noopener noreferrer">Repository</a> · <a href="https://nexvent.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></small></p>
+<p><small><a href="https://github.com/Aby020/Nexvent" target="_blank" rel="noopener noreferrer">Repository</a></small></p>
 
 </td>
 
@@ -153,7 +161,7 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 <code>Python</code> <code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>Google Maps API</code> <code>MySQL</code>
 </div>
 
-<p><small><a href="https://github.com/Aby020/Nanoserv" target="_blank" rel="noopener noreferrer">Repository</a> · <a href="https://nanoserv.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></small></p>
+<p><small><a href="https://github.com/Aby020/Nanoserv" target="_blank" rel="noopener noreferrer">Repository</a></small></p>
 
 </td>
 
@@ -202,27 +210,6 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 
 
 <hr>
-
-<p align="center">
-
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top" align="center">
-  <a href="https://abi-thomas-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/View%20My%20Portfolio%20%E2%86%92-00d4aa?style=for-the-badge&labelColor=0D1117&color=00d4aa&logo=vercel&logoColor=white" alt="View My Portfolio">
-  </a>
-</td>
-<td width="50%" valign="top" align="center">
-  <a href="https://www.linkedin.com/in/abithomas-dev" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&labelColor=0D1117&color=0A66C2&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-</td>
-</tr>
-</table>
-
-
-</p>
 
 <p align="center">
 
