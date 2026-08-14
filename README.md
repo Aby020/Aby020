@@ -84,7 +84,7 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 
 <img src="./assets/previews/resumeai-preview.svg" alt="ResumeAI preview" width="100%" style="max-width: 380px; border-radius: 6px; border: 1px solid #30363d; margin-bottom: 12px;">
 
-**���� [ResumeAI](https://github.com/Aby020/ResumeAI)** <img src="https://img.shields.io/badge/���%20Completed-3fb950?style=flat-square&labelColor=0D1117&color=3fb950" alt="Completed">
+**ResumeAI** <img src="https://img.shields.io/badge/●%20Completed-3fb950?style=flat-square&labelColor=0D1117&color=3fb950" alt="Completed">
 
 *AI Resume Analysis Platform*
 
@@ -103,7 +103,7 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 
 <img src="./assets/previews/trackwise-preview.svg" alt="TrackWise preview" width="100%" style="max-width: 380px; border-radius: 6px; border: 1px solid #30363d; margin-bottom: 12px;">
 
-**���� [TrackWise](https://github.com/Aby020/TrackWise)** <img src="https://img.shields.io/badge/���%20Completed-3fb950?style=flat-square&labelColor=0D1117&color=3fb950" alt="Completed">
+**TrackWise** <img src="https://img.shields.io/badge/●%20Completed-3fb950?style=flat-square&labelColor=0D1117&color=3fb950" alt="Completed">
 
 *Employee Attendance Management System*
 
@@ -124,7 +124,7 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 
 <img src="./assets/previews/plannix-preview.svg" alt="Plannix preview" width="100%" style="max-width: 380px; border-radius: 6px; border: 1px solid #30363d; margin-bottom: 12px;">
 
-**���� [Plannix](https://github.com/Aby020/Nexvent)** <img src="https://img.shields.io/badge/���%20Completed-3fb950?style=flat-square&labelColor=0D1117&color=3fb950" alt="Completed">
+**Plannix** <img src="https://img.shields.io/badge/●%20Completed-3fb950?style=flat-square&labelColor=0D1117&color=3fb950" alt="Completed">
 
 *Event Management Platform*
 
@@ -143,7 +143,7 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 
 <img src="./assets/previews/servigo-preview.svg" alt="ServiGo preview" width="100%" style="max-width: 380px; border-radius: 6px; border: 1px solid #30363d; margin-bottom: 12px;">
 
-**���� [ServiGo](https://github.com/Aby020/Nanoserv)** <img src="https://img.shields.io/badge/���%20Completed-3fb950?style=flat-square&labelColor=0D1117&color=3fb950" alt="Completed">
+**ServiGo** <img src="https://img.shields.io/badge/●%20Completed-3fb950?style=flat-square&labelColor=0D1117&color=3fb950" alt="Completed">
 
 *Home Service Booking*
 
@@ -158,63 +158,6 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 </td>
 
 </tr></table>
-
-
-<hr>
-
-
-## // timeline
-
-<table width="100%">
-<tr>
-  <td valign="top" width="60"><code>2026</code></td>
-  <td valign="top" width="30"><code style="color: a855f7;">├─</code></td>
-  <td valign="top">
-    <strong>���� MCA — APJ Abdul Kalam Technological University</strong><br>
-    <code>CGPA 7.65 · Backend Development Focus</code>
-  </td>
-</tr>
-<tr>
-  <td valign="top" width="60"><code>2026</code></td>
-  <td valign="top" width="30"><code style="color: 58a6ff;">├─</code></td>
-  <td valign="top">
-    <strong>���� ResumeAI — AI Resume Analysis Platform</strong><br>
-    <code>Django · PostgreSQL · OCR · RAG</code>
-  </td>
-</tr>
-<tr>
-  <td valign="top" width="60"><code>2026</code></td>
-  <td valign="top" width="30"><code style="color: 22d3ee;">├─</code></td>
-  <td valign="top">
-    <strong>���� TrackWise — Employee Attendance System</strong><br>
-    <code>React · Node.js · PostgreSQL · JWT</code>
-  </td>
-</tr>
-<tr>
-  <td valign="top" width="60"><code>2026</code></td>
-  <td valign="top" width="30"><code style="color: a855f7;">��─</code></td>
-  <td valign="top">
-    <strong>���� Plannix — Event Management Platform</strong><br>
-    <code>Django · MySQL · Bootstrap</code>
-  </td>
-</tr>
-<tr>
-  <td valign="top" width="60"><code>2025</code></td>
-  <td valign="top" width="30"><code style="color: 3fb950;">��─</code></td>
-  <td valign="top">
-    <strong>���� ServiGo — Home Service Booking</strong><br>
-    <code>Python · JavaScript · Google Maps API · MySQL</code>
-  </td>
-</tr>
-<tr>
-  <td valign="top" width="60"><code>2023</code></td>
-  <td valign="top" width="30"><code style="color: a855f7;">��─</code></td>
-  <td valign="top">
-    <strong>���� BCA — University of Kerala</strong><br>
-    <code>CGPA 6.035</code>
-  </td>
-</tr>
-</table>
 
 
 <hr>
@@ -262,7 +205,22 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 
 <p align="center">
 
-**���� [https://abi-thomas-portfolio.vercel.app/](https://abi-thomas-portfolio.vercel.app/)**
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top" align="center">
+  <a href="https://abi-thomas-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/View%20My%20Portfolio%20%E2%86%92-00d4aa?style=for-the-badge&labelColor=0D1117&color=00d4aa&logo=vercel&logoColor=white" alt="View My Portfolio">
+  </a>
+</td>
+<td width="50%" valign="top" align="center">
+  <a href="https://www.linkedin.com/in/abithomas-dev" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&labelColor=0D1117&color=0A66C2&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</td>
+</tr>
+</table>
+
 
 </p>
 

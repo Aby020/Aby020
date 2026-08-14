@@ -118,14 +118,14 @@ function renderProjectCard(project) {
 
   // Status badge
   const statusMap = {
-    "Completed": { icon: "���", color: "3fb950", text: "Completed" },
-    "In Progress": { icon: "����", color: "d29922", text: "In Progress" },
-    "Live": { icon: "����", color: "3fb950", text: "Live" }
+    "Completed": { icon: "●", color: "3fb950", text: "Completed" },
+    "In Progress": { icon: "○", color: "d29922", text: "In Progress" },
+    "Live": { icon: "���", color: "3fb950", text: "Live" }
   };
-  const statusInfo = statusMap[project.status] || { icon: "����", color: "8b949e", text: project.status || "Project" };
+  const statusInfo = statusMap[project.status] || { icon: "●", color: "8b949e", text: project.status || "Project" };
   const statusBadge = `<img src="https://img.shields.io/badge/${statusInfo.icon}%20${badgeSegment(statusInfo.text)}-${statusInfo.color}?style=flat-square&labelColor=0D1117&color=${statusInfo.color}" alt="${project.status}">`;
 
-  // Preview image
+  // Preview image - use project.name to derive filename
   const previewName = project.name.toLowerCase().replaceAll(" ", "-");
   const previewSrc = `./assets/previews/${previewName}-preview.svg`;
 
@@ -134,7 +134,7 @@ function renderProjectCard(project) {
 
 <img src="${previewSrc}" alt="${project.name} preview" width="100%" style="max-width: 380px; border-radius: 6px; border: 1px solid #30363d; margin-bottom: 12px;">
 
-**���� [${project.name}](${project.url})** ${statusBadge}
+**${project.name}** ${statusBadge}
 
 *${project.focus}*
 
@@ -158,58 +158,6 @@ function renderProjects(projects) {
     rows.push(`<tr>\n${renderProjectCard(left)}\n${renderProjectCard(right)}\n</tr>`);
   }
   return `<table width="100%">${rows.join("\n")}</table>`;
-}
-
-function renderTimeline(config) {
-  // Build timeline from resume data + projects
-  const timeline = [
-    {
-      year: "2026",
-      items: [
-        { type: "education", title: "MCA — APJ Abdul Kalam Technological University", detail: "CGPA 7.65 · Backend Development Focus", color: "a855f7" },
-        { type: "project", title: "ResumeAI — AI Resume Analysis Platform", detail: "Django · PostgreSQL · OCR · RAG", color: "58a6ff" },
-        { type: "project", title: "TrackWise — Employee Attendance System", detail: "React · Node.js · PostgreSQL · JWT", color: "22d3ee" },
-        { type: "project", title: "Plannix — Event Management Platform", detail: "Django · MySQL · Bootstrap", color: "a855f7" }
-      ]
-    },
-    {
-      year: "2023",
-      items: [
-        { type: "education", title: "BCA — University of Kerala", detail: "CGPA 6.035", color: "a855f7" }
-      ]
-    },
-    {
-      year: "2025",
-      items: [
-        { type: "project", title: "ServiGo — Home Service Booking", detail: "Python · JavaScript · Google Maps API · MySQL", color: "3fb950" }
-      ]
-    }
-  ];
-
-  // Sort by year descending
-  timeline.sort((a, b) => parseInt(b.year) - parseInt(a.year));
-
-  const rows = timeline.map((yearBlock, yearIndex) => {
-    const itemsHtml = yearBlock.items.map((item, itemIndex) => {
-      const icon = item.type === "education" ? "����" : "����";
-      const isLast = itemIndex === yearBlock.items.length - 1;
-      const connector = isLast ? "��─" : "├─";
-      return `<tr>
-  <td valign="top" width="60"><code>${yearBlock.year}</code></td>
-  <td valign="top" width="30"><code style="color: ${item.color};">${connector}</code></td>
-  <td valign="top">
-    <strong>${icon} ${escapeCell(item.title)}</strong><br>
-    <code>${escapeCell(item.detail)}</code>
-  </td>
-</tr>`;
-    }).join("\n");
-
-    return itemsHtml;
-  }).join("\n");
-
-  return `<table width="100%">
-${rows}
-</table>`;
 }
 
 function renderLearning(config) {
@@ -248,6 +196,28 @@ ${snake}
 <img src="https://img.shields.io/github/stars/${user}?style=flat-square&labelColor=0D1117&color=21262d&label=Stars" alt="Stars">
 <img src="https://img.shields.io/badge/Public%20Repos-4-58a6ff?style=flat-square&labelColor=0D1117&color=58a6ff" alt="Public Repos">
 
+</td>
+</tr>
+</table>
+`;
+}
+
+function renderFooterCta(config) {
+  const portfolioUrl = config.portfolio || "https://abi-thomas-portfolio.vercel.app/";
+  const linkedinUrl = "https://www.linkedin.com/in/abithomas-dev";
+
+  return `
+<table width="100%">
+<tr>
+<td width="50%" valign="top" align="center">
+  <a href="${portfolioUrl}" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/View%20My%20Portfolio%20%E2%86%92-00d4aa?style=for-the-badge&labelColor=0D1117&color=00d4aa&logo=vercel&logoColor=white" alt="View My Portfolio">
+  </a>
+</td>
+<td width="50%" valign="top" align="center">
+  <a href="${linkedinUrl}" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&labelColor=0D1117&color=0A66C2&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
 </td>
 </tr>
 </table>
@@ -317,10 +287,6 @@ ${section("repositories", renderProjects(config.projects))}
 
 <hr>
 
-${section("timeline", renderTimeline(config))}
-
-<hr>
-
 ${section("roadmap", renderLearning(config))}
 
 <hr>
@@ -333,7 +299,7 @@ ${activitySection}
 
 <p align="center">
 
-**���� [${config.portfolio || "https://abi-thomas-portfolio.vercel.app/"}](${config.portfolio || "https://abi-thomas-portfolio.vercel.app/"})**
+${renderFooterCta(config)}
 
 </p>
 
