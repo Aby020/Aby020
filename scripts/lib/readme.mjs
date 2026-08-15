@@ -114,23 +114,50 @@ ${groupRows}
 </table>`;
 }
 
+// Maps each project to its preview SVG filename in assets/previews/.
+const PREVIEW_SVGS = {
+  "ResumeAI": "resumeai-preview.svg",
+  "TrackWise": "trackwise-preview.svg",
+  "Plannix": "plannix-preview.svg",
+  "ServiGo": "servigo-preview.svg"
+};
+
+function getPreviewUrl(projectName) {
+  const file = PREVIEW_SVGS[projectName] || `${projectName.toLowerCase()}-preview.svg`;
+  return `https://raw.githubusercontent.com/Aby020/Aby020/main/assets/previews/${file}`;
+}
+
+function renderTechTags(tech) {
+  return Array.isArray(tech)
+    ? tech.map((item) => `<code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">${escapeCell(item)}</code>`).join("")
+    : "";
+}
+
 function renderProjectCard(project) {
   if (!project) return "<td></td>";
 
   const accentColor = getProjectAccent(project.name);
-  const repoLink = `<a href="${project.url}" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:14px 28px;background:${accentColor};border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, ${accentColor} 40%, transparent);border:2px solid ${accentColor};">View Repository →</a>`;
+  const previewUrl = getPreviewUrl(project.name);
+  const repoLink = `<a href="${project.url}" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:${accentColor};border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, ${accentColor} 40%, transparent);border:2px solid ${accentColor};">View Repository →</a>`;
 
   return `
 <td width="50%" valign="top" style="padding:0 12px 24px 12px;vertical-align:top;min-width:280px;">
 
-<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:24px;min-height:160px;">
-  <div>
-    <h3 style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid ${accentColor};border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:${accentColor};font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">${project.name}</code></h3>
-    <p style="margin:0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">${project.summary}</p>
-  </div>
-  <div style="margin-top:20px;padding-top:20px;border-top:1px solid #30363d;text-align:center;">
-    ${repoLink}
-  </div>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:20px;min-height:160px;">
+
+<img src="${previewUrl}" width="100%" alt="${project.name} preview" style="display:block;border-radius:8px;margin:0 0 16px 0;">
+
+<div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 8px 0;">
+  <h3 style="margin:0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid ${accentColor};border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:${accentColor};font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">${project.name}</code></h3>
+  <span style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;white-space:nowrap;">● Completed</span>
+</div>
+
+<p style="margin:0 0 16px 0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">${project.summary}</p>
+
+<div style="margin:0 0 20px 0;">${renderTechTags(project.tech)}</div>
+
+<div style="text-align:center;">${repoLink}</div>
+
 </div>
 
 </td>
