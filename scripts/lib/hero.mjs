@@ -288,23 +288,11 @@ function createHeroSvg(config, colors, size, portrait) {
   const cursorX = layout.system.x + layout.system.fontSize * 0.6 * (lastPrompt.value.length + 2) + 2;
   const cursorY = layout.system.y + lastPromptIndex * layout.system.lineHeight - layout.system.fontSize - 2;
   const footerComment = `# ${config.footer}`;
-  const portfolioUrl = config.portfolio || "https://abi-thomas-portfolio.vercel.app/";
-
-  // CTA button dimensions
-  const ctaWidth = isDesktop ? 280 : 240;
-  const ctaHeight = isDesktop ? 40 : 36;
-  const ctaX = (layout.width - ctaWidth) / 2;
-  const ctaY = layout.footerY - (isDesktop ? 50 : 70);
-  const ctaRadius = 8;
 
   // Status indicator (green pulsing dot + text)
   const statusX = isDesktop ? visual.x + visual.width - 180 : visual.x + visual.width - 160;
   const statusY = visual.y - (isDesktop ? 30 : 28);
   const statusDotR = 5;
-
-  // CTA gradient and glow
-  const ctaGradientId = "cta-gradient";
-  const ctaGlowId = "cta-glow";
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${layout.width}" height="${layout.height}" viewBox="0 0 ${layout.width} ${layout.height}" role="img" aria-labelledby="title description">
 <title id="title">${escapeXml(config.profile.name)} - ${escapeXml(config.profile.headline)}</title>
@@ -318,10 +306,6 @@ function createHeroSvg(config, colors, size, portrait) {
   <clipPath id="portrait-clip"><rect x="${clip.x}" y="${clip.y}" width="${clip.width}" height="${clip.height}" rx="${clip.radius}"/></clipPath>
   <mask id="portrait-reveal"><rect x="${clip.x}" y="${clip.y}" width="${clip.width}" height="0" rx="${clip.radius}" fill="white"><animate attributeName="height" from="0" to="${clip.height}" dur="2.1s" begin="0.12s" fill="freeze"/></rect></mask>
   ${system.clips}
-  <!-- CTA Button Gradient -->
-  <linearGradient id="${ctaGradientId}" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${colors.cyan}"/><stop offset="1" stop-color="${colors.violet}"/></linearGradient>
-  <!-- CTA Glow Filter -->
-  <filter id="${ctaGlowId}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <!-- Status Dot Pulse Animation -->
   <style>
     .mono { font-family: 'Courier New', Consolas, monospace; }
@@ -355,16 +339,6 @@ ${system.rows}
   </circle>
   <text x="${statusDotR * 2 + 8}" y="${statusDotR + 4}" class="mono" font-size="${isDesktop ? 10 : 9}" fill="${colors.green}" font-weight="600">● Open to Opportunities</text>
 </g>
-
-<!-- Portfolio CTA Button (bottom center) -->
-<a href="${portfolioUrl}" target="_blank" rel="noopener noreferrer">
-  <g filter="url(#${ctaGlowId})">
-    <rect x="${ctaX}" y="${ctaY}" width="${ctaWidth}" height="${ctaHeight}" rx="${ctaRadius}" fill="url(#${ctaGradientId})">
-      <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite"/>
-    </rect>
-    <text x="${ctaX + ctaWidth / 2}" y="${ctaY + ctaHeight / 2 + 5}" text-anchor="middle" class="mono" font-size="${isDesktop ? 13 : 12}" fill="#ffffff" font-weight="600">��� View My Portfolio</text>
-  </g>
-</a>
 
 <text x="${layout.width / 2}" y="${layout.footerY}" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="${colors.muted}">${escapeXml(footerComment)}</text>
 <rect x="3" y="3" width="${layout.width - 6}" height="${layout.height - 6}" rx="${layout.outerRadius - 2}" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.76"><animate attributeName="opacity" values="0.5;0.94;0.5" dur="3.4s" repeatCount="indefinite"/></rect>
