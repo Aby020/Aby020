@@ -98,8 +98,6 @@ try {
   const palette = await ask("Palette: signal, ocean, or solar", defaults.appearance.palette);
   const activityEnabled = await confirm("Show automatically updated public GitHub activity", defaults.activity.enabled);
   const footer = await ask("Footer sentence", defaults.footer);
-  const sourcePath = resolve(await ask("Absolute path to transparent PNG portrait"));
-  await access(sourcePath);
 
   const config = validateConfig({
     $schema: "./profile.schema.json",
@@ -115,7 +113,7 @@ try {
   });
 
   await writeFile(resolve(repositoryRoot, "profile.config.json"), `${JSON.stringify(config, null, 2)}\n`);
-  const manifest = await generateHeroAssets({ config, sourcePath, outputDirectory: resolve(repositoryRoot, "assets/hero") });
+  const manifest = await generateHeroAssets({ config, outputDirectory: resolve(repositoryRoot, "assets/hero") });
   await generateProfileReadme({ config, manifest, readmePath: resolve(repositoryRoot, "README.md") });
 
   console.log("\nProfile generated successfully.\n");
