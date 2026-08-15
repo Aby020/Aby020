@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="720" viewBox="0 0 1180 720" role="img" aria-labelledby="title description">
+<title id="title">Abi Thomas - Software Engineer</title>
+<desc id="description">An animated terminal workspace with an ASCII portrait, professional focus, featured projects, and public links.</desc>
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6f8fa"/></linearGradient>
+  <linearGradient id="ascii-signal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0969da"><animate attributeName="stop-color" values="#0969da;#8250df;#0a3069;#0969da" dur="9s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#8250df"><animate attributeName="stop-color" values="#8250df;#0a3069;#0969da;#8250df" dur="9s" repeatCount="indefinite"/></stop></linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8250df"/><stop offset="0.48" stop-color="#0969da"/><stop offset="1" stop-color="#1a7f37"/></linearGradient>
+  <radialGradient id="portrait-halo"><stop offset="0" stop-color="#0969da" stop-opacity="0.1"/><stop offset="0.48" stop-color="#0a3069" stop-opacity="0.05"/><stop offset="1" stop-color="#8250df" stop-opacity="0"/></radialGradient>
+  <pattern id="portrait-grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M 44 0 H 0 V 44" fill="none" stroke="#0a3069" stroke-width="0.65" opacity="0.08"/><circle cx="0" cy="0" r="1.2" fill="#0969da" opacity="0.12"/></pattern>
+  <clipPath id="portrait-clip"><rect x="24" y="82" width="470" height="480" rx="12"/></clipPath>
+  <mask id="portrait-reveal"><rect x="24" y="82" width="470" height="0" rx="12" fill="white"><animate attributeName="height" from="0" to="480" dur="2.1s" begin="0.12s" fill="freeze"/></rect></mask>
+  <clipPath id="system-line-0"><rect x="525" y="63.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="0.45s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-1"><rect x="525" y="80.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="0.57s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-3"><rect x="525" y="113.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="0.81s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-4"><rect x="525" y="129.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="0.93s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-5"><rect x="525" y="146.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.05s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-6"><rect x="525" y="162.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.17s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-8"><rect x="525" y="195.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.41s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-9"><rect x="525" y="212.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.53s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-10"><rect x="525" y="228.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.65s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-11"><rect x="525" y="245.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.77s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-13"><rect x="525" y="278.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.01s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-14"><rect x="525" y="294.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.13s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-15"><rect x="525" y="311.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.25s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-17"><rect x="525" y="344.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.49s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-18"><rect x="525" y="360.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.61s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-20"><rect x="525" y="393.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.85s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-21"><rect x="525" y="410.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.97s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-23"><rect x="525" y="443.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.21s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-24"><rect x="525" y="459.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.33s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-26"><rect x="525" y="492.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.57s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-27"><rect x="525" y="509.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.69s" fill="freeze"/></rect></clipPath>
+  <!-- CTA Button Gradient -->
+  <linearGradient id="cta-gradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0969da"/><stop offset="1" stop-color="#8250df"/></linearGradient>
+  <!-- CTA Glow Filter -->
+  <filter id="cta-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <!-- Status Dot Pulse Animation -->
+  <style>
+    .mono { font-family: 'Courier New', Consolas, monospace; }
+    .ascii { font-family: 'Courier New', Consolas, monospace; font-size: 6.2px; letter-spacing: -0.15px; fill: url(#ascii-signal); }
+    .line-numbers { font-family: 'Courier New', Consolas, monospace; font-size: 6.2px; letter-spacing: -0.15px; fill: #59636e; opacity: 0.35; }
+    .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 2px; fill: #0a3069; opacity: 0.8; }
+    .terminal-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; letter-spacing: 0.5px; fill: #59636e; }
+    .system-row { font-family: 'Courier New', Consolas, monospace; font-size: 12.5px; }
+    .system-prompt, .system-command { font-weight: 700; }
+    text, tspan { white-space: pre; }
+  </style>
+</defs>
+<rect width="1180" height="720" rx="18" fill="url(#background)"/>
+<rect x="3" y="3" width="1174" height="34" rx="16" fill="#ffffff" fill-opacity="0.84"/>
+<circle cx="24" cy="20" r="5" fill="#EF4444"/><circle cx="42" cy="20" r="5" fill="#F59E0B"/><circle cx="60" cy="20" r="5" fill="#1a7f37"/>
+<text x="590" y="25" text-anchor="middle" class="terminal-label">Aby020@github: ~/README.md</text>
+<rect x="14" y="64" width="488" height="520" rx="14" fill="#ffffff" fill-opacity="0.5" stroke="url(#border)" stroke-opacity="0.4"/>
+<rect x="508" y="48" width="655" height="640" rx="14" fill="#ffffff" fill-opacity="0.5" stroke="url(#border)" stroke-opacity="0.4"/>
+<text x="30" y="62" class="panel-title">~/portrait.txt</text>
+<text x="524" y="62" class="panel-title">~/profile.sh</text>
+<g clip-path="url(#portrait-clip)" aria-hidden="true">
+  <rect x="24" y="82" width="470" height="480" fill="url(#portrait-grid)"/>
+  <ellipse cx="259.0" cy="302.8" rx="206.8" ry="211.2" fill="url(#portrait-halo)"/>
+  <path d="M 40 124 L 40 98 L 66 98" fill="none" stroke="#0a3069" stroke-width="1.4" opacity="0.4"/>
+  <path d="M 478 124 L 478 98 L 452 98" fill="none" stroke="#0a3069" stroke-width="1.4" opacity="0.4"/>
+  <path d="M 40 520 L 40 546 L 66 546" fill="none" stroke="#0a3069" stroke-width="1.4" opacity="0.4"/>
+  <path d="M 478 520 L 478 546 L 452 546" fill="none" stroke="#0a3069" stroke-width="1.4" opacity="0.4"/>
+</g>
+<g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="ascii"><tspan x="56" y="84.00" xml:space="preserve">                                      ....,::--=++****++==-::,....                                      </tspan>
+<tspan x="56" y="90.20" xml:space="preserve">                                 ..,+%@@@@@@@@%##******##%@@@@@@@@%+,..                                 </tspan>
+<tspan x="56" y="96.40" xml:space="preserve">                             .,=%@@@@@@%%##******************##%%@@@@@@%=,.                             </tspan>
+<tspan x="56" y="102.60" xml:space="preserve">                          .:%@@@@@%###****************************###%@@@@@%:.                          </tspan>
+<tspan x="56" y="108.80" xml:space="preserve">                       .,%@@@@%##**************************************##%@@@@%,.                       </tspan>
+<tspan x="56" y="115.00" xml:space="preserve">                     .-@@@@###********************************************###@@@@-.                     </tspan>
+<tspan x="56" y="121.20" xml:space="preserve">                   .=@@@%##**************************************************##%@@@=.                   </tspan>
+<tspan x="56" y="127.40" xml:space="preserve">                 .:@@@##********************************************************##@@@:.                 </tspan>
+<tspan x="56" y="133.60" xml:space="preserve">                ,@@@##************************************************************##@@@,                </tspan>
+<tspan x="56" y="139.80" xml:space="preserve">               :@@%#****************************************************************#%@@:               </tspan>
+<tspan x="56" y="146.00" xml:space="preserve">              :@@#********************************************************************#@@:              </tspan>
+<tspan x="56" y="152.20" xml:space="preserve">             :@@#**********************************************************************#@@:             </tspan>
+<tspan x="56" y="158.40" xml:space="preserve">            ,@@#************************************************************************#@@,            </tspan>
+<tspan x="56" y="164.60" xml:space="preserve">           .@@#**************************************************************************#@@.           </tspan>
+<tspan x="56" y="170.80" xml:space="preserve">           :@%****************************************************************************%@:           </tspan>
+<tspan x="56" y="177.00" xml:space="preserve">          .@@#****************************************************************************#@@.          </tspan>
+<tspan x="56" y="183.20" xml:space="preserve">          .@@*****************************************************************************#@@.          </tspan>
+<tspan x="56" y="189.40" xml:space="preserve">          .@%******************************************************************************%@.          </tspan>
+<tspan x="56" y="195.60" xml:space="preserve">          .@%******************************************************************************%@.          </tspan>
+<tspan x="56" y="201.80" xml:space="preserve">          .@%******************************************************************************%@.          </tspan>
+<tspan x="56" y="208.00" xml:space="preserve">          .@@#****************************************************************************#@@.          </tspan>
+<tspan x="56" y="214.20" xml:space="preserve">           +@#****************************************************************************#@+           </tspan>
+<tspan x="56" y="220.40" xml:space="preserve">           ,@@#**************************************************************************#@@,           </tspan>
+<tspan x="56" y="226.60" xml:space="preserve">            -@%#************************************************************************#%@-            </tspan>
+<tspan x="56" y="232.80" xml:space="preserve">             #@%#**********************************************************************#%@#             </tspan>
+<tspan x="56" y="239.00" xml:space="preserve">             .%@%#********************************************************************#%@%.             </tspan>
+<tspan x="56" y="245.20" xml:space="preserve">              .*@@#******************************************************************#@@*.              </tspan>
+<tspan x="56" y="251.40" xml:space="preserve">                :@@%#**************************************************************#%@@:                </tspan>
+<tspan x="56" y="257.60" xml:space="preserve">                 ,%@@%#**********************************************************#%@@%,                 </tspan>
+<tspan x="56" y="263.80" xml:space="preserve">                   :@@@%##****************************************************##%@@@:                   </tspan>
+<tspan x="56" y="270.00" xml:space="preserve">                    .:@@@@%##**********************************************##%@@@@:.                    </tspan>
+<tspan x="56" y="276.20" xml:space="preserve">                      .,*@@@@%#******************************************#%@@@@*,.                      </tspan>
+<tspan x="56" y="282.40" xml:space="preserve">                         .:%@@@@%###********************************###%@@@@%:.                         </tspan>
+<tspan x="56" y="288.60" xml:space="preserve">                            .,+@@@@@@%###*#*#****************#*###%@@@@@@+,.                            </tspan>
+<tspan x="56" y="294.80" xml:space="preserve">                               ..,=%@@@@@@@@@%%%%%%%%%%%%%@@@@@@@@@@%=,..                               </tspan>
+<tspan x="56" y="301.00" xml:space="preserve">                                    ...,-*#%@@@@@@@@@@@@@@@@%#*-,...                                    </tspan>
+<tspan x="56" y="307.20" xml:space="preserve">                                           ..................                                           </tspan>
+<tspan x="56" y="313.40" xml:space="preserve">                                                                                                        </tspan>
+<tspan x="56" y="319.60" xml:space="preserve">                                             ..............                                             </tspan>
+<tspan x="56" y="325.80" xml:space="preserve">                                    ....,:-+#%%@@@@@@@@@@%%#+-:,....                                    </tspan>
+<tspan x="56" y="332.00" xml:space="preserve">                               ...:*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*:...                               </tspan>
+<tspan x="56" y="338.20" xml:space="preserve">                            .,+@@@@@@@%%###*#**************#*###%%@@@@@@@+,.                            </tspan>
+<tspan x="56" y="344.40" xml:space="preserve">                        ..-%@@@@@%##********************************##%@@@@@%-..                        </tspan>
+<tspan x="56" y="350.60" xml:space="preserve">                      .:@@@@@###****************************************###@@@@@:.                      </tspan>
+<tspan x="56" y="356.80" xml:space="preserve">                    ,#@@@%##************************************************##%@@@#,.                   </tspan>
+<tspan x="56" y="363.00" xml:space="preserve">                 .,@@@@##******************************************************##@@@@,.                 </tspan>
+<tspan x="56" y="369.20" xml:space="preserve">                ,@@@%#************************************************************#%@@@,                </tspan>
+<tspan x="56" y="375.40" xml:space="preserve">              ,%@@%#****************************************************************#%@@%,              </tspan>
+<tspan x="56" y="381.60" xml:space="preserve">            .=@@%#********************************************************************#%@@=.            </tspan>
+<tspan x="56" y="387.80" xml:space="preserve">           ,@@@#************************************************************************#@@@,           </tspan>
+<tspan x="56" y="394.00" xml:space="preserve">          :@@%#**************************************************************************#%@@:          </tspan>
+<tspan x="56" y="400.20" xml:space="preserve">         =@@#******************************************************************************#@@=         </tspan>
+<tspan x="56" y="406.40" xml:space="preserve">       .*@%#********************************************************************************#%@*.       </tspan>
+<tspan x="56" y="412.60" xml:space="preserve">      .#@%#**********************************************************************************#%@#.      </tspan>
+<tspan x="56" y="418.80" xml:space="preserve">      *@%#************************************************************************************#%@*      </tspan>
+<tspan x="56" y="425.00" xml:space="preserve">     =@%#**************************************************************************************#%@=     </tspan>
+<tspan x="56" y="431.20" xml:space="preserve">    :@%#****************************************************************************************#%@:    </tspan>
+<tspan x="56" y="437.40" xml:space="preserve">   ,@@#******************************************************************************************#@@,   </tspan>
+<tspan x="56" y="443.60" xml:space="preserve">   %@#********************************************************************************************#@%   </tspan>
+<tspan x="56" y="449.80" xml:space="preserve">  :@%**********************************************************************************************%@:  </tspan>
+<tspan x="56" y="456.00" xml:space="preserve"> .@@#**********************************************************************************************#@@. </tspan>
+<tspan x="56" y="462.20" xml:space="preserve"> :@%************************************************************************************************%@: </tspan>
+<tspan x="56" y="468.40" xml:space="preserve"> @@#************************************************************************************************#@@ </tspan>
+<tspan x="56" y="474.60" xml:space="preserve">.@@**************************************************************************************************@@.</tspan>
+<tspan x="56" y="480.80" xml:space="preserve">,@#**************************************************************************************************#@,</tspan>
+<tspan x="56" y="487.00" xml:space="preserve">-@****************************************************************************************************@-</tspan>
+<tspan x="56" y="493.20" xml:space="preserve">+%****************************************************************************************************%*</tspan>
+<tspan x="56" y="499.40" xml:space="preserve">********************************************************************************************************</tspan></text></g>
+<g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="line-numbers"><tspan x="28" y="84.00" fill="#59636e" opacity="0.35" xml:space="preserve"> 1</tspan>
+<tspan x="28" y="90.20" fill="#59636e" opacity="0.35" xml:space="preserve"> 2</tspan>
+<tspan x="28" y="96.40" fill="#59636e" opacity="0.35" xml:space="preserve"> 3</tspan>
+<tspan x="28" y="102.60" fill="#59636e" opacity="0.35" xml:space="preserve"> 4</tspan>
+<tspan x="28" y="108.80" fill="#59636e" opacity="0.35" xml:space="preserve"> 5</tspan>
+<tspan x="28" y="115.00" fill="#59636e" opacity="0.35" xml:space="preserve"> 6</tspan>
+<tspan x="28" y="121.20" fill="#59636e" opacity="0.35" xml:space="preserve"> 7</tspan>
+<tspan x="28" y="127.40" fill="#59636e" opacity="0.35" xml:space="preserve"> 8</tspan>
+<tspan x="28" y="133.60" fill="#59636e" opacity="0.35" xml:space="preserve"> 9</tspan>
+<tspan x="28" y="139.80" fill="#59636e" opacity="0.35" xml:space="preserve">10</tspan>
+<tspan x="28" y="146.00" fill="#59636e" opacity="0.35" xml:space="preserve">11</tspan>
+<tspan x="28" y="152.20" fill="#59636e" opacity="0.35" xml:space="preserve">12</tspan>
+<tspan x="28" y="158.40" fill="#59636e" opacity="0.35" xml:space="preserve">13</tspan>
+<tspan x="28" y="164.60" fill="#59636e" opacity="0.35" xml:space="preserve">14</tspan>
+<tspan x="28" y="170.80" fill="#59636e" opacity="0.35" xml:space="preserve">15</tspan>
+<tspan x="28" y="177.00" fill="#59636e" opacity="0.35" xml:space="preserve">16</tspan>
+<tspan x="28" y="183.20" fill="#59636e" opacity="0.35" xml:space="preserve">17</tspan>
+<tspan x="28" y="189.40" fill="#59636e" opacity="0.35" xml:space="preserve">18</tspan>
+<tspan x="28" y="195.60" fill="#59636e" opacity="0.35" xml:space="preserve">19</tspan>
+<tspan x="28" y="201.80" fill="#59636e" opacity="0.35" xml:space="preserve">20</tspan>
+<tspan x="28" y="208.00" fill="#59636e" opacity="0.35" xml:space="preserve">21</tspan>
+<tspan x="28" y="214.20" fill="#59636e" opacity="0.35" xml:space="preserve">22</tspan>
+<tspan x="28" y="220.40" fill="#59636e" opacity="0.35" xml:space="preserve">23</tspan>
+<tspan x="28" y="226.60" fill="#59636e" opacity="0.35" xml:space="preserve">24</tspan>
+<tspan x="28" y="232.80" fill="#59636e" opacity="0.35" xml:space="preserve">25</tspan>
+<tspan x="28" y="239.00" fill="#59636e" opacity="0.35" xml:space="preserve">26</tspan>
+<tspan x="28" y="245.20" fill="#59636e" opacity="0.35" xml:space="preserve">27</tspan>
+<tspan x="28" y="251.40" fill="#59636e" opacity="0.35" xml:space="preserve">28</tspan>
+<tspan x="28" y="257.60" fill="#59636e" opacity="0.35" xml:space="preserve">29</tspan>
+<tspan x="28" y="263.80" fill="#59636e" opacity="0.35" xml:space="preserve">30</tspan>
+<tspan x="28" y="270.00" fill="#59636e" opacity="0.35" xml:space="preserve">31</tspan>
+<tspan x="28" y="276.20" fill="#59636e" opacity="0.35" xml:space="preserve">32</tspan>
+<tspan x="28" y="282.40" fill="#59636e" opacity="0.35" xml:space="preserve">33</tspan>
+<tspan x="28" y="288.60" fill="#59636e" opacity="0.35" xml:space="preserve">34</tspan>
+<tspan x="28" y="294.80" fill="#59636e" opacity="0.35" xml:space="preserve">35</tspan>
+<tspan x="28" y="301.00" fill="#59636e" opacity="0.35" xml:space="preserve">36</tspan>
+<tspan x="28" y="307.20" fill="#59636e" opacity="0.35" xml:space="preserve">37</tspan>
+<tspan x="28" y="313.40" fill="#59636e" opacity="0.35" xml:space="preserve">38</tspan>
+<tspan x="28" y="319.60" fill="#59636e" opacity="0.35" xml:space="preserve">39</tspan>
+<tspan x="28" y="325.80" fill="#59636e" opacity="0.35" xml:space="preserve">40</tspan>
+<tspan x="28" y="332.00" fill="#59636e" opacity="0.35" xml:space="preserve">41</tspan>
+<tspan x="28" y="338.20" fill="#59636e" opacity="0.35" xml:space="preserve">42</tspan>
+<tspan x="28" y="344.40" fill="#59636e" opacity="0.35" xml:space="preserve">43</tspan>
+<tspan x="28" y="350.60" fill="#59636e" opacity="0.35" xml:space="preserve">44</tspan>
+<tspan x="28" y="356.80" fill="#59636e" opacity="0.35" xml:space="preserve">45</tspan>
+<tspan x="28" y="363.00" fill="#59636e" opacity="0.35" xml:space="preserve">46</tspan>
+<tspan x="28" y="369.20" fill="#59636e" opacity="0.35" xml:space="preserve">47</tspan>
+<tspan x="28" y="375.40" fill="#59636e" opacity="0.35" xml:space="preserve">48</tspan>
+<tspan x="28" y="381.60" fill="#59636e" opacity="0.35" xml:space="preserve">49</tspan>
+<tspan x="28" y="387.80" fill="#59636e" opacity="0.35" xml:space="preserve">50</tspan>
+<tspan x="28" y="394.00" fill="#59636e" opacity="0.35" xml:space="preserve">51</tspan>
+<tspan x="28" y="400.20" fill="#59636e" opacity="0.35" xml:space="preserve">52</tspan>
+<tspan x="28" y="406.40" fill="#59636e" opacity="0.35" xml:space="preserve">53</tspan>
+<tspan x="28" y="412.60" fill="#59636e" opacity="0.35" xml:space="preserve">54</tspan>
+<tspan x="28" y="418.80" fill="#59636e" opacity="0.35" xml:space="preserve">55</tspan>
+<tspan x="28" y="425.00" fill="#59636e" opacity="0.35" xml:space="preserve">56</tspan>
+<tspan x="28" y="431.20" fill="#59636e" opacity="0.35" xml:space="preserve">57</tspan>
+<tspan x="28" y="437.40" fill="#59636e" opacity="0.35" xml:space="preserve">58</tspan>
+<tspan x="28" y="443.60" fill="#59636e" opacity="0.35" xml:space="preserve">59</tspan>
+<tspan x="28" y="449.80" fill="#59636e" opacity="0.35" xml:space="preserve">60</tspan>
+<tspan x="28" y="456.00" fill="#59636e" opacity="0.35" xml:space="preserve">61</tspan>
+<tspan x="28" y="462.20" fill="#59636e" opacity="0.35" xml:space="preserve">62</tspan>
+<tspan x="28" y="468.40" fill="#59636e" opacity="0.35" xml:space="preserve">63</tspan>
+<tspan x="28" y="474.60" fill="#59636e" opacity="0.35" xml:space="preserve">64</tspan>
+<tspan x="28" y="480.80" fill="#59636e" opacity="0.35" xml:space="preserve">65</tspan>
+<tspan x="28" y="487.00" fill="#59636e" opacity="0.35" xml:space="preserve">66</tspan>
+<tspan x="28" y="493.20" fill="#59636e" opacity="0.35" xml:space="preserve">67</tspan>
+<tspan x="28" y="499.40" fill="#59636e" opacity="0.35" xml:space="preserve">68</tspan></text></g>
+<g clip-path="url(#system-line-0)"><text x="528" y="78" class="system-row"><tspan class="system-prompt" fill="#1a7f37">$</tspan><tspan fill="#59636e"> </tspan><tspan class="system-command" fill="#1f2328">whoami</tspan></text></g>
+<g clip-path="url(#system-line-1)"><text x="546" y="94.5" class="system-row" fill="#59636e">Abi Thomas</text></g>
+<g clip-path="url(#system-line-3)"><text x="528" y="127.5" class="system-row"><tspan class="system-prompt" fill="#1a7f37">$</tspan><tspan fill="#59636e"> </tspan><tspan class="system-command" fill="#1f2328">cat profile.md</tspan></text></g>
+<g clip-path="url(#system-line-4)"><text x="546" y="144" class="system-row" fill="#59636e">Backend Engineer focused on building scalable REST APIs and full-stack web</text></g>
+<g clip-path="url(#system-line-5)"><text x="546" y="160.5" class="system-row" fill="#59636e">applications with Python, Django, Django REST Framework, and PostgreSQL —</text></g>
+<g clip-path="url(#system-line-6)"><text x="546" y="177" class="system-row" fill="#59636e">and AI-powered systems with LLMs (RAG, MCP).</text></g>
+<g clip-path="url(#system-line-8)"><text x="528" y="210" class="system-row"><tspan class="system-prompt" fill="#1a7f37">$</tspan><tspan fill="#59636e"> </tspan><tspan class="system-command" fill="#1f2328">cat education.md</tspan></text></g>
+<g clip-path="url(#system-line-9)"><text x="546" y="226.5" class="system-row" fill="#59636e">Master of Computer Applications (Completed)</text></g>
+<g clip-path="url(#system-line-10)"><text x="546" y="243" class="system-row" fill="#59636e">APJ Abdul Kalam Technological University</text></g>
+<g clip-path="url(#system-line-11)"><text x="546" y="259.5" class="system-row" fill="#59636e">CGPA 7.65 | 2024–2026</text></g>
+<g clip-path="url(#system-line-13)"><text x="528" y="292.5" class="system-row"><tspan class="system-prompt" fill="#1a7f37">$</tspan><tspan fill="#59636e"> </tspan><tspan class="system-command" fill="#1f2328">cat current-projects.md</tspan></text></g>
+<g clip-path="url(#system-line-14)"><text x="546" y="309" class="system-row" fill="#59636e">ResumeAI  — AI Resume Analysis Platform</text></g>
+<g clip-path="url(#system-line-15)"><text x="546" y="325.5" class="system-row" fill="#59636e">            Python · Django · PostgreSQL · OCR · PDF Parsing · Bootstrap</text></g>
+<g clip-path="url(#system-line-17)"><text x="546" y="358.5" class="system-row" fill="#59636e">TrackWise — Employee Attendance Management System</text></g>
+<g clip-path="url(#system-line-18)"><text x="546" y="375" class="system-row" fill="#59636e">            React · Node.js · Express.js · PostgreSQL · JWT · Tailwind CSS</text></g>
+<g clip-path="url(#system-line-20)"><text x="546" y="408" class="system-row" fill="#59636e">Plannix   — Event Management Platform</text></g>
+<g clip-path="url(#system-line-21)"><text x="546" y="424.5" class="system-row" fill="#59636e">            Django · Python · MySQL · Bootstrap</text></g>
+<g clip-path="url(#system-line-23)"><text x="546" y="457.5" class="system-row" fill="#59636e">ServiGo   — Home Service Booking</text></g>
+<g clip-path="url(#system-line-24)"><text x="546" y="474" class="system-row" fill="#59636e">            Python · HTML · CSS · JavaScript · Google Maps API · MySQL</text></g>
+<g clip-path="url(#system-line-26)"><text x="528" y="507" class="system-row"><tspan class="system-prompt" fill="#1a7f37">$</tspan><tspan fill="#59636e"> </tspan><tspan class="system-command" fill="#1f2328">cat availability.md</tspan></text></g>
+<g clip-path="url(#system-line-27)"><text x="546" y="523.5" class="system-row" fill="#59636e">Open to Software Engineer Opportunities</text></g>
+<rect x="687.5" y="492.5" width="9" height="14.5" fill="#1a7f37" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.02;0.05;0.35;0.5;0.7;0.85;1" dur="1.4s" begin="2.8s" repeatCount="indefinite"/></rect>
+
+<!-- Status Indicator (top-right of visual panel) -->
+<g transform="translate(322, 34)">
+  <circle cx="5" cy="5" r="5" fill="#1a7f37">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="18" y="9" class="mono" font-size="10" fill="#1a7f37" font-weight="600">● Open to Opportunities</text>
+</g>
+
+<!-- Portfolio CTA Button (bottom center) -->
+<a href="https://abi-thomas-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <g filter="url(#cta-glow)">
+    <rect x="450" y="642" width="280" height="40" rx="8" fill="url(#cta-gradient)">
+      <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="590" y="667" text-anchor="middle" class="mono" font-size="13" fill="#ffffff" font-weight="600">��� View My Portfolio</text>
+  </g>
+</a>
+
+<text x="590" y="692" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="#59636e"># Code • Build • Improve</text>
+<rect x="3" y="3" width="1174" height="714" rx="16" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.76"><animate attributeName="opacity" values="0.5;0.94;0.5" dur="3.4s" repeatCount="indefinite"/></rect>
+</svg>

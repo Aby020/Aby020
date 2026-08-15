@@ -250,98 +250,36 @@ function buildSystemLayer(profileLines, { x, y, width, lineHeight, fontSize }, c
   return { clips: clips.join("\n"), rows: rows.join("\n") };
 }
 
-// Create animated </> code symbol with fade in/out and terminal glow
-function createCodeSymbol(visual, colors) {
-  const centerX = visual.x + visual.width / 2;
-  const centerY = visual.y + visual.height / 2;
+function buildPortraitBackdrop(layout, colors, size) {
+  const clip = layout.portraitClip;
+  const isDesktop = size === "desktop";
+  const margin = isDesktop ? 16 : 20;
+  const bracket = isDesktop ? 26 : 32;
+  const left = clip.x + margin;
+  const right = clip.x + clip.width - margin;
+  const top = clip.y + margin;
+  const bottom = clip.y + clip.height - margin;
 
-  // Symbol dimensions - size it to fit nicely in the visual panel
-  const fontSize = visual.width > 500 ? 120 : 90;
-  const charWidth = fontSize * 0.6;
-
-  // Animation durations and timing
-  const fadeDur = "4s";
-
-  return `
-  <!-- Animated </> code symbol -->
-  <text
-    x="${centerX}"
-    y="${centerY + fontSize * 0.35}"
-    text-anchor="middle"
-    dominant-baseline="middle"
-    font-family="'Courier New', Consolas, monospace"
-    font-size="${fontSize}"
-    font-weight="700"
-    fill="${colors.cyan}"
-    filter="url(#code-symbol-glow)"
-    style="letter-spacing: -0.02em;"
-  >
-    </>
-    <!-- Fade in/out animation -->
-    <animate
-      attributeName="opacity"
-      values="0;1;1;0;0"
-      keyTimes="0;0.15;0.85;1;1"
-      dur="5s"
-      repeatCount="indefinite"
-      begin="0.5s"
-    />
-    <!-- Color pulse animation (cyan to violet to blue and back) -->
-    <animate
-      attributeName="fill"
-      values="${colors.cyan};${colors.violet};${colors.blue};${colors.cyan}"
-      dur="8s"
-      repeatCount="indefinite"
-    />
-  </text>
-
-  <!-- Subtle scanning line effect behind the symbol -->
-  <line
-    x1="${visual.x + 30}"
-    y1="${centerY}"
-    x2="${visual.x + visual.width - 30}"
-    y2="${centerY}"
-    stroke="${colors.cyan}"
-    stroke-width="0.5"
-    stroke-dasharray="8,12"
-    opacity="0.3"
-  >
-    <animate
-      attributeName="stroke-dashoffset"
-      from="0"
-      to="20"
-      dur="3s"
-      repeatCount="indefinite"
-    />
-    <animate
-      attributeName="opacity"
-      values="0.1;0.3;0.1"
-      dur="4s"
-      repeatCount="indefinite"
-    />
-  </line>
-
-  <!-- Accent brackets at corners -->
-  <g fill="none" stroke="${colors.blue}" stroke-width="1.5" opacity="0.4">
-    <!-- Top-left -->
-    <path d="M ${visual.x + 20} ${visual.y + 20} L ${visual.x + 20} ${visual.y + 50} L ${visual.x + 50} ${visual.y + 50}"/>
-    <!-- Top-right -->
-    <path d="M ${visual.x + visual.width - 20} ${visual.y + 20} L ${visual.x + visual.width - 20} ${visual.y + 50} L ${visual.x + visual.width - 50} ${visual.y + 50}"/>
-    <!-- Bottom-left -->
-    <path d="M ${visual.x + 20} ${visual.y + visual.height - 20} L ${visual.x + 20} ${visual.y + visual.height - 50} L ${visual.x + 50} ${visual.y + visual.height - 50}"/>
-    <!-- Bottom-right -->
-    <path d="M ${visual.x + visual.width - 20} ${visual.y + visual.height - 20} L ${visual.x + visual.width - 20} ${visual.y + visual.height - 50} ${visual.y + visual.height - 50}"/>
-  </g>
-`;
+  return `<g clip-path="url(#portrait-clip)" aria-hidden="true">
+  <rect x="${clip.x}" y="${clip.y}" width="${clip.width}" height="${clip.height}" fill="url(#portrait-grid)"/>
+  <ellipse cx="${(clip.x + clip.width / 2).toFixed(1)}" cy="${(clip.y + clip.height * 0.46).toFixed(1)}" rx="${(clip.width * 0.44).toFixed(1)}" ry="${(clip.height * 0.44).toFixed(1)}" fill="url(#portrait-halo)"/>
+  <path d="M ${left} ${top + bracket} L ${left} ${top} L ${left + bracket} ${top}" fill="none" stroke="${colors.blue}" stroke-width="1.4" opacity="0.4"/>
+  <path d="M ${right} ${top + bracket} L ${right} ${top} L ${right - bracket} ${top}" fill="none" stroke="${colors.blue}" stroke-width="1.4" opacity="0.4"/>
+  <path d="M ${left} ${bottom - bracket} L ${left} ${bottom} L ${left + bracket} ${bottom}" fill="none" stroke="${colors.blue}" stroke-width="1.4" opacity="0.4"/>
+  <path d="M ${right} ${bottom - bracket} L ${right} ${bottom} L ${right - bracket} ${bottom}" fill="none" stroke="${colors.blue}" stroke-width="1.4" opacity="0.4"/>
+</g>`;
 }
 
-function createHeroSvg(config, colors, size) {
+function createHeroSvg(config, colors, size, portrait) {
   const layout = layouts[size];
   const titlebar = layout.titlebar;
   const visual = layout.visualPanel;
   const info = layout.infoPanel;
+  const clip = layout.portraitClip;
   const profileLines = buildProfileLines(config);
+  const ascii = createAsciiTspans(portrait, layout.portrait);
   const system = buildSystemLayer(profileLines, layout.system, colors);
+  const backdrop = buildPortraitBackdrop(layout, colors, size);
   const isDesktop = size === "desktop";
   const titleCenter = titlebar.x + titlebar.width / 2;
   const terminalUser = config.profile.username.slice(0, isDesktop ? 22 : 14);
@@ -368,31 +306,27 @@ function createHeroSvg(config, colors, size) {
   const ctaGradientId = "cta-gradient";
   const ctaGlowId = "cta-glow";
 
-  // Code symbol in visual panel
-  const codeSymbol = createCodeSymbol(visual, colors);
-
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${layout.width}" height="${layout.height}" viewBox="0 0 ${layout.width} ${layout.height}" role="img" aria-labelledby="title description">
 <title id="title">${escapeXml(config.profile.name)} - ${escapeXml(config.profile.headline)}</title>
-<desc id="description">An animated terminal workspace with a code symbol, professional focus, featured projects, and public links.</desc>
+<desc id="description">An animated terminal workspace with an ASCII portrait, professional focus, featured projects, and public links.</desc>
 <defs>
   <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.backgroundStart}"/><stop offset="1" stop-color="${colors.backgroundEnd}"/></linearGradient>
+  <linearGradient id="ascii-signal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.cyan}"><animate attributeName="stop-color" values="${colors.cyan};${colors.violet};${colors.blue};${colors.cyan}" dur="9s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="${colors.violet}"><animate attributeName="stop-color" values="${colors.violet};${colors.blue};${colors.cyan};${colors.violet}" dur="9s" repeatCount="indefinite"/></stop></linearGradient>
   <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${colors.violet}"/><stop offset="0.48" stop-color="${colors.cyan}"/><stop offset="1" stop-color="${colors.green}"/></linearGradient>
+  <radialGradient id="portrait-halo"><stop offset="0" stop-color="${colors.cyan}" stop-opacity="0.1"/><stop offset="0.48" stop-color="${colors.blue}" stop-opacity="0.05"/><stop offset="1" stop-color="${colors.violet}" stop-opacity="0"/></radialGradient>
+  <pattern id="portrait-grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M 44 0 H 0 V 44" fill="none" stroke="${colors.blue}" stroke-width="0.65" opacity="0.08"/><circle cx="0" cy="0" r="1.2" fill="${colors.cyan}" opacity="0.12"/></pattern>
+  <clipPath id="portrait-clip"><rect x="${clip.x}" y="${clip.y}" width="${clip.width}" height="${clip.height}" rx="${clip.radius}"/></clipPath>
+  <mask id="portrait-reveal"><rect x="${clip.x}" y="${clip.y}" width="${clip.width}" height="0" rx="${clip.radius}" fill="white"><animate attributeName="height" from="0" to="${clip.height}" dur="2.1s" begin="0.12s" fill="freeze"/></rect></mask>
   ${system.clips}
   <!-- CTA Button Gradient -->
   <linearGradient id="${ctaGradientId}" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${colors.cyan}"/><stop offset="1" stop-color="${colors.violet}"/></linearGradient>
   <!-- CTA Glow Filter -->
   <filter id="${ctaGlowId}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <!-- Code Symbol Glow Filter -->
-  <filter id="code-symbol-glow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="4" result="blur"/>
-    <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.8 0" result="glow"/>
-    <feMerge>
-      <feMergeNode in="glow"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-  </filter>
+  <!-- Status Dot Pulse Animation -->
   <style>
     .mono { font-family: 'Courier New', Consolas, monospace; }
+    .ascii { font-family: 'Courier New', Consolas, monospace; font-size: ${layout.portrait.fontSize}px; letter-spacing: -0.15px; fill: url(#ascii-signal); }
+    .line-numbers { font-family: 'Courier New', Consolas, monospace; font-size: ${layout.portrait.fontSize}px; letter-spacing: -0.15px; fill: ${colors.muted}; opacity: 0.35; }
     .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: ${isDesktop ? 11 : 12}px; letter-spacing: 2px; fill: ${colors.blue}; opacity: 0.8; }
     .terminal-label { font-family: 'Courier New', Consolas, monospace; font-size: ${isDesktop ? 12 : 11}px; letter-spacing: 0.5px; fill: ${colors.muted}; }
     .system-row { font-family: 'Courier New', Consolas, monospace; font-size: ${layout.system.fontSize}px; }
@@ -406,9 +340,11 @@ function createHeroSvg(config, colors, size) {
 <text x="${titleCenter}" y="${titlebar.y + titlebar.height / 2 + 5}" text-anchor="middle" class="terminal-label">${escapeXml(terminalUser)}@github: ~/README.md</text>
 <rect x="${visual.x}" y="${visual.y}" width="${visual.width}" height="${visual.height}" rx="${visual.radius}" fill="${colors.panel}" fill-opacity="0.5" stroke="url(#border)" stroke-opacity="0.4"/>
 <rect x="${info.x}" y="${info.y}" width="${info.width}" height="${info.height}" rx="${info.radius}" fill="${colors.panel}" fill-opacity="0.5" stroke="url(#border)" stroke-opacity="0.4"/>
-<text x="${layout.visualTitle.x}" y="${layout.visualTitle.y}" class="panel-title">~/visual.md</text>
+<text x="${layout.visualTitle.x}" y="${layout.visualTitle.y}" class="panel-title">~/portrait.txt</text>
 <text x="${layout.infoTitle.x}" y="${layout.infoTitle.y}" class="panel-title">~/profile.sh</text>
-${codeSymbol}
+${backdrop}
+<g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="ascii">${ascii}</text></g>
+<g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="line-numbers">${createLineNumberTspans(layout.portrait.rows, { x: isDesktop ? 28 : 60, y: layout.portrait.y, lineHeight: layout.portrait.lineHeight }, colors)}</text></g>
 ${system.rows}
 <rect x="${cursorX.toFixed(1)}" y="${cursorY.toFixed(1)}" width="9" height="${layout.system.fontSize + 2}" fill="${colors.green}" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.02;0.05;0.35;0.5;0.7;0.85;1" dur="1.4s" begin="2.8s" repeatCount="indefinite"/></rect>
 
@@ -426,7 +362,7 @@ ${system.rows}
     <rect x="${ctaX}" y="${ctaY}" width="${ctaWidth}" height="${ctaHeight}" rx="${ctaRadius}" fill="url(#${ctaGradientId})">
       <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite"/>
     </rect>
-    <text x="${ctaX + ctaWidth / 2}" y="${ctaY + ctaHeight / 2 + 5}" text-anchor="middle" class="mono" font-size="${isDesktop ? 13 : 12}" fill="#ffffff" font-weight="600">View My Portfolio</text>
+    <text x="${ctaX + ctaWidth / 2}" y="${ctaY + ctaHeight / 2 + 5}" text-anchor="middle" class="mono" font-size="${isDesktop ? 13 : 12}" fill="#ffffff" font-weight="600">��� View My Portfolio</text>
   </g>
 </a>
 
@@ -443,13 +379,19 @@ async function cleanOldAssets(outputDirectory, currentFiles) {
     .map((entry) => unlink(resolve(outputDirectory, entry))));
 }
 
-export async function generateHeroAssets({ config, outputDirectory }) {
+export async function generateHeroAssets({ config, sourcePath, outputDirectory }) {
+  const sourceBuffer = await readFile(sourcePath);
+  await validatePortrait(sourceBuffer, sourcePath);
+
   const version = createHash("sha256")
     .update(GENERATOR_VERSION)
     .update(JSON.stringify(config))
+    .update(sourceBuffer)
     .digest("hex")
     .slice(0, 8);
   const palette = paletteDefinitions[config.appearance.palette];
+  const desktopPortrait = await samplePortrait(sourceBuffer, layouts.desktop.portrait.columns, layouts.desktop.portrait.rows);
+  const mobilePortrait = await samplePortrait(sourceBuffer, layouts.mobile.portrait.columns, layouts.mobile.portrait.rows);
   const assets = {
     desktopDark: `agent-console-${version}-dark.svg`,
     desktopLight: `agent-console-${version}-light.svg`,
@@ -459,10 +401,10 @@ export async function generateHeroAssets({ config, outputDirectory }) {
 
   await mkdir(outputDirectory, { recursive: true });
   await Promise.all([
-    writeFile(resolve(outputDirectory, assets.desktopDark), createHeroSvg(config, palette.dark, "desktop")),
-    writeFile(resolve(outputDirectory, assets.desktopLight), createHeroSvg(config, palette.light, "desktop")),
-    writeFile(resolve(outputDirectory, assets.mobileDark), createHeroSvg(config, palette.dark, "mobile")),
-    writeFile(resolve(outputDirectory, assets.mobileLight), createHeroSvg(config, palette.light, "mobile"))
+    writeFile(resolve(outputDirectory, assets.desktopDark), createHeroSvg(config, palette.dark, "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, assets.desktopLight), createHeroSvg(config, palette.light, "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, assets.mobileDark), createHeroSvg(config, palette.dark, "mobile", mobilePortrait)),
+    writeFile(resolve(outputDirectory, assets.mobileLight), createHeroSvg(config, palette.light, "mobile", mobilePortrait))
   ]);
   await cleanOldAssets(outputDirectory, Object.values(assets));
 
