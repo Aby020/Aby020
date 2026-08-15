@@ -4,9 +4,10 @@ import { resolve } from "node:path";
 import { loadConfig, readFlag, repositoryRoot } from "./lib/config.mjs";
 import { generateHeroAssets } from "./lib/hero.mjs";
 
-const source = readFlag("--source");
-if (!source) {
-  console.error("Usage: npm run generate:hero -- --source /absolute/path/to/transparent-portrait.png");
+const sourceDark = readFlag("--source-dark");
+const sourceLight = readFlag("--source-light");
+if (!sourceDark || !sourceLight) {
+  console.error("Usage: npm run generate:hero -- --source-dark /absolute/path/to/hero-dark.png --source-light /absolute/path/to/hero-light.png");
   process.exit(1);
 }
 
@@ -15,7 +16,8 @@ try {
   const config = await loadConfig(configPath);
   const manifest = await generateHeroAssets({
     config,
-    sourcePath: resolve(source),
+    sourcePathDark: resolve(sourceDark),
+    sourcePathLight: resolve(sourceLight),
     outputDirectory: resolve(repositoryRoot, "assets/hero")
   });
   console.log(`Generated four hero assets (version ${manifest.version}).`);

@@ -2,11 +2,11 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width:760px) and (prefers-color-scheme:dark)" srcset="./assets/hero/agent-console-87a9bd30-mobile-dark.svg">
-    <source media="(max-width:760px)" srcset="./assets/hero/agent-console-87a9bd30-mobile-light.svg">
-    <source media="(prefers-color-scheme:dark)" srcset="./assets/hero/agent-console-87a9bd30-dark.svg">
-    <source media="(prefers-color-scheme:light)" srcset="./assets/hero/agent-console-87a9bd30-light.svg">
-    <img src="./assets/hero/agent-console-87a9bd30-dark.svg" width="100%" alt="Abi Thomas - Software Engineer">
+    <source media="(max-width:760px) and (prefers-color-scheme:dark)" srcset="./assets/hero/agent-console-686c428a-mobile-dark.svg">
+    <source media="(max-width:760px)" srcset="./assets/hero/agent-console-686c428a-mobile-light.svg">
+    <source media="(prefers-color-scheme:dark)" srcset="./assets/hero/agent-console-686c428a-dark.svg">
+    <source media="(prefers-color-scheme:light)" srcset="./assets/hero/agent-console-686c428a-light.svg">
+    <img src="./assets/hero/agent-console-686c428a-dark.svg" width="100%" alt="Abi Thomas - Software Engineer">
   </picture>
 </p>
 
