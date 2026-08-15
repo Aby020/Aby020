@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="720" viewBox="0 0 1180 720" role="img" aria-labelledby="title description">
+<title id="title">Abi Thomas - Software Engineer</title>
+<desc id="description">An animated terminal workspace with a code symbol, professional focus, featured projects, and public links.</desc>
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#010409"/></linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#bc8cff"/><stop offset="0.48" stop-color="#58a6ff"/><stop offset="1" stop-color="#7ee787"/></linearGradient>
+  <clipPath id="system-line-0"><rect x="525" y="63.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="0.45s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-1"><rect x="525" y="80.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="0.57s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-3"><rect x="525" y="113.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="0.81s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-4"><rect x="525" y="129.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="0.93s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-5"><rect x="525" y="146.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.05s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-6"><rect x="525" y="162.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.17s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-8"><rect x="525" y="195.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.41s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-9"><rect x="525" y="212.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.53s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-10"><rect x="525" y="228.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.65s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-11"><rect x="525" y="245.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="1.77s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-13"><rect x="525" y="278.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.01s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-14"><rect x="525" y="294.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.13s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-15"><rect x="525" y="311.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.25s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-17"><rect x="525" y="344.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.49s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-18"><rect x="525" y="360.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.61s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-20"><rect x="525" y="393.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.85s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-21"><rect x="525" y="410.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.97s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-23"><rect x="525" y="443.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.21s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-24"><rect x="525" y="459.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.33s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-26"><rect x="525" y="492.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.57s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-27"><rect x="525" y="509.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.69s" fill="freeze"/></rect></clipPath>
+  <!-- CTA Button Gradient -->
+  <linearGradient id="cta-gradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#bc8cff"/></linearGradient>
+  <!-- CTA Glow Filter -->
+  <filter id="cta-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <!-- Code Symbol Glow Filter -->
+  <filter id="code-symbol-glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.8 0" result="glow"/>
+    <feMerge>
+      <feMergeNode in="glow"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <style>
+    .mono { font-family: 'Courier New', Consolas, monospace; }
+    .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 2px; fill: #79c0ff; opacity: 0.8; }
+    .terminal-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; letter-spacing: 0.5px; fill: #8b949e; }
+    .system-row { font-family: 'Courier New', Consolas, monospace; font-size: 12.5px; }
+    .system-prompt, .system-command { font-weight: 700; }
+    text, tspan { white-space: pre; }
+  </style>
+</defs>
+<rect width="1180" height="720" rx="18" fill="url(#background)"/>
+<rect x="3" y="3" width="1174" height="34" rx="16" fill="#161b22" fill-opacity="0.84"/>
+<circle cx="24" cy="20" r="5" fill="#EF4444"/><circle cx="42" cy="20" r="5" fill="#F59E0B"/><circle cx="60" cy="20" r="5" fill="#7ee787"/>
+<text x="590" y="25" text-anchor="middle" class="terminal-label">Aby020@github: ~/README.md</text>
+<rect x="14" y="64" width="488" height="520" rx="14" fill="#161b22" fill-opacity="0.5" stroke="url(#border)" stroke-opacity="0.4"/>
+<rect x="508" y="48" width="655" height="640" rx="14" fill="#161b22" fill-opacity="0.5" stroke="url(#border)" stroke-opacity="0.4"/>
+<text x="30" y="62" class="panel-title">~/visual.md</text>
+<text x="524" y="62" class="panel-title">~/profile.sh</text>
+
+  <!-- Animated </> code symbol -->
+  <text
+    x="258"
+    y="355.5"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="'Courier New', Consolas, monospace"
+    font-size="90"
+    font-weight="700"
+    fill="#58a6ff"
+    filter="url(#code-symbol-glow)"
+    style="letter-spacing: -0.02em;"
+  >
+    </>
+    <!-- Fade in/out animation -->
+    <animate
+      attributeName="opacity"
+      values="0;1;1;0;0"
+      keyTimes="0;0.15;0.85;1;1"
+      dur="5s"
+      repeatCount="indefinite"
+      begin="0.5s"
+    />
+    <!-- Color pulse animation (cyan to violet to blue and back) -->
+    <animate
+      attributeName="fill"
+      values="#58a6ff;#bc8cff;#79c0ff;#58a6ff"
+      dur="8s"
+      repeatCount="indefinite"
+    />
+  </text>
+
+  <!-- Subtle scanning line effect behind the symbol -->
+  <line
+    x1="44"
+    y1="324"
+    x2="472"
+    y2="324"
+    stroke="#58a6ff"
+    stroke-width="0.5"
+    stroke-dasharray="8,12"
+    opacity="0.3"
+  >
+    <animate
+      attributeName="stroke-dashoffset"
+      from="0"
+      to="20"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+    <animate
+      attributeName="opacity"
+      values="0.1;0.3;0.1"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+  </line>
+
+  <!-- Accent brackets at corners -->
+  <g fill="none" stroke="#79c0ff" stroke-width="1.5" opacity="0.4">
+    <!-- Top-left -->
+    <path d="M 34 84 L 34 114 L 64 114"/>
+    <!-- Top-right -->
+    <path d="M 482 84 L 482 114 L 452 114"/>
+    <!-- Bottom-left -->
+    <path d="M 34 564 L 34 534 L 64 534"/>
+    <!-- Bottom-right -->
+    <path d="M 482 564 L 482 534 534"/>
+  </g>
+
+<g clip-path="url(#system-line-0)"><text x="528" y="78" class="system-row"><tspan class="system-prompt" fill="#7ee787">$</tspan><tspan fill="#8b949e"> </tspan><tspan class="system-command" fill="#c9d1d9">whoami</tspan></text></g>
+<g clip-path="url(#system-line-1)"><text x="546" y="94.5" class="system-row" fill="#8b949e">Abi Thomas</text></g>
+<g clip-path="url(#system-line-3)"><text x="528" y="127.5" class="system-row"><tspan class="system-prompt" fill="#7ee787">$</tspan><tspan fill="#8b949e"> </tspan><tspan class="system-command" fill="#c9d1d9">cat profile.md</tspan></text></g>
+<g clip-path="url(#system-line-4)"><text x="546" y="144" class="system-row" fill="#8b949e">Backend Engineer focused on building scalable REST APIs and full-stack web</text></g>
+<g clip-path="url(#system-line-5)"><text x="546" y="160.5" class="system-row" fill="#8b949e">applications with Python, Django, Django REST Framework, and PostgreSQL —</text></g>
+<g clip-path="url(#system-line-6)"><text x="546" y="177" class="system-row" fill="#8b949e">and AI-powered systems with LLMs (RAG, MCP).</text></g>
+<g clip-path="url(#system-line-8)"><text x="528" y="210" class="system-row"><tspan class="system-prompt" fill="#7ee787">$</tspan><tspan fill="#8b949e"> </tspan><tspan class="system-command" fill="#c9d1d9">cat education.md</tspan></text></g>
+<g clip-path="url(#system-line-9)"><text x="546" y="226.5" class="system-row" fill="#8b949e">Master of Computer Applications (Completed)</text></g>
+<g clip-path="url(#system-line-10)"><text x="546" y="243" class="system-row" fill="#8b949e">APJ Abdul Kalam Technological University</text></g>
+<g clip-path="url(#system-line-11)"><text x="546" y="259.5" class="system-row" fill="#8b949e">CGPA 7.65 | 2024–2026</text></g>
+<g clip-path="url(#system-line-13)"><text x="528" y="292.5" class="system-row"><tspan class="system-prompt" fill="#7ee787">$</tspan><tspan fill="#8b949e"> </tspan><tspan class="system-command" fill="#c9d1d9">cat current-projects.md</tspan></text></g>
+<g clip-path="url(#system-line-14)"><text x="546" y="309" class="system-row" fill="#8b949e">ResumeAI  — AI Resume Analysis Platform</text></g>
+<g clip-path="url(#system-line-15)"><text x="546" y="325.5" class="system-row" fill="#8b949e">            Python · Django · PostgreSQL · OCR · PDF Parsing · Bootstrap</text></g>
+<g clip-path="url(#system-line-17)"><text x="546" y="358.5" class="system-row" fill="#8b949e">TrackWise — Employee Attendance Management System</text></g>
+<g clip-path="url(#system-line-18)"><text x="546" y="375" class="system-row" fill="#8b949e">            React · Node.js · Express.js · PostgreSQL · JWT · Tailwind CSS</text></g>
+<g clip-path="url(#system-line-20)"><text x="546" y="408" class="system-row" fill="#8b949e">Plannix   — Event Management Platform</text></g>
+<g clip-path="url(#system-line-21)"><text x="546" y="424.5" class="system-row" fill="#8b949e">            Django · Python · MySQL · Bootstrap</text></g>
+<g clip-path="url(#system-line-23)"><text x="546" y="457.5" class="system-row" fill="#8b949e">ServiGo   — Home Service Booking</text></g>
+<g clip-path="url(#system-line-24)"><text x="546" y="474" class="system-row" fill="#8b949e">            Python · HTML · CSS · JavaScript · Google Maps API · MySQL</text></g>
+<g clip-path="url(#system-line-26)"><text x="528" y="507" class="system-row"><tspan class="system-prompt" fill="#7ee787">$</tspan><tspan fill="#8b949e"> </tspan><tspan class="system-command" fill="#c9d1d9">cat availability.md</tspan></text></g>
+<g clip-path="url(#system-line-27)"><text x="546" y="523.5" class="system-row" fill="#8b949e">Open to Software Engineer Opportunities</text></g>
+<rect x="687.5" y="492.5" width="9" height="14.5" fill="#7ee787" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.02;0.05;0.35;0.5;0.7;0.85;1" dur="1.4s" begin="2.8s" repeatCount="indefinite"/></rect>
+
+<!-- Status Indicator (top-right of visual panel) -->
+<g transform="translate(322, 34)">
+  <circle cx="5" cy="5" r="5" fill="#7ee787">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="18" y="9" class="mono" font-size="10" fill="#7ee787" font-weight="600">● Open to Opportunities</text>
+</g>
+
+<!-- Portfolio CTA Button (bottom center) -->
+<a href="https://abi-thomas-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <g filter="url(#cta-glow)">
+    <rect x="450" y="642" width="280" height="40" rx="8" fill="url(#cta-gradient)">
+      <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="590" y="667" text-anchor="middle" class="mono" font-size="13" fill="#ffffff" font-weight="600">View My Portfolio</text>
+  </g>
+</a>
+
+<text x="590" y="692" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="#8b949e"># Code • Build • Improve</text>
+<rect x="3" y="3" width="1174" height="714" rx="16" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.76"><animate attributeName="opacity" values="0.5;0.94;0.5" dur="3.4s" repeatCount="indefinite"/></rect>
+</svg>
