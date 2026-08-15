@@ -24,7 +24,7 @@
 <text x="16" y="118" class="mono" font-size="11.5" fill="#e6edf3"><tspan class="keyword">def</tspan> <tspan class="function">find_nearby_providers</tspan>(<tspan>lat</tspan>, <tspan>lng</tspan>, <tspan>radius_km</tspan><tspan class="operator">=</tspan><tspan class="builtin">10</tspan>):</text>
 <text x="32" y="136" class="mono" font-size="11.5" fill="#e6edf3"><tspan>user_loc</tspan> <tspan class="operator">=</tspan> (<tspan>lat</tspan>, <tspan>lng</tspan>)</text>
 <text x="32" y="154" class="mono" font-size="11.5" fill="#e6edf3"><tspan>providers</tspan> <tspan class="operator">=</tspan> <tspan>Provider.objects.filter</tspan>(<tspan>active</tspan><tspan class="operator">=</tspan><tspan class="string">True</tspan>)</text>
-<text x="32" y="172" class="mono" font-size="11.5" fill="#e6edf3"><tspan class="keyword">return</tspan> <tspan>[p for p in providers if geodesic(user_loc, p.location).km < radius_km]</tspan></text>
+<text x="32" y="172" class="mono" font-size="11.5" fill="#e6edf3"><tspan class="keyword">return</tspan> <tspan>[p for p in providers if geodesic(user_loc, p.location).km &lt; radius_km]</tspan></text>
 <text x="16" y="190" class="mono" font-size="11.5" fill="#e6edf3"><tspan class="keyword">def</tspan> <tspan class="function">create_booking</tspan>(<tspan>user</tspan>, <tspan>provider</tspan>, <tspan>service_type</tspan>): <tspan class="keyword">...</tspan></text>
 <rect x="4" y="4" width="392" height="212" rx="8" fill="none" stroke="url(#accent-green)" stroke-width="1.5" opacity="0.6"/>
 </svg>

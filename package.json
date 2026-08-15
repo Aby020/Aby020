@@ -8,6 +8,7 @@
     "node": ">=20"
   },
   "scripts": {
+    "dev": "npm run generate -- --source ./image/placeholder-portrait.png",
     "setup": "node scripts/setup.mjs",
     "generate": "node scripts/generate.mjs",
     "generate:hero": "node scripts/generate-hero.mjs",
