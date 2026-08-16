@@ -19,5 +19,4 @@ Resume/
 # Build preview artifacts — regenerate with `npm run generate`.
 assets/_preview/
 
-# Local IDE / agent settings — never commit.
-/.claude/
+
