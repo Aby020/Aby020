@@ -98,6 +98,8 @@ Backend Engineer focused on building scalable REST APIs and full-stack web appli
 
 <div style="text-align:center;"><a href="https://github.com/Aby020/ResumeAI" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#ff7b72;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #ff7b72 40%, transparent);border:2px solid #ff7b72;">View Repository →</a></div>
 
+<div style="text-align:center;margin-top:12px;"><a href="https://resumeai-backend-8rza.onrender.com" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#3fb950;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #3fb950 40%, transparent);border:2px solid #3fb950;">Live Demo →</a></div>
+
 </div>
 
 </td>
