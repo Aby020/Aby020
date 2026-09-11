@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78 26">
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+  </style>
+  <rect x="0.5" y="0.5" width="77" height="25" rx="7" fill="#161b22" stroke="#f0883e" stroke-opacity="0.5"/>
+  <circle cx="14" cy="13" r="3" fill="#f0883e"/>
+  <text x="26" y="16.5" fill="#c9d1d9" font-size="12" font-weight="bold">Vercel</text>
+</svg>

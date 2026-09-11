@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 18" width="9" height="18">
+  <style>
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+    .c{animation:blink 1s step-end infinite}
+  </style>
+  <rect class="c" width="9" height="18" fill="#58a6ff" opacity="0.8" rx="1"/>
+</svg>

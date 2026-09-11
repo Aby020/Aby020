@@ -68,16 +68,102 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 ## // tech.stack
 
-**Core Stack** → <code><a href="https://github.com/topics/python" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Python-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Python"></a></code> <code><a href="https://github.com/topics/django" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Django-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Django"></a></code> <code><a href="https://github.com/topics/django%20rest%20framework" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Django_REST_Framework-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Django REST Framework"></a></code> <code><a href="https://github.com/topics/postgresql" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/PostgreSQL-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="PostgreSQL"></a></code> <code><a href="https://github.com/topics/react" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/React-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="React"></a></code> <code><a href="https://github.com/topics/typescript" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/TypeScript-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="TypeScript"></a></code>
-
-<table width="100%">
-<tr><td valign="top"><strong>Languages</strong></td><td><code><a href="https://github.com/topics/python" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Python-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Python"></a></code> <code><a href="https://github.com/topics/javascript" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/JavaScript-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="JavaScript"></a></code> <code><a href="https://github.com/topics/typescript" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/TypeScript-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="TypeScript"></a></code> <code><a href="https://github.com/topics/sql" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/SQL-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="SQL"></a></code></td></tr>
-<tr><td valign="top"><strong>Backend</strong></td><td><code><a href="https://github.com/topics/python" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Python-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Python"></a></code> <code><a href="https://github.com/topics/django" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Django-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Django"></a></code> <code><a href="https://github.com/topics/django%20rest%20framework" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Django_REST_Framework-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Django REST Framework"></a></code> <code><a href="https://github.com/topics/rest%20api%20development" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/REST_APIs-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="REST APIs"></a></code> <code><a href="https://github.com/topics/nodejs" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Node.js-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Node.js"></a></code> <code><a href="https://github.com/topics/express" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Express.js-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Express.js"></a></code></td></tr>
-<tr><td valign="top"><strong>Frontend</strong></td><td><code><a href="https://github.com/topics/react" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/React-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="React"></a></code> <code><a href="https://github.com/topics/vite" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Vite-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Vite"></a></code> <code><a href="https://github.com/topics/tailwindcss" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Tailwind_CSS-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Tailwind CSS"></a></code> <code><a href="https://github.com/topics/bootstrap" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Bootstrap-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Bootstrap"></a></code> <code><a href="https://github.com/topics/html5" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/HTML5-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="HTML5"></a></code> <code><a href="https://github.com/topics/css3" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/CSS3-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="CSS3"></a></code></td></tr>
-<tr><td valign="top"><strong>Database</strong></td><td><code><a href="https://github.com/topics/postgresql" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/PostgreSQL-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="PostgreSQL"></a></code> <code><a href="https://github.com/topics/postgresql" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Neon_PostgreSQL-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Neon PostgreSQL"></a></code> <code><a href="https://github.com/topics/sqlite" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/SQLite-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="SQLite"></a></code></td></tr>
-<tr><td valign="top"><strong>Deployment & Cloud</strong></td><td><code><a href="https://github.com/topics/render" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Render-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Render"></a></code> <code><a href="https://github.com/topics/vercel" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Vercel-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Vercel"></a></code> <code><a href="https://github.com/topics/cloudinary" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Cloudinary-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Cloudinary"></a></code> <code><a href="https://github.com/topics/docker" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Docker-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Docker"></a></code></td></tr>
-<tr><td valign="top"><strong>Tools</strong></td><td><code><a href="https://github.com/topics/git" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Git-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Git"></a></code> <code><a href="https://github.com/topics/github" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="GitHub"></a></code> <code><a href="https://github.com/topics/docker" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Docker-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Docker"></a></code> <code><a href="https://github.com/topics/visual-studio-code" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VS_Code-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="VS Code"></a></code></td></tr>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;">
+<table style="width:100%;border-collapse:collapse">
+<tr>
+<td style="background:#161b22;padding:0 20px;height:48px;border-bottom:1px solid #30363d;border-radius:9px 9px 0 0;">
+<span style="color:#ff5f57;font-size:16px;">●</span><span style="color:#febc2e;font-size:16px;margin-left:7px;">●</span><span style="color:#28c840;font-size:16px;margin-left:7px;">●</span>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="padding:10px 20px;border-bottom:1px solid #21262d;">
+<span style="color:#79c0ff;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">$</span><span style="color:#c9d1d9;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;"> cat ./stack</span><picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/cursor.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/cursor.svg">
+  <img src="./assets/sections/tech-stack/cursor.svg" alt="" height="16" style="vertical-align:middle;margin-left:6px;">
+</picture>
+</td>
+</tr>
+<tr>
+<td style="padding:16px 6px 10px 20px;vertical-align:middle;width:24%;">
+<picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/00-languages.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/00-languages.svg">
+  <img src="./assets/sections/tech-stack/00-languages.svg" alt="LANGUAGES" height="30">
+</picture>
+</td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:16px 20px 10px 6px;">
+<a href="https://github.com/topics/python" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/python.svg" height="26" alt="Python"></a> <a href="https://github.com/topics/javascript" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/javascript.svg" height="26" alt="JavaScript"></a> <a href="https://github.com/topics/typescript" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/typescript.svg" height="26" alt="TypeScript"></a> <a href="https://github.com/topics/sql" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/sql.svg" height="26" alt="SQL"></a>
+</td>
+</tr>
+<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
+<tr>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;">
+<picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/01-backend.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/01-backend.svg">
+  <img src="./assets/sections/tech-stack/01-backend.svg" alt="BACKEND" height="30">
+</picture>
+</td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 20px 10px 6px;">
+<a href="https://github.com/topics/django" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/django.svg" height="26" alt="Django"></a> <a href="https://github.com/topics/django%20rest%20framework" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/django-rest-framework.svg" height="26" alt="Django REST Framework"></a> <a href="https://github.com/topics/rest%20api%20development" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/rest-apis.svg" height="26" alt="REST APIs"></a> <a href="https://github.com/topics/nodejs" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/nodejs.svg" height="26" alt="Node.js"></a> <a href="https://github.com/topics/express" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/expressjs.svg" height="26" alt="Express.js"></a>
+</td>
+</tr>
+<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
+<tr>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;">
+<picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/02-frontend.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/02-frontend.svg">
+  <img src="./assets/sections/tech-stack/02-frontend.svg" alt="FRONTEND" height="30">
+</picture>
+</td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 20px 10px 6px;">
+<a href="https://github.com/topics/react" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/react.svg" height="26" alt="React"></a> <a href="https://github.com/topics/vite" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/vite.svg" height="26" alt="Vite"></a> <a href="https://github.com/topics/tailwindcss" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/tailwindcss.svg" height="26" alt="Tailwind CSS"></a> <a href="https://github.com/topics/bootstrap" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/bootstrap.svg" height="26" alt="Bootstrap"></a> <a href="https://github.com/topics/html5" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/html5.svg" height="26" alt="HTML5"></a> <a href="https://github.com/topics/css3" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/css3.svg" height="26" alt="CSS3"></a>
+</td>
+</tr>
+<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
+<tr>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;">
+<picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/03-database.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/03-database.svg">
+  <img src="./assets/sections/tech-stack/03-database.svg" alt="DATABASE" height="30">
+</picture>
+</td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 20px 10px 6px;">
+<a href="https://github.com/topics/postgresql" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/postgresql.svg" height="26" alt="PostgreSQL"></a> <a href="https://github.com/topics/postgresql" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/neon-postgresql.svg" height="26" alt="Neon PostgreSQL"></a> <a href="https://github.com/topics/sqlite" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/sqlite.svg" height="26" alt="SQLite"></a>
+</td>
+</tr>
+<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
+<tr>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;">
+<picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/04-deploy.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/04-deploy.svg">
+  <img src="./assets/sections/tech-stack/04-deploy.svg" alt="DEPLOYMENT &amp; CLOUD" height="30">
+</picture>
+</td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 20px 10px 6px;">
+<a href="https://github.com/topics/render" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/render.svg" height="26" alt="Render"></a> <a href="https://github.com/topics/vercel" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/vercel.svg" height="26" alt="Vercel"></a> <a href="https://github.com/topics/cloudinary" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/cloudinary.svg" height="26" alt="Cloudinary"></a> <a href="https://github.com/topics/docker" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/docker.svg" height="26" alt="Docker"></a>
+</td>
+</tr>
+<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
+<tr>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;">
+<picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/05-tools.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/05-tools.svg">
+  <img src="./assets/sections/tech-stack/05-tools.svg" alt="TOOLS" height="30">
+</picture>
+</td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 20px 10px 6px;">
+<a href="https://github.com/topics/git" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/git.svg" height="26" alt="Git"></a> <a href="https://github.com/topics/github" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/github.svg" height="26" alt="GitHub"></a> <a href="https://github.com/topics/visual-studio-code" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/visual-studio-code.svg" height="26" alt="VS Code"></a>
+</td>
+</tr>
 </table>
+</div>
+
 
 
 <hr>
