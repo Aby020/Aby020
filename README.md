@@ -228,10 +228,10 @@
 </tr>
 <tr>
 <td colspan="2" style="padding:10px 20px;border-bottom:1px solid #21262d;">
-<span style="color:#79c0ff;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">$</span><span style="color:#c9d1d9;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;"> ls -1 ./projects</span><picture>
+<span style="color:#79c0ff;font-size:15px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">$</span><span style="color:#c9d1d9;font-size:15px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;"> ls -1 ./projects</span><picture>
 	  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/repositories/cursor.svg">
 	  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/repositories/cursor.svg">
-	  <img src="./assets/sections/repositories/cursor.svg" alt="" height="16" style="vertical-align:middle;margin-left:6px;">
+	  <img src="./assets/sections/repositories/cursor.svg" alt="" height="18" style="vertical-align:middle;margin-left:6px;">
 	</picture>
 </td>
 </tr>
@@ -244,9 +244,9 @@
 	</picture>
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:16px 20px 10px 6px;">
-<a href="https://github.com/Aby020/TrustFund"><img src="./assets/buttons/trustfund-repo.svg" height="26" alt="View TrustFund Repository"></a>
+<a href="https://github.com/Aby020/TrustFund"><img src="./assets/buttons/trustfund-repo.svg" height="31" alt="View TrustFund Repository"></a>
 <div style="height:8px;"></div>
-<a href="https://trustfund-i8r1.onrender.com/"><img src="./assets/buttons/trustfund-demo.svg" height="26" alt="TrustFund Live Demo"></a>
+<a href="https://trustfund-i8r1.onrender.com/"><img src="./assets/buttons/trustfund-demo.svg" height="31" alt="TrustFund Live Demo"></a>
 </td>
 </tr>
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
@@ -259,9 +259,9 @@
 	</picture>
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
-<a href="https://github.com/Aby020/Plannix"><img src="./assets/buttons/plannix-repo.svg" height="26" alt="View Plannix Repository"></a>
+<a href="https://github.com/Aby020/Plannix"><img src="./assets/buttons/plannix-repo.svg" height="31" alt="View Plannix Repository"></a>
 <div style="height:8px;"></div>
-<a href="https://plannix-0to5.onrender.com/"><img src="./assets/buttons/plannix-demo.svg" height="26" alt="Plannix Live Demo"></a>
+<a href="https://plannix-0to5.onrender.com/"><img src="./assets/buttons/plannix-demo.svg" height="31" alt="Plannix Live Demo"></a>
 </td>
 </tr>
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
@@ -274,9 +274,9 @@
 	</picture>
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
-<a href="https://github.com/Aby020/ResumeAI"><img src="./assets/buttons/resumeai-repo.svg" height="26" alt="View ResumeAI Repository"></a>
+<a href="https://github.com/Aby020/ResumeAI"><img src="./assets/buttons/resumeai-repo.svg" height="31" alt="View ResumeAI Repository"></a>
 <div style="height:8px;"></div>
-<a href="https://resumeai-backend-8rza.onrender.com/"><img src="./assets/buttons/resumeai-demo.svg" height="26" alt="ResumeAI Live Demo"></a>
+<a href="https://resumeai-backend-8rza.onrender.com/"><img src="./assets/buttons/resumeai-demo.svg" height="31" alt="ResumeAI Live Demo"></a>
 </td>
 </tr>
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
@@ -289,9 +289,9 @@
 	</picture>
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
-<a href="https://github.com/Aby020/TrackWise"><img src="./assets/buttons/trackwise-repo.svg" height="26" alt="View TrackWise Repository"></a>
+<a href="https://github.com/Aby020/TrackWise"><img src="./assets/buttons/trackwise-repo.svg" height="31" alt="View TrackWise Repository"></a>
 <div style="height:8px;"></div>
-<a href="https://trackwise-frontend-tla4.onrender.com/"><img src="./assets/buttons/trackwise-demo.svg" height="26" alt="TrackWise Live Demo"></a>
+<a href="https://trackwise-frontend-tla4.onrender.com/"><img src="./assets/buttons/trackwise-demo.svg" height="31" alt="TrackWise Live Demo"></a>
 </td>
 </tr>
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
@@ -304,7 +304,7 @@
 	</picture>
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
-<a href="https://github.com/Aby020/ServiGo"><img src="./assets/buttons/servigo-repo.svg" height="26" alt="View ServiGo Repository"></a>
+<a href="https://github.com/Aby020/ServiGo"><img src="./assets/buttons/servigo-repo.svg" height="31" alt="View ServiGo Repository"></a>
 </td>
 </tr>
 </table>
@@ -316,7 +316,11 @@
 
 ## // roadmap
 
-**Currently Exploring** → <code><a href="https://github.com/topics/spring-security" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Spring_Security-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Spring Security"></a></code> <code><a href="https://github.com/topics/microservices" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microservices-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Microservices"></a></code> <code><a href="https://github.com/topics/model-context-protocol" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Model Context Protocol (MCP)"></a></code> <code><a href="https://github.com/topics/retrieval-augmented-generation" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Retrieval--Augmented_Generation_(RAG)-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Retrieval-Augmented Generation (RAG)"></a></code> <code><a href="https://github.com/topics/ai-integration-with-llm-apis" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/AI_Integration_with_LLM_APIs-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="AI Integration with LLM APIs"></a></code>
+<picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/roadmap.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/roadmap.svg">
+  <img src="./assets/sections/roadmap.svg" alt="Roadmap" width="100%">
+</picture>
 
 
 <hr>
