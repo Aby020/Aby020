@@ -85,7 +85,83 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 ## // repositories
 
-<img src="./assets/sections/repositories.svg" alt="Featured Repositories" width="100%">
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;">
+<table style="width:100%;border-collapse:collapse">
+<tr>
+<td style="background:#161b22;padding:0 20px;height:48px;border-bottom:1px solid #30363d;border-radius:9px 0 0 0;">
+<span style="color:#ff5f57;font-size:16px;">●</span><span style="color:#febc2e;font-size:16px;margin-left:7px;">●</span><span style="color:#28c840;font-size:16px;margin-left:7px;">●</span><span style="color:#8b949e;font-size:13px;margin-left:16px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">// repositories</span>
+</td>
+<td style="background:#161b22;padding:0 20px;height:48px;border-bottom:1px solid #30363d;text-align:right;border-radius:0 9px 0 0;width:140px;">
+<span style="color:#484f58;font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">05 projects</span>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="padding:10px 20px;border-bottom:1px solid #21262d;">
+<span style="color:#79c0ff;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">$</span><span style="color:#c9d1d9;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;"> ls -1 ./projects</span><img src="./assets/sections/repositories/cursor.svg" alt="" height="16" style="vertical-align:middle;margin-left:6px;">
+</td>
+</tr>
+<tr>
+<td style="padding:16px 6px 10px 20px;vertical-align:middle;width:75%;">
+<img src="./assets/sections/repositories/01-trustfund.svg" alt="TrustFund" width="100%">
+</td>
+<td style="width:25%;text-align:center;vertical-align:middle;padding:16px 20px 10px 6px;">
+<a href="https://github.com/Aby020/TrustFund"><img src="./assets/buttons/trustfund-repo.svg" height="26" alt="View TrustFund Repository"></a>
+<div style="height:8px;"></div>
+<a href="https://trustfund-i8r1.onrender.com/"><img src="./assets/buttons/trustfund-demo.svg" height="26" alt="TrustFund Live Demo"></a>
+</td>
+</tr>
+<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
+<tr>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:75%;">
+<img src="./assets/sections/repositories/02-plannix.svg" alt="Plannix" width="100%">
+</td>
+<td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
+<a href="https://github.com/Aby020/Plannix"><img src="./assets/buttons/plannix-repo.svg" height="26" alt="View Plannix Repository"></a>
+<div style="height:8px;"></div>
+<a href="https://plannix-0to5.onrender.com/"><img src="./assets/buttons/plannix-demo.svg" height="26" alt="Plannix Live Demo"></a>
+</td>
+</tr>
+<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
+<tr>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:75%;">
+<img src="./assets/sections/repositories/03-resumeai.svg" alt="ResumeAI" width="100%">
+</td>
+<td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
+<a href="https://github.com/Aby020/ResumeAI"><img src="./assets/buttons/resumeai-repo.svg" height="26" alt="View ResumeAI Repository"></a>
+<div style="height:8px;"></div>
+<a href="https://resumeai-backend-8rza.onrender.com/"><img src="./assets/buttons/resumeai-demo.svg" height="26" alt="ResumeAI Live Demo"></a>
+</td>
+</tr>
+<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
+<tr>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:75%;">
+<img src="./assets/sections/repositories/04-trackwise.svg" alt="TrackWise" width="100%">
+</td>
+<td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
+<a href="https://github.com/Aby020/TrackWise"><img src="./assets/buttons/trackwise-repo.svg" height="26" alt="View TrackWise Repository"></a>
+<div style="height:8px;"></div>
+<a href="https://trackwise-frontend-tla4.onrender.com/"><img src="./assets/buttons/trackwise-demo.svg" height="26" alt="TrackWise Live Demo"></a>
+</td>
+</tr>
+<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
+<tr>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:75%;">
+<img src="./assets/sections/repositories/05-servigo.svg" alt="ServiGo" width="100%">
+</td>
+<td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
+<a href="https://github.com/Aby020/ServiGo"><img src="./assets/buttons/servigo-repo.svg" height="26" alt="View ServiGo Repository"></a>
+</td>
+</tr>
+<tr>
+<td style="padding:10px 20px;border-top:1px solid #30363d;">
+<span style="color:#30363d;font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">05 projects listed</span>
+</td>
+<td style="padding:10px 20px;border-top:1px solid #30363d;text-align:right;">
+<span style="color:#3fb950;font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">● complete</span>
+</td>
+</tr>
+</table>
+</div>
 
 
 <hr>

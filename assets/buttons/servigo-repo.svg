@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 26" width="180" height="26">
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+  </style>
+  <rect width="180" height="26" rx="4" fill="#0d1117" stroke="#a371f7" stroke-width="1" stroke-opacity="0.9"/>
+  <text x="90" y="17" fill="#a371f7" font-size="12" font-weight="bold" text-anchor="middle">VIEW REPOSITORY →</text>
+</svg>
