@@ -171,26 +171,26 @@
 <g clip-path="url(#system-line-0)"><text x="72" y="540" class="system-row"><tspan class="system-prompt" fill="#1a7f37">$</tspan><tspan fill="#59636e"> </tspan><tspan class="system-command" fill="#1f2328">whoami</tspan></text></g>
 <g clip-path="url(#system-line-1)"><text x="90" y="556" class="system-row" fill="#59636e">Abi Thomas</text></g>
 <g clip-path="url(#system-line-3)"><text x="72" y="588" class="system-row"><tspan class="system-prompt" fill="#1a7f37">$</tspan><tspan fill="#59636e"> </tspan><tspan class="system-command" fill="#1f2328">cat profile.md</tspan></text></g>
-<g clip-path="url(#system-line-4)"><text x="90" y="604" class="system-row" fill="#59636e">Backend Engineer focused on building scalable REST APIs and full-stack web</text></g>
-<g clip-path="url(#system-line-5)"><text x="90" y="620" class="system-row" fill="#59636e">applications with Python, Django, Django REST Framework, and PostgreSQL —</text></g>
-<g clip-path="url(#system-line-6)"><text x="90" y="636" class="system-row" fill="#59636e">and AI-powered systems with LLMs (RAG, MCP).</text></g>
+<g clip-path="url(#system-line-4)"><text x="90" y="604" class="system-row" fill="#59636e"><tspan fill="#79c0ff">MCA graduate</tspan> targeting <tspan fill="#79c0ff">Python Developer</tspan> roles with hands-on experience building</text></g>
+<g clip-path="url(#system-line-5)"><text x="90" y="620" class="system-row" fill="#59636e">backend applications using <tspan fill="#7ee787">Python</tspan>, <tspan fill="#7ee787">Django</tspan>, <tspan fill="#7ee787">REST APIs</tspan>, and <tspan fill="#7ee787">PostgreSQL</tspan> —</text></g>
+<g clip-path="url(#system-line-6)"><text x="90" y="636" class="system-row" fill="#59636e">database-driven applications, APIs, authentication, testing, and deployment.</text></g>
 <g clip-path="url(#system-line-8)"><text x="72" y="668" class="system-row"><tspan class="system-prompt" fill="#1a7f37">$</tspan><tspan fill="#59636e"> </tspan><tspan class="system-command" fill="#1f2328">cat education.md</tspan></text></g>
 <g clip-path="url(#system-line-9)"><text x="90" y="684" class="system-row" fill="#59636e">Master of Computer Applications (Completed)</text></g>
-<g clip-path="url(#system-line-10)"><text x="90" y="700" class="system-row" fill="#59636e">APJ Abdul Kalam Technological University</text></g>
+<g clip-path="url(#system-line-10)"><text x="90" y="700" class="system-row" fill="#59636e"><tspan fill="#79c0ff">APJ Abdul Kalam Technological University</tspan>, Kerala</text></g>
 <g clip-path="url(#system-line-11)"><text x="90" y="716" class="system-row" fill="#59636e">CGPA 7.65 | 2024–2026</text></g>
 <g clip-path="url(#system-line-13)"><text x="72" y="748" class="system-row"><tspan class="system-prompt" fill="#1a7f37">$</tspan><tspan fill="#59636e"> </tspan><tspan class="system-command" fill="#1f2328">cat current-projects.md</tspan></text></g>
-<g clip-path="url(#system-line-14)"><text x="90" y="764" class="system-row" fill="#59636e">ResumeAI  — AI Resume Analysis Platform</text></g>
+<g clip-path="url(#system-line-14)"><text x="90" y="764" class="system-row" fill="#59636e"><tspan fill="#79c0ff">ResumeAI</tspan>  — AI Resume Analysis Platform</text></g>
 <g clip-path="url(#system-line-15)"><text x="90" y="780" class="system-row" fill="#59636e">            Python · Django · PostgreSQL · OCR · PDF Parsing · Bootstrap</text></g>
-<g clip-path="url(#system-line-17)"><text x="90" y="812" class="system-row" fill="#59636e">TrackWise — Employee Attendance Management System</text></g>
+<g clip-path="url(#system-line-17)"><text x="90" y="812" class="system-row" fill="#59636e"><tspan fill="#79c0ff">TrackWise</tspan> — Employee Attendance Management System</text></g>
 <g clip-path="url(#system-line-18)"><text x="90" y="828" class="system-row" fill="#59636e">            React · Node.js · Express.js · PostgreSQL · JWT · Tailwind CSS</text></g>
-<g clip-path="url(#system-line-20)"><text x="90" y="860" class="system-row" fill="#59636e">Plannix   — Event Management Platform</text></g>
+<g clip-path="url(#system-line-20)"><text x="90" y="860" class="system-row" fill="#59636e"><tspan fill="#79c0ff">Plannix</tspan>   — Event Management Platform</text></g>
 <g clip-path="url(#system-line-21)"><text x="90" y="876" class="system-row" fill="#59636e">            Django · Python · MySQL · Bootstrap</text></g>
-<g clip-path="url(#system-line-23)"><text x="90" y="908" class="system-row" fill="#59636e">ServiGo   — Home Service Booking</text></g>
+<g clip-path="url(#system-line-23)"><text x="90" y="908" class="system-row" fill="#59636e"><tspan fill="#79c0ff">ServiGo</tspan>   — Home Services &amp; EV Charging</text></g>
 <g clip-path="url(#system-line-24)"><text x="90" y="924" class="system-row" fill="#59636e">            Python · HTML · CSS · JavaScript · Google Maps API · MySQL</text></g>
-<g clip-path="url(#system-line-25)"><text x="72" y="956" class="system-row"><tspan class="system-prompt" fill="#1a7f37">$</tspan><tspan fill="#59636e"> </tspan><tspan class="system-command" fill="#1f2328">cat current-projects.md</tspan></text></g>
-<g clip-path="url(#system-line-28)"><text x="90" y="972" class="system-row" fill="#59636e">TrustFund  — Fund Management Platform</text></g>
+<g clip-path="url(#system-line-25)"><text x="90" y="956" class="system-row" fill="#59636e"><tspan fill="#79c0ff">TrustFund</tspan>  — Charity &amp; Donation Management</text></g>
+<g clip-path="url(#system-line-28)"><text x="90" y="972" class="system-row" fill="#59636e">            Django · React · PostgreSQL · DRF · Razorpay</text></g>
 <g clip-path="url(#system-line-29)"><text x="72" y="1004" class="system-row"><tspan class="system-prompt" fill="#1a7f37">$</tspan><tspan fill="#59636e"> </tspan><tspan class="system-command" fill="#1f2328">cat availability.md</tspan></text></g>
-<g clip-path="url(#system-line-30)"><text x="90" y="1020" class="system-row" fill="#59636e">Open to Software Engineer Opportunities</text></g>
+<g clip-path="url(#system-line-30)"><text x="90" y="1020" class="system-row" fill="#59636e"><tspan fill="#1a7f37">● </tspan>Open to <tspan fill="#79c0ff">Software Engineer</tspan> Opportunities</text></g>
 <rect x="225.2" y="990.0" width="9" height="14" fill="#1a7f37" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.02;0.05;0.35;0.5;0.7;0.85;1" dur="1.4s" begin="2.8s" repeatCount="indefinite"/></rect>
 
 <!-- Status Indicator (top-right of visual panel) -->
