@@ -88,11 +88,8 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 <div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;">
 <table style="width:100%;border-collapse:collapse">
 <tr>
-<td style="background:#161b22;padding:0 20px;height:48px;border-bottom:1px solid #30363d;border-radius:9px 0 0 0;">
-<span style="color:#ff5f57;font-size:16px;">●</span><span style="color:#febc2e;font-size:16px;margin-left:7px;">●</span><span style="color:#28c840;font-size:16px;margin-left:7px;">●</span><span style="color:#8b949e;font-size:13px;margin-left:16px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">// repositories</span>
-</td>
-<td style="background:#161b22;padding:0 20px;height:48px;border-bottom:1px solid #30363d;text-align:right;border-radius:0 9px 0 0;width:140px;">
-<span style="color:#484f58;font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">05 projects</span>
+<td style="background:#161b22;padding:0 20px;height:48px;border-bottom:1px solid #30363d;border-radius:9px 9px 0 0;">
+<span style="color:#ff5f57;font-size:16px;">●</span><span style="color:#febc2e;font-size:16px;margin-left:7px;">●</span><span style="color:#28c840;font-size:16px;margin-left:7px;">●</span>
 </td>
 </tr>
 <tr>
@@ -150,14 +147,6 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
 <a href="https://github.com/Aby020/ServiGo"><img src="./assets/buttons/servigo-repo.svg" height="26" alt="View ServiGo Repository"></a>
-</td>
-</tr>
-<tr>
-<td style="padding:10px 20px;border-top:1px solid #30363d;">
-<span style="color:#30363d;font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">05 projects listed</span>
-</td>
-<td style="padding:10px 20px;border-top:1px solid #30363d;text-align:right;">
-<span style="color:#3fb950;font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">● complete</span>
 </td>
 </tr>
 </table>
