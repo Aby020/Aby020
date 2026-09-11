@@ -342,11 +342,11 @@
 </td>
 <td width="30%" valign="top" align="center">
 
-<strong>Activity Stats</strong>
-
-<img src="https://img.shields.io/github/followers/Aby020?style=flat-square&labelColor=0D1117&color=21262d&label=Followers" alt="Followers">
-<img src="https://img.shields.io/github/stars/Aby020?style=flat-square&labelColor=0D1117&color=21262d&label=Stars" alt="Stars">
-<img src="https://img.shields.io/badge/Public%20Repos-7-58a6ff?style=flat-square&labelColor=0D1117&color=58a6ff" alt="Public Repos">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aby020/Aby020/main/assets/sections/activity-stats.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aby020/Aby020/main/assets/sections/activity-stats.svg">
+  <img alt="Activity Stats: Followers 24, Stars 9, Public Repos 7" src="https://raw.githubusercontent.com/Aby020/Aby020/main/assets/sections/activity-stats.svg" width="100%">
+</picture>
 
 </td>
 </tr>
@@ -359,7 +359,11 @@
 
 <p align="center">
 
-<code>Code • Build • Improve</code>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aby020/Aby020/main/assets/sections/code-build-improve.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aby020/Aby020/main/assets/sections/code-build-improve.svg">
+  <img alt="Code • Build • Improve" src="https://raw.githubusercontent.com/Aby020/Aby020/main/assets/sections/code-build-improve.svg" height="68">
+</picture>
 
 </p>
 ````
