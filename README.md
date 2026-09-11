@@ -87,14 +87,6 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 <img src="./assets/sections/repositories.svg" alt="Featured Repositories" width="100%">
 
-<table width="100%" cellpadding="0" cellspacing="0" border="0">
-<tr><td align="center" style="padding:6px 0"><a href="https://github.com/Aby020/TrustFund"><img src="./assets/buttons/repo-gold.svg" height="32" alt="View TrustFund Repository"></a>&nbsp;&nbsp;&nbsp;<a href="https://trustfund-i8r1.onrender.com/"><img src="./assets/buttons/demo.svg" height="32" alt="TrustFund Live Demo"></a></td></tr>
-<tr><td align="center" style="padding:6px 0"><a href="https://github.com/Aby020/Plannix"><img src="./assets/buttons/repo-blue.svg" height="32" alt="View Plannix Repository"></a>&nbsp;&nbsp;&nbsp;<a href="https://plannix-0to5.onrender.com/"><img src="./assets/buttons/demo.svg" height="32" alt="Plannix Live Demo"></a></td></tr>
-<tr><td align="center" style="padding:6px 0"><a href="https://github.com/Aby020/ResumeAI"><img src="./assets/buttons/repo-red.svg" height="32" alt="View ResumeAI Repository"></a>&nbsp;&nbsp;&nbsp;<a href="https://resumeai-backend-8rza.onrender.com/"><img src="./assets/buttons/demo.svg" height="32" alt="ResumeAI Live Demo"></a></td></tr>
-<tr><td align="center" style="padding:6px 0"><a href="https://github.com/Aby020/TrackWise"><img src="./assets/buttons/repo-orange.svg" height="32" alt="View TrackWise Repository"></a>&nbsp;&nbsp;&nbsp;<a href="https://trackwise-frontend-tla4.onrender.com/"><img src="./assets/buttons/demo.svg" height="32" alt="TrackWise Live Demo"></a></td></tr>
-<tr><td align="center" style="padding:6px 0"><a href="https://github.com/Aby020/ServiGo"><img src="./assets/buttons/repo-purple.svg" height="32" alt="View ServiGo Repository"></a></td></tr>
-</table>
-
 
 <hr>
 
