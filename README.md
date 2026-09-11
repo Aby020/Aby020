@@ -30,9 +30,9 @@ $ cat profile.json
 {
   "name":     "Abi Thomas",
   "role":     "Backend / Full-Stack Developer",
-  "status":   "â— Open to Software Engineer Opportunities",
+  "status":   "★ Open to Software Engineer Opportunities",
   "location": "Kerala, India",
-  "education": "MCA â€” APJ Abdul Kalam Technological University",
+  "education": "MCA — APJ Abdul Kalam Technological University",
   "focus":    [
     "Python",
     "Django",
@@ -59,7 +59,7 @@ $ cat profile.json
 ## // about
 
 <blockquote>
-Backend and full-stack developer based in Kerala, India, focused on building database-driven applications with Python, Django, Django REST Framework, React, TypeScript, and PostgreSQL â€” from authentication and role-based access to API integration, testing, and deployment.
+Backend and full-stack developer based in Kerala, India, focused on building database-driven applications with Python, Django, Django REST Framework, React, TypeScript, and PostgreSQL — from authentication and role-based access to API integration, testing, and deployment.
 </blockquote>
 
 
@@ -68,7 +68,7 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 ## // tech.stack
 
-**Core Stack** â†’ <code><a href="https://github.com/topics/python" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Python-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Python"></a></code> <code><a href="https://github.com/topics/django" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Django-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Django"></a></code> <code><a href="https://github.com/topics/django%20rest%20framework" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Django_REST_Framework-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Django REST Framework"></a></code> <code><a href="https://github.com/topics/postgresql" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/PostgreSQL-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="PostgreSQL"></a></code> <code><a href="https://github.com/topics/react" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/React-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="React"></a></code> <code><a href="https://github.com/topics/typescript" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/TypeScript-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="TypeScript"></a></code>
+**Core Stack** → <code><a href="https://github.com/topics/python" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Python-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Python"></a></code> <code><a href="https://github.com/topics/django" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Django-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Django"></a></code> <code><a href="https://github.com/topics/django%20rest%20framework" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Django_REST_Framework-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Django REST Framework"></a></code> <code><a href="https://github.com/topics/postgresql" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/PostgreSQL-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="PostgreSQL"></a></code> <code><a href="https://github.com/topics/react" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/React-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="React"></a></code> <code><a href="https://github.com/topics/typescript" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/TypeScript-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="TypeScript"></a></code>
 
 <table width="100%">
 <tr><td valign="top"><strong>Languages</strong></td><td><code><a href="https://github.com/topics/python" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Python-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Python"></a></code> <code><a href="https://github.com/topics/javascript" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/JavaScript-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="JavaScript"></a></code> <code><a href="https://github.com/topics/typescript" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/TypeScript-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="TypeScript"></a></code> <code><a href="https://github.com/topics/sql" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/SQL-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="SQL"></a></code></td></tr>
@@ -93,16 +93,16 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 8px 0;">
   <h3 style="margin:0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid #d29922;border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:#d29922;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">TrustFund</code></h3>
-  <span style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;white-space:nowrap;">â— Completed</span>
+  <span style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;white-space:nowrap;">★ Completed</span>
 </div>
 
-<p style="margin:0 0 16px 0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Full-stack donation and fundraising platform connecting verified charities, donors, and volunteers â€” secure Razorpay donations, campaign management, automatic PDF receipts, and role-based workspaces.</p>
+<p style="margin:0 0 16px 0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Full-stack donation and fundraising platform connecting verified charities, donors, and volunteers — secure Razorpay donations, campaign management, automatic PDF receipts, and role-based workspaces.</p>
 
 <div style="margin:0 0 20px 0;"><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">React</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">TypeScript</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Django</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Django REST Framework</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">PostgreSQL</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Razorpay</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">JWT</code></div>
 
-<div style="text-align:center;"><a href="https://github.com/Aby020/TrustFund" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#d29922;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #d29922 40%, transparent);border:2px solid #d29922;">View Repository â†’</a></div>
+<div style="text-align:center;"><a href="https://github.com/Aby020/TrustFund" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#d29922;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #d29922 40%, transparent);border:2px solid #d29922;">View Repository →</a></div>
 
-<div style="text-align:center;margin-top:12px;"><a href="https://trustfund-i8r1.onrender.com" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#3fb950;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #3fb950 40%, transparent);border:2px solid #3fb950;">Live Demo â†’</a></div>
+<div style="text-align:center;margin-top:12px;"><a href="https://trustfund-i8r1.onrender.com" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#3fb950;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #3fb950 40%, transparent);border:2px solid #3fb950;">Live Demo →</a></div>
 
 </div>
 
@@ -112,20 +112,18 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 <div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:20px;min-height:160px;">
 
-<img src="https://raw.githubusercontent.com/Aby020/Aby020/main/assets/previews/plannix-preview.svg" width="100%" alt="Plannix preview" style="display:block;border-radius:8px;margin:0 0 16px 0;">
-
 <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 8px 0;">
   <h3 style="margin:0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid #79c0ff;border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:#79c0ff;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Plannix</code></h3>
-  <span style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;white-space:nowrap;">â— Completed</span>
+  <span style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;white-space:nowrap;">★ Completed</span>
 </div>
 
-<p style="margin:0 0 16px 0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Event planning and booking platform â€” customers browse event packages, book online, and track bookings while staff manage the catalogue and admins get full dashboards.</p>
+<p style="margin:0 0 16px 0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Event planning and booking platform — customers browse event packages, book online, and track bookings while staff manage the catalogue and admins get full dashboards.</p>
 
 <div style="margin:0 0 20px 0;"><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Django</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Python</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Bootstrap</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">SQLite</code></div>
 
-<div style="text-align:center;"><a href="https://github.com/Aby020/Plannix" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#79c0ff;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #79c0ff 40%, transparent);border:2px solid #79c0ff;">View Repository â†’</a></div>
+<div style="text-align:center;"><a href="https://github.com/Aby020/Plannix" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#79c0ff;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #79c0ff 40%, transparent);border:2px solid #79c0ff;">View Repository →</a></div>
 
-<div style="text-align:center;margin-top:12px;"><a href="https://plannix-0to5.onrender.com" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#3fb950;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #3fb950 40%, transparent);border:2px solid #3fb950;">Live Demo â†’</a></div>
+<div style="text-align:center;margin-top:12px;"><a href="https://plannix-0to5.onrender.com" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#3fb950;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #3fb950 40%, transparent);border:2px solid #3fb950;">Live Demo →</a></div>
 
 </div>
 
@@ -138,20 +136,18 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 <div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:20px;min-height:160px;">
 
-<img src="https://raw.githubusercontent.com/Aby020/Aby020/main/assets/previews/resumeai-preview.svg" width="100%" alt="ResumeAI preview" style="display:block;border-radius:8px;margin:0 0 16px 0;">
-
 <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 8px 0;">
   <h3 style="margin:0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid #ff7b72;border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:#ff7b72;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">ResumeAI</code></h3>
-  <span style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;white-space:nowrap;">â— Completed</span>
+  <span style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;white-space:nowrap;">★ Completed</span>
 </div>
 
-<p style="margin:0 0 16px 0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">AI resume analysis and ATS optimization â€” upload a PDF resume alongside a job description to get a scored compatibility breakdown with prioritized, actionable recommendations.</p>
+<p style="margin:0 0 16px 0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">AI resume analysis and ATS optimization — upload a PDF resume alongside a job description to get a scored compatibility breakdown with prioritized, actionable recommendations.</p>
 
 <div style="margin:0 0 20px 0;"><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Python</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Django</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">PostgreSQL</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">spaCy</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">PDF Parsing</code></div>
 
-<div style="text-align:center;"><a href="https://github.com/Aby020/ResumeAI" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#ff7b72;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #ff7b72 40%, transparent);border:2px solid #ff7b72;">View Repository â†’</a></div>
+<div style="text-align:center;"><a href="https://github.com/Aby020/ResumeAI" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#ff7b72;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #ff7b72 40%, transparent);border:2px solid #ff7b72;">View Repository →</a></div>
 
-<div style="text-align:center;margin-top:12px;"><a href="https://resumeai-backend-8rza.onrender.com" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#3fb950;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #3fb950 40%, transparent);border:2px solid #3fb950;">Live Demo â†’</a></div>
+<div style="text-align:center;margin-top:12px;"><a href="https://resumeai-backend-8rza.onrender.com" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#3fb950;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #3fb950 40%, transparent);border:2px solid #3fb950;">Live Demo →</a></div>
 
 </div>
 
@@ -161,20 +157,18 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 <div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:20px;min-height:160px;">
 
-<img src="https://raw.githubusercontent.com/Aby020/Aby020/main/assets/previews/trackwise-preview.svg" width="100%" alt="TrackWise preview" style="display:block;border-radius:8px;margin:0 0 16px 0;">
-
 <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 8px 0;">
   <h3 style="margin:0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid #f0883e;border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:#f0883e;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">TrackWise</code></h3>
-  <span style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;white-space:nowrap;">â— Completed</span>
+  <span style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;white-space:nowrap;">★ Completed</span>
 </div>
 
-<p style="margin:0 0 16px 0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Employee attendance management â€” secure login, daily attendance records, and role-based dashboards for employees and administrators.</p>
+<p style="margin:0 0 16px 0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Employee attendance management — secure login, daily attendance records, and role-based dashboards for employees and administrators.</p>
 
 <div style="margin:0 0 20px 0;"><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">React</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Node.js</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Express.js</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">PostgreSQL</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Tailwind CSS</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">JWT</code></div>
 
-<div style="text-align:center;"><a href="https://github.com/Aby020/TrackWise" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#f0883e;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #f0883e 40%, transparent);border:2px solid #f0883e;">View Repository â†’</a></div>
+<div style="text-align:center;"><a href="https://github.com/Aby020/TrackWise" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#f0883e;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #f0883e 40%, transparent);border:2px solid #f0883e;">View Repository →</a></div>
 
-<div style="text-align:center;margin-top:12px;"><a href="https://trackwise-frontend-tla4.onrender.com" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#3fb950;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #3fb950 40%, transparent);border:2px solid #3fb950;">Live Demo â†’</a></div>
+<div style="text-align:center;margin-top:12px;"><a href="https://trackwise-frontend-tla4.onrender.com" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#3fb950;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #3fb950 40%, transparent);border:2px solid #3fb950;">Live Demo →</a></div>
 
 </div>
 
@@ -187,18 +181,16 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 <div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:20px;min-height:160px;">
 
-<img src="https://raw.githubusercontent.com/Aby020/Aby020/main/assets/previews/servigo-preview.svg" width="100%" alt="ServiGo preview" style="display:block;border-radius:8px;margin:0 0 16px 0;">
-
 <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 8px 0;">
   <h3 style="margin:0;font-size:20px;font-weight:700;color:#f0f6fc;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;letter-spacing:-0.02em;"><code style="background:#161b22;border:1px solid #a371f7;border-radius:4px;padding:0 8px;font-size:18px;font-weight:700;color:#a371f7;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">ServiGo</code></h3>
-  <span style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;white-space:nowrap;">â— Completed</span>
+  <span style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#3fb950;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;white-space:nowrap;">★ Completed</span>
 </div>
 
-<p style="margin:0 0 16px 0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Home services and EV charging booking â€” customers book electricians, plumbers, and EV charging slots while staff and admins manage operations from role-based dashboards.</p>
+<p style="margin:0 0 16px 0;font-size:14px;color:#8b949e;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">Home services and EV charging booking — customers book electricians, plumbers, and EV charging slots while staff and admins manage operations from role-based dashboards.</p>
 
 <div style="margin:0 0 20px 0;"><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Python</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Django</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">Bootstrap</code><code style="display:inline-block;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 10px;margin:3px 3px 0 0;font-size:12px;color:#c9d1d9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">SQLite</code></div>
 
-<div style="text-align:center;"><a href="https://github.com/Aby020/ServiGo" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#a371f7;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #a371f7 40%, transparent);border:2px solid #a371f7;">View Repository â†’</a></div>
+<div style="text-align:center;"><a href="https://github.com/Aby020/ServiGo" target="_blank" rel="noopener noreferrer" style="display:inline-block;font-size:14px;font-weight:600;color:#ffffff;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:12px 24px;background:#a371f7;border-radius:8px;box-shadow:0 4px 14px color-mix(in srgb, #a371f7 40%, transparent);border:2px solid #a371f7;">View Repository →</a></div>
 
 </div>
 
@@ -212,7 +204,7 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 ## // roadmap
 
-**Currently Exploring** â†’ <code><a href="https://github.com/topics/spring-security" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Spring_Security-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Spring Security"></a></code> <code><a href="https://github.com/topics/microservices" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microservices-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Microservices"></a></code> <code><a href="https://github.com/topics/model-context-protocol" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Model Context Protocol (MCP)"></a></code> <code><a href="https://github.com/topics/retrieval-augmented-generation" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Retrieval--Augmented_Generation_(RAG)-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Retrieval-Augmented Generation (RAG)"></a></code> <code><a href="https://github.com/topics/ai-integration-with-llm-apis" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/AI_Integration_with_LLM_APIs-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="AI Integration with LLM APIs"></a></code>
+**Currently Exploring** → <code><a href="https://github.com/topics/spring-security" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Spring_Security-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Spring Security"></a></code> <code><a href="https://github.com/topics/microservices" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microservices-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Microservices"></a></code> <code><a href="https://github.com/topics/model-context-protocol" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Model Context Protocol (MCP)"></a></code> <code><a href="https://github.com/topics/retrieval-augmented-generation" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Retrieval--Augmented_Generation_(RAG)-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="Retrieval-Augmented Generation (RAG)"></a></code> <code><a href="https://github.com/topics/ai-integration-with-llm-apis" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/AI_Integration_with_LLM_APIs-21262d?style=flat-square&labelColor=0D1117&color=21262d" alt="AI Integration with LLM APIs"></a></code>
 
 
 <hr>
@@ -226,9 +218,9 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 <td width="70%" valign="top">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Aby020/Aby020/blob/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Aby020/Aby020/blob/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution grid snake animation" src="https://github.com/Aby020/Aby020/blob/output/github-contribution-grid-snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aby020/Aby020/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aby020/Aby020/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/Aby020/Aby020/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
 </td>
@@ -251,7 +243,7 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 <p align="center">
 
-<code>Code â€¢ Build â€¢ Improve</code>
+<code>Code • Build • Improve</code>
 
 </p>
 ````
