@@ -70,99 +70,168 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 
 <div style="background:#0d1117;border:1px solid #30363d;border-radius:12px;">
 <table style="width:100%;border-collapse:collapse">
-<tr>
-<td style="background:#161b22;padding:0 20px;height:48px;border-bottom:1px solid #30363d;border-radius:9px 9px 0 0;">
-<span style="color:#ff5f57;font-size:16px;">●</span><span style="color:#febc2e;font-size:16px;margin-left:7px;">●</span><span style="color:#28c840;font-size:16px;margin-left:7px;">●</span>
-</td>
-</tr>
-<tr>
-<td colspan="2" style="padding:10px 20px;border-bottom:1px solid #21262d;">
-<span style="color:#79c0ff;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">$</span><span style="color:#c9d1d9;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;"> cat ./stack</span><picture>
+<tr><td style="background:#161b22;padding:0 20px;height:48px;border-bottom:1px solid #30363d;border-radius:9px 9px 0 0;"><span style="color:#ff5f57;font-size:16px;">●</span><span style="color:#febc2e;font-size:16px;margin-left:7px;">●</span><span style="color:#28c840;font-size:16px;margin-left:7px;">●</span></td></tr>
+<tr><td colspan="2" style="padding:10px 20px;border-bottom:1px solid #21262d;"><span style="color:#79c0ff;font-size:14px;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;">$</span><span style="color:#c9d1d9;font-size:14px;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;"> ls ./stack</span><picture>
   <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/cursor.svg">
   <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/cursor.svg">
-  <img src="./assets/sections/tech-stack/cursor.svg" alt="" height="16" style="vertical-align:middle;margin-left:6px;">
-</picture>
-</td>
-</tr>
+  <img src="./assets/sections/tech-stack/cursor.svg" alt="" height="16">
+</picture></td></tr>
 <tr>
-<td style="padding:16px 6px 10px 20px;vertical-align:middle;width:24%;">
-<picture>
+<td style="padding:16px 6px 10px 20px;vertical-align:middle;width:24%;"><picture>
   <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/00-languages.svg">
   <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/00-languages.svg">
   <img src="./assets/sections/tech-stack/00-languages.svg" alt="LANGUAGES" height="30">
-</picture>
-</td>
-<td style="width:76%;text-align:left;vertical-align:middle;padding:16px 20px 10px 6px;">
-<a href="https://github.com/topics/python" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/python.svg" height="26" alt="Python"></a> <a href="https://github.com/topics/javascript" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/javascript.svg" height="26" alt="JavaScript"></a> <a href="https://github.com/topics/typescript" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/typescript.svg" height="26" alt="TypeScript"></a> <a href="https://github.com/topics/sql" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/sql.svg" height="26" alt="SQL"></a>
-</td>
+</picture></td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:16px 12px 10px 6px;"><picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/python.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/python.svg">
+  <img src="./assets/sections/tech-stack/python.svg" alt="Python" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/javascript.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/javascript.svg">
+  <img src="./assets/sections/tech-stack/javascript.svg" alt="JavaScript" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/typescript.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/typescript.svg">
+  <img src="./assets/sections/tech-stack/typescript.svg" alt="TypeScript" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/sql.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/sql.svg">
+  <img src="./assets/sections/tech-stack/sql.svg" alt="SQL" width="168" height="116">
+</picture></td>
 </tr>
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
 <tr>
-<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;">
-<picture>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;"><picture>
   <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/01-backend.svg">
   <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/01-backend.svg">
   <img src="./assets/sections/tech-stack/01-backend.svg" alt="BACKEND" height="30">
-</picture>
-</td>
-<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 20px 10px 6px;">
-<a href="https://github.com/topics/django" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/django.svg" height="26" alt="Django"></a> <a href="https://github.com/topics/django%20rest%20framework" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/django-rest-framework.svg" height="26" alt="Django REST Framework"></a> <a href="https://github.com/topics/rest%20api%20development" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/rest-apis.svg" height="26" alt="REST APIs"></a> <a href="https://github.com/topics/nodejs" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/nodejs.svg" height="26" alt="Node.js"></a> <a href="https://github.com/topics/express" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/expressjs.svg" height="26" alt="Express.js"></a>
-</td>
+</picture></td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 12px 10px 6px;"><picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/django.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/django.svg">
+  <img src="./assets/sections/tech-stack/django.svg" alt="Django" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/django-rest-framework.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/django-rest-framework.svg">
+  <img src="./assets/sections/tech-stack/django-rest-framework.svg" alt="Django REST Framework" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/rest-apis.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/rest-apis.svg">
+  <img src="./assets/sections/tech-stack/rest-apis.svg" alt="REST APIs" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/nodejs.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/nodejs.svg">
+  <img src="./assets/sections/tech-stack/nodejs.svg" alt="Node.js" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/expressjs.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/expressjs.svg">
+  <img src="./assets/sections/tech-stack/expressjs.svg" alt="Express.js" width="168" height="116">
+</picture></td>
 </tr>
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
 <tr>
-<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;">
-<picture>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;"><picture>
   <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/02-frontend.svg">
   <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/02-frontend.svg">
   <img src="./assets/sections/tech-stack/02-frontend.svg" alt="FRONTEND" height="30">
-</picture>
-</td>
-<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 20px 10px 6px;">
-<a href="https://github.com/topics/react" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/react.svg" height="26" alt="React"></a> <a href="https://github.com/topics/vite" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/vite.svg" height="26" alt="Vite"></a> <a href="https://github.com/topics/tailwindcss" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/tailwindcss.svg" height="26" alt="Tailwind CSS"></a> <a href="https://github.com/topics/bootstrap" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/bootstrap.svg" height="26" alt="Bootstrap"></a> <a href="https://github.com/topics/html5" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/html5.svg" height="26" alt="HTML5"></a> <a href="https://github.com/topics/css3" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/css3.svg" height="26" alt="CSS3"></a>
-</td>
+</picture></td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 12px 10px 6px;"><picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/react.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/react.svg">
+  <img src="./assets/sections/tech-stack/react.svg" alt="React" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/vite.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/vite.svg">
+  <img src="./assets/sections/tech-stack/vite.svg" alt="Vite" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/tailwindcss.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/tailwindcss.svg">
+  <img src="./assets/sections/tech-stack/tailwindcss.svg" alt="Tailwind CSS" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/bootstrap.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/bootstrap.svg">
+  <img src="./assets/sections/tech-stack/bootstrap.svg" alt="Bootstrap" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/html5.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/html5.svg">
+  <img src="./assets/sections/tech-stack/html5.svg" alt="HTML5" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/css3.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/css3.svg">
+  <img src="./assets/sections/tech-stack/css3.svg" alt="CSS3" width="168" height="116">
+</picture></td>
 </tr>
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
 <tr>
-<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;">
-<picture>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;"><picture>
   <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/03-database.svg">
   <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/03-database.svg">
   <img src="./assets/sections/tech-stack/03-database.svg" alt="DATABASE" height="30">
-</picture>
-</td>
-<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 20px 10px 6px;">
-<a href="https://github.com/topics/postgresql" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/postgresql.svg" height="26" alt="PostgreSQL"></a> <a href="https://github.com/topics/postgresql" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/neon-postgresql.svg" height="26" alt="Neon PostgreSQL"></a> <a href="https://github.com/topics/sqlite" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/sqlite.svg" height="26" alt="SQLite"></a>
-</td>
+</picture></td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 12px 10px 6px;"><picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/postgresql.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/postgresql.svg">
+  <img src="./assets/sections/tech-stack/postgresql.svg" alt="PostgreSQL" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/neon-postgresql.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/neon-postgresql.svg">
+  <img src="./assets/sections/tech-stack/neon-postgresql.svg" alt="Neon PostgreSQL" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/sqlite.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/sqlite.svg">
+  <img src="./assets/sections/tech-stack/sqlite.svg" alt="SQLite" width="168" height="116">
+</picture></td>
 </tr>
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
 <tr>
-<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;">
-<picture>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;"><picture>
   <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/04-deploy.svg">
   <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/04-deploy.svg">
   <img src="./assets/sections/tech-stack/04-deploy.svg" alt="DEPLOYMENT &amp; CLOUD" height="30">
-</picture>
-</td>
-<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 20px 10px 6px;">
-<a href="https://github.com/topics/render" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/render.svg" height="26" alt="Render"></a> <a href="https://github.com/topics/vercel" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/vercel.svg" height="26" alt="Vercel"></a> <a href="https://github.com/topics/cloudinary" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/cloudinary.svg" height="26" alt="Cloudinary"></a> <a href="https://github.com/topics/docker" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/docker.svg" height="26" alt="Docker"></a>
-</td>
+</picture></td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 12px 10px 6px;"><picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/render.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/render.svg">
+  <img src="./assets/sections/tech-stack/render.svg" alt="Render" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/vercel.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/vercel.svg">
+  <img src="./assets/sections/tech-stack/vercel.svg" alt="Vercel" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/cloudinary.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/cloudinary.svg">
+  <img src="./assets/sections/tech-stack/cloudinary.svg" alt="Cloudinary" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/docker.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/docker.svg">
+  <img src="./assets/sections/tech-stack/docker.svg" alt="Docker" width="168" height="116">
+</picture></td>
 </tr>
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
 <tr>
-<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;">
-<picture>
+<td style="padding:14px 6px 10px 20px;vertical-align:middle;width:24%;"><picture>
   <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/05-tools.svg">
   <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/05-tools.svg">
   <img src="./assets/sections/tech-stack/05-tools.svg" alt="TOOLS" height="30">
-</picture>
-</td>
-<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 20px 10px 6px;">
-<a href="https://github.com/topics/git" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/git.svg" height="26" alt="Git"></a> <a href="https://github.com/topics/github" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/github.svg" height="26" alt="GitHub"></a> <a href="https://github.com/topics/visual-studio-code" target="_blank" rel="noopener noreferrer"><img src="./assets/sections/tech-stack/visual-studio-code.svg" height="26" alt="VS Code"></a>
-</td>
+</picture></td>
+<td style="width:76%;text-align:left;vertical-align:middle;padding:14px 12px 10px 6px;"><picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/git.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/git.svg">
+  <img src="./assets/sections/tech-stack/git.svg" alt="Git" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/github.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/github.svg">
+  <img src="./assets/sections/tech-stack/github.svg" alt="GitHub" width="168" height="116">
+</picture> <picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/tech-stack/visual-studio-code.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/tech-stack/visual-studio-code.svg">
+  <img src="./assets/sections/tech-stack/visual-studio-code.svg" alt="VS Code" width="168" height="116">
+</picture></td>
 </tr>
 </table>
 </div>
+
 
 
 

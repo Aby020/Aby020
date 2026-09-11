@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 26">
-  <style>
-    text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
-  </style>
-  <rect x="0.5" y="0.5" width="55" height="25" rx="7" fill="#161b22" stroke="#79c0ff" stroke-opacity="0.5"/>
-  <circle cx="14" cy="13" r="3" fill="#79c0ff"/>
-  <text x="26" y="16.5" fill="#c9d1d9" font-size="12" font-weight="bold">SQL</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 116" width="168" height="116">
+  <style>text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:12.5px;font-weight:500;letter-spacing:0.2px}</style>
+  <g fill="#79C0FF" transform="translate(84 42) scale(2.3333333333333335) translate(-12 -12)"><ellipse cx="12" cy="8.6" rx="8" ry="2.9"/><path d="M4 8.6V16c0 1.6 3.58 2.9 8 2.9s8-1.3 8-2.9V8.6"/><ellipse cx="12" cy="16" rx="8" ry="2.9"/></g>
+  <text x="84" y="101" text-anchor="middle" fill="#c9d1d9">SQL</text>
 </svg>
