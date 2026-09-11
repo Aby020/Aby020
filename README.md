@@ -12,8 +12,8 @@
 
 <p align="center">
 
-  <a href="https://www.linkedin.com/in/abithomas-dev"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Abi_Thomas-21262D?style=for-the-badge&labelColor=0D1117&logo=linkedin&logoColor=0A66C2"></a>
-  <a href="mailto:abithomas520@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-abithomas520%40gmail.com-21262D?style=for-the-badge&labelColor=0D1117&logo=gmail&logoColor=EA4335"></a>
+  <a href="https://www.linkedin.com/in/abithomas-dev/"><img alt="LinkedIn" src="./assets/contact/linkedin-button.svg" height="46"></a>
+  <a href="mailto:abithomas520@gmail.com"><img alt="Email" src="./assets/contact/email-button.svg" height="46"></a>
   <a href="https://abi-thomas-portfolio.vercel.app/"><img alt="Portfolio" src="./assets/contact/portfolio-button.svg" height="46"></a>
 
 </p>
