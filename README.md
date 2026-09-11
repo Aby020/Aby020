@@ -94,12 +94,20 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 </tr>
 <tr>
 <td colspan="2" style="padding:10px 20px;border-bottom:1px solid #21262d;">
-<span style="color:#79c0ff;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">$</span><span style="color:#c9d1d9;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;"> ls -1 ./projects</span><img src="./assets/sections/repositories/cursor.svg" alt="" height="16" style="vertical-align:middle;margin-left:6px;">
+<span style="color:#79c0ff;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;">$</span><span style="color:#c9d1d9;font-size:14px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;"> ls -1 ./projects</span><picture>
+	  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/repositories/cursor.svg">
+	  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/repositories/cursor.svg">
+	  <img src="./assets/sections/repositories/cursor.svg" alt="" height="16" style="vertical-align:middle;margin-left:6px;">
+	</picture>
 </td>
 </tr>
 <tr>
 <td style="padding:16px 6px 10px 20px;vertical-align:middle;width:75%;">
-<img src="./assets/sections/repositories/01-trustfund.svg" alt="TrustFund" width="100%">
+<picture>
+	  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/repositories/01-trustfund.svg">
+	  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/repositories/01-trustfund.svg">
+	  <img src="./assets/sections/repositories/01-trustfund.svg" alt="TrustFund" width="100%">
+	</picture>
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:16px 20px 10px 6px;">
 <a href="https://github.com/Aby020/TrustFund"><img src="./assets/buttons/trustfund-repo.svg" height="26" alt="View TrustFund Repository"></a>
@@ -110,7 +118,11 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
 <tr>
 <td style="padding:14px 6px 10px 20px;vertical-align:middle;width:75%;">
-<img src="./assets/sections/repositories/02-plannix.svg" alt="Plannix" width="100%">
+<picture>
+	  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/repositories/02-plannix.svg">
+	  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/repositories/02-plannix.svg">
+	  <img src="./assets/sections/repositories/02-plannix.svg" alt="Plannix" width="100%">
+	</picture>
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
 <a href="https://github.com/Aby020/Plannix"><img src="./assets/buttons/plannix-repo.svg" height="26" alt="View Plannix Repository"></a>
@@ -121,7 +133,11 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
 <tr>
 <td style="padding:14px 6px 10px 20px;vertical-align:middle;width:75%;">
-<img src="./assets/sections/repositories/03-resumeai.svg" alt="ResumeAI" width="100%">
+<picture>
+	  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/repositories/03-resumeai.svg">
+	  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/repositories/03-resumeai.svg">
+	  <img src="./assets/sections/repositories/03-resumeai.svg" alt="ResumeAI" width="100%">
+	</picture>
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
 <a href="https://github.com/Aby020/ResumeAI"><img src="./assets/buttons/resumeai-repo.svg" height="26" alt="View ResumeAI Repository"></a>
@@ -132,7 +148,11 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
 <tr>
 <td style="padding:14px 6px 10px 20px;vertical-align:middle;width:75%;">
-<img src="./assets/sections/repositories/04-trackwise.svg" alt="TrackWise" width="100%">
+<picture>
+	  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/repositories/04-trackwise.svg">
+	  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/repositories/04-trackwise.svg">
+	  <img src="./assets/sections/repositories/04-trackwise.svg" alt="TrackWise" width="100%">
+	</picture>
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
 <a href="https://github.com/Aby020/TrackWise"><img src="./assets/buttons/trackwise-repo.svg" height="26" alt="View TrackWise Repository"></a>
@@ -143,7 +163,11 @@ Backend and full-stack developer based in Kerala, India, focused on building dat
 <tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
 <tr>
 <td style="padding:14px 6px 10px 20px;vertical-align:middle;width:75%;">
-<img src="./assets/sections/repositories/05-servigo.svg" alt="ServiGo" width="100%">
+<picture>
+	  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/repositories/05-servigo.svg">
+	  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/repositories/05-servigo.svg">
+	  <img src="./assets/sections/repositories/05-servigo.svg" alt="ServiGo" width="100%">
+	</picture>
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:14px 20px 10px 6px;">
 <a href="https://github.com/Aby020/ServiGo"><img src="./assets/buttons/servigo-repo.svg" height="26" alt="View ServiGo Repository"></a>
