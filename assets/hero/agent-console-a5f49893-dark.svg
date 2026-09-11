@@ -28,13 +28,15 @@
 <clipPath id="system-line-21"><rect x="525" y="410.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="2.97s" fill="freeze"/></rect></clipPath>
 <clipPath id="system-line-23"><rect x="525" y="443.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.21s" fill="freeze"/></rect></clipPath>
 <clipPath id="system-line-24"><rect x="525" y="459.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.33s" fill="freeze"/></rect></clipPath>
-<clipPath id="system-line-26"><rect x="525" y="492.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.57s" fill="freeze"/></rect></clipPath>
-<clipPath id="system-line-27"><rect x="525" y="509.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.69s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-25"><rect x="525" y="497.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.60s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-28"><rect x="525" y="513.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.72s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-29"><rect x="525" y="546.50" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.84s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-line-30"><rect x="525" y="563.00" width="0" height="20.5"><animate attributeName="width" from="0" to="600" dur="0.34s" begin="3.96s" fill="freeze"/></rect></clipPath>
   <!-- Status Dot Pulse Animation -->
   <style>
     .mono { font-family: 'Courier New', Consolas, monospace; }
     .ascii { font-family: 'Courier New', Consolas, monospace; font-size: 6.2px; letter-spacing: -0.15px; fill: url(#ascii-signal); }
-    .line-numbers { font-family: 'Courier New', Consolas, monospace; font-size: 6.2px; letter-spacing: -0.15px; fill: #8b949e; opacity: 0.35; }
+    .line-numbers { font-family: 'Courier New', Consolas, monospace; font-size: 6.2px; letter-spacing: -0.15px; fill: #8b949e; opacity: 0.55; }
     .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 2px; fill: #79c0ff; opacity: 0.8; }
     .terminal-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; letter-spacing: 0.5px; fill: #8b949e; }
     .system-row { font-family: 'Courier New', Consolas, monospace; font-size: 12.5px; }
@@ -213,9 +215,11 @@
 <g clip-path="url(#system-line-21)"><text x="546" y="424.5" class="system-row" fill="#8b949e">            Django · Python · MySQL · Bootstrap</text></g>
 <g clip-path="url(#system-line-23)"><text x="546" y="457.5" class="system-row" fill="#8b949e">ServiGo   — Home Service Booking</text></g>
 <g clip-path="url(#system-line-24)"><text x="546" y="474" class="system-row" fill="#8b949e">            Python · HTML · CSS · JavaScript · Google Maps API · MySQL</text></g>
-<g clip-path="url(#system-line-26)"><text x="528" y="507" class="system-row"><tspan class="system-prompt" fill="#7ee787">$</tspan><tspan fill="#8b949e"> </tspan><tspan class="system-command" fill="#c9d1d9">cat availability.md</tspan></text></g>
-<g clip-path="url(#system-line-27)"><text x="546" y="523.5" class="system-row" fill="#8b949e">Open to Software Engineer Opportunities</text></g>
-<rect x="687.5" y="492.5" width="9" height="14.5" fill="#7ee787" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.02;0.05;0.35;0.5;0.7;0.85;1" dur="1.4s" begin="2.8s" repeatCount="indefinite"/></rect>
+<g clip-path="url(#system-line-25)"><text x="528" y="507" class="system-row"><tspan class="system-prompt" fill="#7ee787">$</tspan><tspan fill="#8b949e"> </tspan><tspan class="system-command" fill="#c9d1d9">cat current-projects.md</tspan></text></g>
+<g clip-path="url(#system-line-28)"><text x="546" y="523.5" class="system-row" fill="#8b949e">TrustFund  — Fund Management Platform</text></g>
+<g clip-path="url(#system-line-29)"><text x="528" y="556.5" class="system-row"><tspan class="system-prompt" fill="#7ee787">$</tspan><tspan fill="#8b949e"> </tspan><tspan class="system-command" fill="#c9d1d9">cat availability.md</tspan></text></g>
+<g clip-path="url(#system-line-30)"><text x="546" y="573" class="system-row" fill="#8b949e">Open to Software Engineer Opportunities</text></g>
+<rect x="687.5" y="542" width="9" height="14.5" fill="#7ee787" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.02;0.05;0.35;0.5;0.7;0.85;1" dur="1.4s" begin="2.8s" repeatCount="indefinite"/></rect>
 
 <!-- Status Indicator (top-right of visual panel) -->
 <g transform="translate(322, 34)">
