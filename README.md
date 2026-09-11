@@ -23,33 +23,11 @@
 
 ## // profile.json
 
-$ cat profile.json
-
-```json
-{
-  "name":     "Abi Thomas",
-  "role":     "Backend / Full-Stack Developer",
-  "status":   "★ Open to Software Engineer Opportunities",
-  "location": "Kerala, India",
-  "education": "MCA — APJ Abdul Kalam Technological University",
-  "focus":    [
-    "Python",
-    "Django",
-    "Django REST Framework",
-    "REST API Development",
-    "React",
-    "TypeScript",
-    "Node.js",
-    "PostgreSQL"
-  ],
-  "links": {
-    "github":   "Aby020",
-    "linkedin": "abithomas-dev",
-    "email":    "abithomas520@gmail.com"
-  },
-  "portfolio": "https://abi-thomas-portfolio.vercel.app/"
-}
-```
+<picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/profile-json.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/profile-json.svg">
+  <img src="./assets/sections/profile-json.svg" alt="profile.json" width="100%">
+</picture>
 
 
 <hr>
@@ -57,9 +35,11 @@ $ cat profile.json
 
 ## // about
 
-<blockquote>
-Backend and full-stack developer based in Kerala, India, focused on building database-driven applications with Python, Django, Django REST Framework, React, TypeScript, and PostgreSQL — from authentication and role-based access to API integration, testing, and deployment.
-</blockquote>
+<picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/sections/about.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/sections/about.svg">
+  <img src="./assets/sections/about.svg" alt="About" width="100%">
+</picture>
 
 
 <hr>
