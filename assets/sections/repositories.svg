@@ -84,10 +84,15 @@
     <text x="92" y="148" fill="#f0f6fc" font-size="17" font-weight="bold">TrustFund</text>
     <circle cx="233" cy="143" r="3.5" fill="#3fb950" class="st"/>
     <text x="58" y="170" fill="#8b949e" font-size="13">donation · fundraising</text>
-    <text x="58" y="190" fill="#484f58" font-size="12">React · TypeScript · Django · DRF · PostgreSQL · Razorpay · JWT</text>
-    <text x="58" y="214" fill="#58a6ff" font-size="12">github.com/Aby020/TrustFund</text>
-    <text x="58" y="234" fill="#3fb950" font-size="12">trustfund-i8r1.onrender.com</text>
-    <text x="848" y="234" fill="#3fb950" font-size="11" opacity="0.6">★ live demo</text>
+    <text x="58" y="190" fill="#c9d1d9" font-size="12">React · TypeScript · Django · DRF · PostgreSQL · Razorpay · JWT</text>
+    <a href="https://github.com/Aby020/TrustFund" target="_blank">
+      <rect x="58" y="206" width="170" height="24" rx="4" fill="#d29922" fill-opacity="0.06" stroke="#d29922" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="143" y="222" fill="#d29922" font-size="11" font-weight="bold" text-anchor="middle">VIEW REPOSITORY →</text>
+    </a>
+    <a href="https://trustfund-i8r1.onrender.com" target="_blank">
+      <rect x="238" y="206" width="125" height="24" rx="4" fill="#3fb950" fill-opacity="0.06" stroke="#3fb950" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="300" y="222" fill="#3fb950" font-size="11" font-weight="bold" text-anchor="middle">LIVE DEMO ↗</text>
+    </a>
   </g>
   <line x1="58" y1="270" x2="1142" y2="270" stroke="#21262d" stroke-width="1"/>
 
@@ -98,10 +103,15 @@
     <text x="92" y="310" fill="#f0f6fc" font-size="17" font-weight="bold">Plannix</text>
     <circle cx="189" cy="305" r="3.5" fill="#3fb950" class="st"/>
     <text x="58" y="332" fill="#8b949e" font-size="13">event management · booking</text>
-    <text x="58" y="352" fill="#484f58" font-size="12">Django · Python · Bootstrap · SQLite</text>
-    <text x="58" y="376" fill="#58a6ff" font-size="12">github.com/Aby020/Plannix</text>
-    <text x="58" y="396" fill="#3fb950" font-size="12">plannix-0to5.onrender.com</text>
-    <text x="848" y="396" fill="#3fb950" font-size="11" opacity="0.6">★ live demo</text>
+    <text x="58" y="352" fill="#c9d1d9" font-size="12">Django · Python · Bootstrap · SQLite</text>
+    <a href="https://github.com/Aby020/Plannix" target="_blank">
+      <rect x="58" y="368" width="170" height="24" rx="4" fill="#79c0ff" fill-opacity="0.06" stroke="#79c0ff" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="143" y="384" fill="#79c0ff" font-size="11" font-weight="bold" text-anchor="middle">VIEW REPOSITORY →</text>
+    </a>
+    <a href="https://plannix-0to5.onrender.com" target="_blank">
+      <rect x="238" y="368" width="125" height="24" rx="4" fill="#3fb950" fill-opacity="0.06" stroke="#3fb950" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="300" y="384" fill="#3fb950" font-size="11" font-weight="bold" text-anchor="middle">LIVE DEMO ↗</text>
+    </a>
   </g>
   <line x1="58" y1="432" x2="1142" y2="432" stroke="#21262d" stroke-width="1"/>
 
@@ -112,10 +122,15 @@
     <text x="92" y="472" fill="#f0f6fc" font-size="17" font-weight="bold">ResumeAI</text>
     <circle cx="197" cy="467" r="3.5" fill="#3fb950" class="st"/>
     <text x="58" y="494" fill="#8b949e" font-size="13">resume analysis · ATS optimization</text>
-    <text x="58" y="514" fill="#484f58" font-size="12">Python · Django · PostgreSQL · spaCy · PDF Parsing</text>
-    <text x="58" y="538" fill="#58a6ff" font-size="12">github.com/Aby020/ResumeAI</text>
-    <text x="58" y="558" fill="#3fb950" font-size="12">resumeai-backend-8rza.onrender.com</text>
-    <text x="848" y="558" fill="#3fb950" font-size="11" opacity="0.6">★ live demo</text>
+    <text x="58" y="514" fill="#c9d1d9" font-size="12">Python · Django · PostgreSQL · spaCy · PDF Parsing</text>
+    <a href="https://github.com/Aby020/ResumeAI" target="_blank">
+      <rect x="58" y="530" width="170" height="24" rx="4" fill="#ff7b72" fill-opacity="0.06" stroke="#ff7b72" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="143" y="546" fill="#ff7b72" font-size="11" font-weight="bold" text-anchor="middle">VIEW REPOSITORY →</text>
+    </a>
+    <a href="https://resumeai-backend-8rza.onrender.com" target="_blank">
+      <rect x="238" y="530" width="125" height="24" rx="4" fill="#3fb950" fill-opacity="0.06" stroke="#3fb950" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="300" y="546" fill="#3fb950" font-size="11" font-weight="bold" text-anchor="middle">LIVE DEMO ↗</text>
+    </a>
   </g>
   <line x1="58" y1="594" x2="1142" y2="594" stroke="#21262d" stroke-width="1"/>
 
@@ -126,10 +141,15 @@
     <text x="92" y="634" fill="#f0f6fc" font-size="17" font-weight="bold">TrackWise</text>
     <circle cx="201" cy="629" r="3.5" fill="#3fb950" class="st"/>
     <text x="58" y="656" fill="#8b949e" font-size="13">attendance management · dashboards</text>
-    <text x="58" y="676" fill="#484f58" font-size="12">React · Node.js · Express.js · PostgreSQL · Tailwind CSS · JWT</text>
-    <text x="58" y="700" fill="#58a6ff" font-size="12">github.com/Aby020/TrackWise</text>
-    <text x="58" y="720" fill="#3fb950" font-size="12">trackwise-frontend-tla4.onrender.com</text>
-    <text x="848" y="720" fill="#3fb950" font-size="11" opacity="0.6">★ live demo</text>
+    <text x="58" y="676" fill="#c9d1d9" font-size="12">React · Node.js · Express.js · PostgreSQL · Tailwind CSS · JWT</text>
+    <a href="https://github.com/Aby020/TrackWise" target="_blank">
+      <rect x="58" y="692" width="170" height="24" rx="4" fill="#f0883e" fill-opacity="0.06" stroke="#f0883e" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="143" y="708" fill="#f0883e" font-size="11" font-weight="bold" text-anchor="middle">VIEW REPOSITORY →</text>
+    </a>
+    <a href="https://trackwise-frontend-tla4.onrender.com" target="_blank">
+      <rect x="238" y="692" width="125" height="24" rx="4" fill="#3fb950" fill-opacity="0.06" stroke="#3fb950" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="300" y="708" fill="#3fb950" font-size="11" font-weight="bold" text-anchor="middle">LIVE DEMO ↗</text>
+    </a>
   </g>
   <line x1="58" y1="756" x2="1142" y2="756" stroke="#21262d" stroke-width="1"/>
 
@@ -140,8 +160,11 @@
     <text x="92" y="796" fill="#f0f6fc" font-size="17" font-weight="bold">ServiGo</text>
     <circle cx="185" cy="791" r="3.5" fill="#3fb950" class="st"/>
     <text x="58" y="818" fill="#8b949e" font-size="13">home services · EV charging</text>
-    <text x="58" y="838" fill="#484f58" font-size="12">Python · Django · Bootstrap · SQLite</text>
-    <text x="58" y="862" fill="#58a6ff" font-size="12">github.com/Aby020/ServiGo</text>
+    <text x="58" y="838" fill="#c9d1d9" font-size="12">Python · Django · Bootstrap · SQLite</text>
+    <a href="https://github.com/Aby020/ServiGo" target="_blank">
+      <rect x="58" y="854" width="170" height="24" rx="4" fill="#a371f7" fill-opacity="0.06" stroke="#a371f7" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="143" y="870" fill="#a371f7" font-size="11" font-weight="bold" text-anchor="middle">VIEW REPOSITORY →</text>
+    </a>
   </g>
 
   <!-- footer -->
