@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 116" width="168" height="116">
   <style>text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:12.5px;font-weight:500;letter-spacing:0.2px}</style>
-  <g fill="#D29922" transform="translate(84 42) scale(2.3333333333333335) translate(-12 -12)"><circle cx="12" cy="12" r="4.6"/><path d="M12 3.5v2.9M12 17.6v2.9M3.5 12h2.9M17.6 12h2.9M7 7l2 2M15 15l2 2M17 7l-2 2M9 15l-2 2"/></g>
+  <g fill="#D29922" transform="translate(84 42) scale(1.6666666666666667) translate(-12 -12)"><rect x="1.5" y="6.5" width="6" height="11" rx="1.6"/><rect x="16.5" y="6.5" width="6" height="11" rx="1.6"/><path d="M8.8 9.7h4.2M14.6 9.7l-2 1.3v-2.6Z"/><path d="M15.2 14.3h-4.2M9.4 14.3l2 1.3v-2.6Z"/></g>
   <text x="84" y="101" text-anchor="middle" fill="#c9d1d9">REST APIs</text>
 </svg>
