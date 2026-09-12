@@ -21,6 +21,7 @@ import {
   Divider,
   Cursor,
   StatusDot,
+  Logo,
   monoW,
   fitMono,
   accentFor,
@@ -273,9 +274,9 @@ export function HeroSection({ t, size }: { t: ThemeTokens; size: HeroSize }) {
 
   // status
   nodes.push(<Cmd key="status" t={t} x={L.cx} y={at()} cmd="status" />);
-  nodes.push(<StatusDot key="status-dot" x={L.cx + 62} y={at() - 4.5} r={4} color={t.green} dur={2.6} />);
+  nodes.push(<StatusDot key="status-dot" x={L.cx + 42} y={at() - 4.5} r={4} color={t.green} dur={2.6} />);
   nodes.push(
-    <Text key="status-out" x={L.cx + 74} y={at()} size={13} fill={t.green} weight={600}>
+    <Text key="status-out" x={L.cx + 54} y={at()} size={13} fill={t.green} weight={600}>
       {profile.status}
     </Text>
   );
@@ -320,7 +321,15 @@ export function HeroSection({ t, size }: { t: ThemeTokens; size: HeroSize }) {
     );
   });
 
-  nodes.push(<Cursor key="cursor" x={L.cx + 14} y={at() + 24 + projects.length * 24 + 12} size={13} color={t.accentHi} />);
+  // motto quote — subtle terminal comment below featured projects
+  const quoteY = at() + 24 + projects.length * 24 + 14;
+  nodes.push(
+    <Text key="motto" x={L.cx} y={quoteY} size={11.5} fill={t.violet} opacity={0.7}>
+      {"> Code. Build. Improve."}
+    </Text>
+  );
+
+  nodes.push(<Cursor key="cursor" x={L.cx + 14} y={quoteY + 20} size={13} color={t.accentHi} />);
 
   return (
     <Svg
@@ -380,14 +389,26 @@ export function HeroSection({ t, size }: { t: ThemeTokens; size: HeroSize }) {
         ))}
       </text>
 
-      {/* caption */}
-      <Text x={L.px + 14} y={L.cap1Y} size={12.5} fill={t.textHi} weight={600}>
-        {profile.location}
-      </Text>
-      <Text x={L.px + 14} y={L.cap2Y} size={11} fill={t.textLow}>
-        {profile.education[0].school}
-      </Text>
-      <StatusDot x={L.px + L.pw - 14 - 3} y={L.cap1Y - 4} color={t.green} dur={2.6} />
+      {/* social icons — visual only, no links */}
+      {[
+        { logo: "linkedin", label: "LinkedIn" },
+        { logo: "gmail", label: "Email" },
+        { logo: "portfolio", label: "Portfolio" },
+      ].map((s, i, arr) => {
+        const iconY = L.py + L.ph - 28;
+        const labelY = iconY + 18;
+        const colW = L.pw / arr.length;
+        const cx = L.px + colW * i + colW / 2;
+        return (
+          <g key={s.logo}>
+            <circle cx={cx} cy={iconY} r={12} fill={t.surfaceAlt} stroke={t.border} strokeWidth={1} />
+            <Logo id={s.logo} x={cx - 6} y={iconY - 6} size={12} fill={t.textMid} />
+            <Text x={cx} y={labelY} size={9} fill={t.textLow} anchor="middle" mono={false}>
+              {s.label}
+            </Text>
+          </g>
+        );
+      })}
 
       {/* ── transcript panel ── */}
       <rect x={L.tx} y={L.ty} width={L.tw} height={L.th} rx={12} fill={t.surface} stroke={t.border} strokeWidth={1} />
