@@ -45,12 +45,6 @@ export const profile = {
       cgpa: "7.65",
       years: "2024 – 2026",
     },
-    {
-      degree: "BCA",
-      school: "University of Kerala",
-      cgpa: "6.035",
-      years: "2020 – 2023",
-    },
   ],
 };
 

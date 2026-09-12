@@ -73,7 +73,7 @@ const sections: SectionDef[] = [
   { name: "about", render: (t) => <AboutSection t={t} />, h: 470 },
   { name: "techStack", render: (t) => <TechStackSection t={t} />, h: 100 + 200 + 18 + 200 + 34 },
   { name: "roadmap", render: (t) => <RoadmapSection t={t} />, h: 108 + 5 * 68 + 22 },
-  { name: "activity", render: (t) => <ActivitySection t={t} />, h: 300 },
+  { name: "activity", render: (t) => <ActivitySection t={t} />, h: 380 },
   { name: "signature", render: (t) => <SignatureSection t={t} />, h: 250 },
 ];
 for (const t of THEMES) {

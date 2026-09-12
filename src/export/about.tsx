@@ -83,13 +83,13 @@ export function AboutSection({ t }: { t: ThemeTokens }) {
         );
       })}
 
-      <Text x={rightX} y={y0 + 34 + 2 * 112 + 14} size={12} fill={t.violet} weight={600}>
+      <Text x={rightX} y={y0 + 34 + 1 * 112 + 14} size={12} fill={t.violet} weight={600}>
         # currently
       </Text>
-      <Text x={rightX} y={y0 + 34 + 2 * 112 + 14 + 30} size={12.5} fill={t.textMid}>
+      <Text x={rightX} y={y0 + 34 + 1 * 112 + 14 + 30} size={12.5} fill={t.textMid}>
         exploring AI systems · RAG · MCP · LLM APIs
       </Text>
-      <Text x={rightX} y={y0 + 34 + 2 * 112 + 14 + 54} size={12.5} fill={t.textLow}>
+      <Text x={rightX} y={y0 + 34 + 1 * 112 + 14 + 54} size={12.5} fill={t.textLow}>
         learning: Spring Security · Microservices
       </Text>
     </Window>

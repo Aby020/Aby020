@@ -271,15 +271,16 @@ export function HeroSection({ t, size }: { t: ThemeTokens; size: HeroSize }) {
   );
   next(30);
 
-  // status
+  // status — $ command on one line, output indented on the next
   nodes.push(<Cmd key="status" t={t} x={L.cx} y={at()} cmd="status" />);
-  nodes.push(<StatusDot key="status-dot" x={L.cx + 42} y={at() - 4.5} r={4} color={t.green} dur={2.6} />);
+  const statusOutY = at() + 22;
+  nodes.push(<StatusDot key="status-dot" x={L.cx + 14} y={statusOutY - 4.5} r={4} color={t.green} dur={2.6} />);
   nodes.push(
-    <Text key="status-out" x={L.cx + 54} y={at()} size={13} fill={t.green} weight={600}>
+    <Text key="status-out" x={L.cx + 26} y={statusOutY} size={13} fill={t.green} weight={600}>
       {profile.status}
     </Text>
   );
-  next(34);
+  next(42);
 
   // focus
   nodes.push(<Cmt key="focus-h" t={t} x={L.cx} y={at()} text="# focus" />);
