@@ -16,5 +16,11 @@ portrait-source.*
 image/
 Resume/
 
-# Build preview artifacts — regenerate with `npm run generate`.
+# Build preview artifacts — regenerate with `npm run export`.
 assets/_preview/
+
+# Vite build output
+dist/
+
+# Claude Code local settings
+.claude/

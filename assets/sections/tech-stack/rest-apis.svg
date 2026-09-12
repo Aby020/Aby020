@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 116" width="168" height="116">
-  <style>text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:12.5px;font-weight:500;letter-spacing:0.2px}</style>
-  <g fill="#D29922" fill-rule="evenodd" transform="translate(84 42) scale(1.3333333333333333) translate(-12.0 -12.0)"><path d="M8.5 3.5c0 2-2.5 3-2.5 5s2.5 3 2.5 5" fill="none" stroke="#D29922" stroke-width="1.5" stroke-linecap="round"/><path d="M15.5 3.5c0 2 2.5 3 2.5 5s-2.5 3-2.5 5" fill="none" stroke="#D29922" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="8.5" r="1.3" fill="#D29922"/><circle cx="12" cy="15.5" r="1.3" fill="#D29922"/><line x1="12" y1="9.8" x2="12" y2="14.2" stroke="#D29922" stroke-width="1.2" stroke-linecap="round"/><line x1="10.8" y1="11.1" x2="12" y2="9.8" stroke="#D29922" stroke-width="1.0" stroke-linecap="round"/><line x1="13.2" y1="11.1" x2="12" y2="9.8" stroke="#D29922" stroke-width="1.0" stroke-linecap="round"/></g>
-  <text x="84" y="101" text-anchor="middle" fill="#c9d1d9">REST APIs</text>
-</svg>

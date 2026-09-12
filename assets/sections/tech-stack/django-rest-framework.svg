@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 116" width="168" height="116">
-  <style>text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:12.5px;font-weight:500;letter-spacing:0.2px}</style>
-  <g fill="#44B78B" fill-rule="evenodd" transform="translate(84 42) scale(1.3333333333333333) translate(-12.0 -12.0)"><path d="M12 3l7.2 4.2L12 11.4 4.8 7.2Z"/><path d="M12 9.6l7.2 4.2L12 18 4.8 13.8Z"/></g>
-  <text x="84" y="101" text-anchor="middle" fill="#c9d1d9">Django REST Framework</text>
-</svg>

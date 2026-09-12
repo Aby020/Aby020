@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99 34">
-  <style>
-    text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
-  </style>
-  <rect x="0" y="4" width="4" height="26" rx="1.5" fill="#79c0ff" opacity="0.85"/>
-  <text x="14" y="22" fill="#f0f6fc" font-size="13" font-weight="bold" letter-spacing="0.6">LANGUAGES</text>
-</svg>
