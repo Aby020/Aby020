@@ -21,7 +21,6 @@ import {
   Divider,
   Cursor,
   StatusDot,
-  Logo,
   monoW,
   fitMono,
   accentFor,
@@ -321,11 +320,11 @@ export function HeroSection({ t, size }: { t: ThemeTokens; size: HeroSize }) {
     );
   });
 
-  // motto quote — subtle terminal comment below featured projects
+  // terminal status — subtle continuation line below featured projects
   const quoteY = at() + 24 + projects.length * 24 + 14;
   nodes.push(
     <Text key="motto" x={L.cx} y={quoteY} size={11.5} fill={t.violet} opacity={0.7}>
-      {"> Code. Build. Improve."}
+      {"> building scalable systems"}
     </Text>
   );
 
@@ -343,6 +342,11 @@ export function HeroSection({ t, size }: { t: ThemeTokens; size: HeroSize }) {
           <stop offset="0" stopColor={t.textMid} />
           <stop offset="0.48" stopColor={t.accent} />
           <stop offset="1" stopColor={t.accentHi} />
+        </linearGradient>
+        <linearGradient id="scan-line" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stopColor={t.accent} stopOpacity="0" />
+          <stop offset="0.5" stopColor={t.accentHi} stopOpacity="0.75" />
+          <stop offset="1" stopColor={t.accent} stopOpacity="0" />
         </linearGradient>
         <pattern id="hero-grid" width="34" height="34" patternUnits="userSpaceOnUse">
           <line x1="34" y1="0" x2="34" y2="34" stroke={t.gridLine} strokeWidth="1" />
@@ -389,26 +393,22 @@ export function HeroSection({ t, size }: { t: ThemeTokens; size: HeroSize }) {
         ))}
       </text>
 
-      {/* social icons — visual only, no links */}
-      {[
-        { logo: "linkedin", label: "LinkedIn" },
-        { logo: "gmail", label: "Email" },
-        { logo: "portfolio", label: "Portfolio" },
-      ].map((s, i, arr) => {
-        const iconY = L.py + L.ph - 28;
-        const labelY = iconY + 18;
-        const colW = L.pw / arr.length;
-        const cx = L.px + colW * i + colW / 2;
-        return (
-          <g key={s.logo}>
-            <circle cx={cx} cy={iconY} r={12} fill={t.surfaceAlt} stroke={t.border} strokeWidth={1} />
-            <Logo id={s.logo} x={cx - 6} y={iconY - 6} size={12} fill={t.textMid} />
-            <Text x={cx} y={labelY} size={9} fill={t.textLow} anchor="middle" mono={false}>
-              {s.label}
-            </Text>
-          </g>
-        );
-      })}
+      {/* subtle scan sweep over the portrait — GitHub-safe SMIL, visual only */}
+      <rect x={L.px + 6} y={L.gridTop} width={L.pw - 12} height={3} rx={1.5} fill="url(#scan-line)">
+        <animate
+          attributeName="y"
+          values={`${L.gridTop};${L.gridTop + portraitRows.length * fs + 6}`}
+          dur="5.5s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          values="0;0.9;0.9;0"
+          keyTimes="0;0.06;0.88;1"
+          dur="5.5s"
+          repeatCount="indefinite"
+        />
+      </rect>
 
       {/* ── transcript panel ── */}
       <rect x={L.tx} y={L.ty} width={L.tw} height={L.th} rx={12} fill={t.surface} stroke={t.border} strokeWidth={1} />

@@ -11,8 +11,6 @@ import { Svg, Text, Glyph, Logo, monoW } from "./primitives";
 
 // feather-style 24×24 icons
 const ICONS: Record<string, string> = {
-  external: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3",
-  mail: "M22 6l-10 7L2 6M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z",
   play: "M5 3.5l14 8.5-14 8.5z",
 };
 
@@ -73,10 +71,10 @@ function Btn({
 }
 
 export const linkedinButton = (t: ThemeTokens) => (
-  <Btn t={t} label="LINKEDIN" icon="external" />
+  <Btn t={t} label="LINKEDIN" logo="linkedin" />
 );
-export const emailButton = (t: ThemeTokens) => <Btn t={t} label="EMAIL" icon="mail" />;
-export const portfolioButton = (t: ThemeTokens) => <Btn t={t} label="PORTFOLIO" icon="external" />;
+export const emailButton = (t: ThemeTokens) => <Btn t={t} label="EMAIL" logo="gmail" />;
+export const portfolioButton = (t: ThemeTokens) => <Btn t={t} label="PORTFOLIO" logo="portfolio" />;
 
 export const repoButton = (t: ThemeTokens) => <Btn t={t} label="REPOSITORY" logo="github" />;
 export const demoButton = (t: ThemeTokens) => (

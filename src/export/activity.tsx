@@ -1,8 +1,9 @@
 // ─────────────────────────────────────────────────────────────
 // // activity — GitHub pulse. The contribution snake is served in
 // README from the live GitHub Action (output branch) so it updates
-// daily; this SVG renders the verified stat snapshot plus the
-// snake's mounting frame.
+// daily; this SVG renders the verified stat snapshot as a compact
+// developer-dashboard showcase (revealed numbers, small labels,
+// subtle indicators, restrained SMIL). Purely visual — no links.
 // ─────────────────────────────────────────────────────────────
 import { ThemeTokens } from "../system/tokens";
 import { Window } from "./frame";
@@ -16,22 +17,47 @@ export function ActivitySection({ t }: { t: ThemeTokens }) {
   const boxW = (1060 - 44 * 2 - 20 * 2) / 3;
   const boxH = 150;
 
+  // per-tile accent so each card reads as its own status cell
+  const tileAccent = [t.accent, t.cyan, t.green];
+
   return (
-    <Window t={t} H={H} title="~/activity.log" cmd="history --stats --days 7">
+    <Window t={t} H={H} title="~/activity.log" cmd="history --stats --days 7" right="snapshot · 2026-09">
       {stats.map((s, i) => {
         const x = 44 + i * (boxW + 20);
+        const a = tileAccent[i % tileAccent.length];
         return (
           <g key={s.key}>
+            {/* stat card */}
             <rect x={x} y={top} width={boxW} height={boxH} rx={12} fill={t.surface} stroke={t.border} strokeWidth={1} />
-            <Text x={x + boxW / 2} y={top + 46} size={42} fill={t.textHi} weight={700} anchor="middle">
-              {s.value}
-            </Text>
-            <Text x={x + boxW / 2} y={top + 78} size={12} fill={t.accent} weight={600} anchor="middle" spacing={2}>
+            {/* top accent hairline */}
+            <rect x={x + 16} y={top} width={boxW - 32} height={2.5} rx={1.25} fill={a} opacity={0.5} />
+
+            {/* header — indicator · label · index */}
+            <circle cx={x + 20} cy={top + 28} r={3.5} fill={a}>
+              <animate attributeName="opacity" values="1;0.35;1" dur={`${2.2 + i * 0.35}s`} repeatCount="indefinite" />
+            </circle>
+            <Text x={x + 33} y={top + 32} size={11} fill={t.textLow} weight={600} spacing={2}>
               {s.label}
             </Text>
-            <Text x={x + boxW / 2} y={top + boxH - 26} size={11} fill={t.textLow} anchor="middle">
-              snapshot · 2026-09
+            <Text x={x + boxW - 20} y={top + 32} size={10} fill={t.textLow} anchor="end" opacity={0.7}>
+              0{i + 1}
             </Text>
+            <Divider x={x} y={top + 46} w={boxW} color={t.border} />
+
+            {/* value — immediately readable, big + bold */}
+            <Text x={x + boxW / 2} y={top + 99} size={46} fill={t.textHi} weight={700} anchor="middle">
+              {s.value}
+            </Text>
+            <rect x={x + boxW / 2 - 12} y={top + 109} width={24} height={2} rx={1} fill={a} opacity={0.5} />
+
+            {/* footer — verified · live */}
+            <Text x={x + 20} y={top + boxH - 24} size={10.5} fill={t.textLow} spacing={1}>
+              verified
+            </Text>
+            <circle cx={x + boxW - 24} cy={top + boxH - 28} r={5} fill={t.green} opacity={0.15} />
+            <circle cx={x + boxW - 24} cy={top + boxH - 28} r={2.5} fill={t.green}>
+              <animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite" />
+            </circle>
           </g>
         );
       })}
