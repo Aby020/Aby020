@@ -23,7 +23,7 @@ export const profile = {
   email: "abithomas520@gmail.com",
   contact: {
     linkedin: "https://www.linkedin.com/in/abithomas-dev/",
-    email: "mailto:abithomas520@gmail.com",
+    email: "https://mail.google.com/mail/?view=cm&fs=1&to=abithomas520@gmail.com",
     portfolio: "https://abi-thomas-portfolio.vercel.app/",
     github: "https://github.com/Aby020",
   },

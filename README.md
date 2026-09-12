@@ -19,7 +19,7 @@
     <img src="./assets/generated/buttons/linkedin--dark.svg" alt="LinkedIn" height="46">
   </picture>
 </a>
-  <a href="mailto:abithomas520@gmail.com">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abithomas520@gmail.com">
   <picture>
     <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/email--dark.svg">
     <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/email--light.svg">
