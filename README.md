@@ -143,7 +143,7 @@
   </picture>
 </a>
 <div style="height:8px;"></div>
-<a href="https://resumeai-backend-8rza.onrender.com/">
+<a href="https://resumeai-frontend-nguv.onrender.com/">
   <picture>
     <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/demo--resumeai--dark.svg">
     <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/demo--resumeai--light.svg">
