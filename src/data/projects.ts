@@ -48,22 +48,11 @@ export const projects: Project[] = [
       "ATS platform with NLP-based skill matching, PDF parsing, authentication and 88 automated tests — resume scoring and job-description matching.",
     stack: ["Python", "Django", "PostgreSQL", "NLP", "PDF Parsing"],
     repo: "https://github.com/Aby020/ResumeAI",
-    demo: "https://resumeai-backend-8rza.onrender.com/",
+    demo: "https://resumeai-frontend-nguv.onrender.com/",
     accent: "violet",
   },
   {
     num: "04",
-    name: "TrackWise",
-    tagline: "Employee Attendance Management",
-    summary:
-      "Full-stack attendance tracking with secure JWT auth, role-based dashboards and a REST API built with Node and Express.",
-    stack: ["React", "Node.js", "Express.js", "PostgreSQL", "JWT", "Tailwind CSS"],
-    repo: "https://github.com/Aby020/TrackWise",
-    demo: "https://trackwise-frontend-tla4.onrender.com/",
-    accent: "green",
-  },
-  {
-    num: "05",
     name: "ServiGo",
     tagline: "Home Services & EV Charging",
     summary:
@@ -72,5 +61,16 @@ export const projects: Project[] = [
     repo: "https://github.com/Aby020/ServiGo",
     demo: "https://servigo-web.onrender.com/",
     accent: "amber",
+  },
+  {
+    num: "05",
+    name: "TrackWise",
+    tagline: "Employee Attendance Management",
+    summary:
+      "Full-stack attendance tracking with secure JWT auth, role-based dashboards and a REST API built with Node and Express.",
+    stack: ["React", "Node.js", "Express.js", "PostgreSQL", "JWT", "Tailwind CSS"],
+    repo: "https://github.com/Aby020/TrackWise",
+    demo: "https://trackwise-frontend-tla4.onrender.com/",
+    accent: "green",
   },
 ];

@@ -156,36 +156,9 @@
 <tr>
 <td style="padding:16px 6px 10px 20px;vertical-align:middle;width:75%;">
 <picture>
-  <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/cards/04--trackwise--dark.svg">
-  <source media="(prefers-color-scheme:light)" srcset="./assets/generated/cards/04--trackwise--light.svg">
-  <img src="./assets/generated/cards/04--trackwise--dark.svg" alt="TrackWise" width="100%" />
-</picture>
-</td>
-<td style="width:25%;text-align:center;vertical-align:middle;padding:16px 20px 10px 6px;">
-<a href="https://github.com/Aby020/TrackWise">
-  <picture>
-    <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/repo--trackwise--dark.svg">
-    <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/repo--trackwise--light.svg">
-    <img src="./assets/generated/buttons/repo--trackwise--dark.svg" alt="View TrackWise Repository" height="31">
-  </picture>
-</a>
-<div style="height:8px;"></div>
-<a href="https://trackwise-frontend-tla4.onrender.com/">
-  <picture>
-    <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/demo--trackwise--dark.svg">
-    <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/demo--trackwise--light.svg">
-    <img src="./assets/generated/buttons/demo--trackwise--dark.svg" alt="TrackWise Live Demo" height="31">
-  </picture>
-</a>
-</td>
-</tr>
-<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
-<tr>
-<td style="padding:16px 6px 10px 20px;vertical-align:middle;width:75%;">
-<picture>
-  <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/cards/05--servigo--dark.svg">
-  <source media="(prefers-color-scheme:light)" srcset="./assets/generated/cards/05--servigo--light.svg">
-  <img src="./assets/generated/cards/05--servigo--dark.svg" alt="ServiGo" width="100%" />
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/cards/04--servigo--dark.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/generated/cards/04--servigo--light.svg">
+  <img src="./assets/generated/cards/04--servigo--dark.svg" alt="ServiGo" width="100%" />
 </picture>
 </td>
 <td style="width:25%;text-align:center;vertical-align:middle;padding:16px 20px 10px 6px;">
@@ -202,6 +175,33 @@
     <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/demo--servigo--dark.svg">
     <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/demo--servigo--light.svg">
     <img src="./assets/generated/buttons/demo--servigo--dark.svg" alt="ServiGo Live Demo" height="31">
+  </picture>
+</a>
+</td>
+</tr>
+<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
+<tr>
+<td style="padding:16px 6px 10px 20px;vertical-align:middle;width:75%;">
+<picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/cards/05--trackwise--dark.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/generated/cards/05--trackwise--light.svg">
+  <img src="./assets/generated/cards/05--trackwise--dark.svg" alt="TrackWise" width="100%" />
+</picture>
+</td>
+<td style="width:25%;text-align:center;vertical-align:middle;padding:16px 20px 10px 6px;">
+<a href="https://github.com/Aby020/TrackWise">
+  <picture>
+    <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/repo--trackwise--dark.svg">
+    <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/repo--trackwise--light.svg">
+    <img src="./assets/generated/buttons/repo--trackwise--dark.svg" alt="View TrackWise Repository" height="31">
+  </picture>
+</a>
+<div style="height:8px;"></div>
+<a href="https://trackwise-frontend-tla4.onrender.com/">
+  <picture>
+    <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/demo--trackwise--dark.svg">
+    <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/demo--trackwise--light.svg">
+    <img src="./assets/generated/buttons/demo--trackwise--dark.svg" alt="TrackWise Live Demo" height="31">
   </picture>
 </a>
 </td>
