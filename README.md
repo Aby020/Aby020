@@ -196,6 +196,14 @@
     <img src="./assets/generated/buttons/repo--servigo--dark.svg" alt="View ServiGo Repository" height="31">
   </picture>
 </a>
+<div style="height:8px;"></div>
+<a href="https://servigo-web.onrender.com/">
+  <picture>
+    <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/demo--servigo--dark.svg">
+    <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/demo--servigo--light.svg">
+    <img src="./assets/generated/buttons/demo--servigo--dark.svg" alt="ServiGo Live Demo" height="31">
+  </picture>
+</a>
 </td>
 </tr>
 </table>

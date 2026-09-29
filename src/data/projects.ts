@@ -70,6 +70,7 @@ export const projects: Project[] = [
       "Booking platform for home services and EV charging with authentication, RBAC, service booking and EV station search.",
     stack: ["Django", "Python", "JavaScript", "HTML5", "CSS3", "SQLite"],
     repo: "https://github.com/Aby020/ServiGo",
+    demo: "https://servigo-web.onrender.com/",
     accent: "amber",
   },
 ];
