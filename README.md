@@ -11,29 +11,9 @@
 </p>
 
 <p align="center">
-
-  <a href="https://www.linkedin.com/in/abithomas-dev/">
-  <picture>
-    <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/linkedin--dark.svg">
-    <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/linkedin--light.svg">
-    <img src="./assets/generated/buttons/linkedin--dark.svg" alt="LinkedIn" height="46">
-  </picture>
-</a>
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abithomas520@gmail.com">
-  <picture>
-    <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/email--dark.svg">
-    <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/email--light.svg">
-    <img src="./assets/generated/buttons/email--dark.svg" alt="Email" height="46">
-  </picture>
-</a>
-  <a href="https://abi-thomas-portfolio.vercel.app/">
-  <picture>
-    <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/portfolio--dark.svg">
-    <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/portfolio--light.svg">
-    <img src="./assets/generated/buttons/portfolio--dark.svg" alt="Portfolio" height="46">
-  </picture>
-</a>
-
+<a href="https://www.linkedin.com/in/abithomas-dev/" style="margin:0 6px;display:inline-block;line-height:0;"><picture><source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/linkedin--dark.svg"><source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/linkedin--light.svg"><img src="./assets/generated/buttons/linkedin--dark.svg" alt="LinkedIn" height="40" style="border:0;"></picture></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=abithomas520@gmail.com" style="margin:0 6px;display:inline-block;line-height:0;"><picture><source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/email--dark.svg"><source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/email--light.svg"><img src="./assets/generated/buttons/email--dark.svg" alt="Email" height="40" style="border:0;"></picture></a>
+<a href="https://abi-thomas-portfolio.vercel.app/" style="margin:0 6px;display:inline-block;line-height:0;"><picture><source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/portfolio--dark.svg"><source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/portfolio--light.svg"><img src="./assets/generated/buttons/portfolio--dark.svg" alt="Portfolio" height="40" style="border:0;"></picture></a>
 </p>
 
 <hr>

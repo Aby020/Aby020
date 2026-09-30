@@ -9,6 +9,7 @@ import { writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { profile } from "../src/data/profile";
 import { projects } from "../src/data/projects";
+import { CONTACT_BTN_H } from "../src/export/buttons";
 import { activity } from "../src/data/activity";
 
 const ROOT = resolve(import.meta.dirname, "..");
@@ -57,19 +58,25 @@ function heroPicture() {
   ].join("\n");
 }
 
-/** Contact button: <a href><img></a> pair. */
+/**
+ * Contact button: <a href><picture><img></picture></a>, emitted as a
+ * single line. The buttons sit in an inline run, and GitHub collapses
+ * the newlines between block-level markup — the anchors end up butted
+ * together with no gutter at all. One line plus an explicit margin on
+ * each anchor is the only way to hold a real gap in the row.
+ */
 function contactBtn(href: string, name: string, label: string) {
   const dark = `${ASSETS}/buttons/${name}--dark.svg`;
   const light = `${ASSETS}/buttons/${name}--light.svg`;
   return [
-    `<a href="${href}">`,
-    `  <picture>`,
-    `    <source media="(prefers-color-scheme:dark)" srcset="./${dark}">`,
-    `    <source media="(prefers-color-scheme:light)" srcset="./${light}">`,
-    `    <img src="./${dark}" alt="${esc(label)}" height="46">`,
-    `  </picture>`,
+    `<a href="${href}" style="margin:0 6px;display:inline-block;line-height:0;">`,
+    `<picture>`,
+    `<source media="(prefers-color-scheme:dark)" srcset="./${dark}">`,
+    `<source media="(prefers-color-scheme:light)" srcset="./${light}">`,
+    `<img src="./${dark}" alt="${esc(label)}" height="${CONTACT_BTN_H}" style="border:0;">`,
+    `</picture>`,
     `</a>`,
-  ].join("\n");
+  ].join("");
 }
 
 /** Repo card row: image (75%) + buttons (25%). */
@@ -141,11 +148,9 @@ lines.push(``);
 
 // Contact buttons
 lines.push(`<p align="center">`);
-lines.push(``);
-lines.push(`  ${contactBtn(LINKEDIN, "linkedin", "LinkedIn")}`);
-lines.push(`  ${contactBtn(EMAIL, "email", "Email")}`);
-lines.push(`  ${contactBtn(PORTFOLIO, "portfolio", "Portfolio")}`);
-lines.push(``);
+lines.push(contactBtn(LINKEDIN, "linkedin", "LinkedIn"));
+lines.push(contactBtn(EMAIL, "email", "Email"));
+lines.push(contactBtn(PORTFOLIO, "portfolio", "Portfolio"));
 lines.push(`</p>`);
 lines.push(``);
 lines.push(`<hr>`);
@@ -222,5 +227,6 @@ lines.push(`</p>`);
 
 // Write
 const out = resolve(ROOT, "README.md");
-writeFileSync(out, lines.join("\n"), "utf-8");
+// Trailing newline so the file stays POSIX-clean and diffs stay tidy.
+writeFileSync(out, `${lines.join("\n")}\n`, "utf-8");
 console.log(`✓ README.md written (${lines.length} lines)`);

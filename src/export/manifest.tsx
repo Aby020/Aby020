@@ -22,6 +22,8 @@ import {
   demoButton,
   BTN_W,
   BTN_H,
+  CONTACT_BTN_W,
+  CONTACT_BTN_H,
 } from "./buttons";
 import { projects } from "../data/projects";
 
@@ -104,18 +106,20 @@ for (const t of THEMES) {
 // ── buttons (contact + per-project × dark/light) ──────────────
 for (const t of THEMES) {
   const theme = themes[t];
-  const btn = (name: string, el: React.ReactElement) =>
+  const btn = (name: string, el: React.ReactElement, w = BTN_W, h = BTN_H) =>
     builds.push({
       kind: "button",
       rel: `buttons/${name}${suffix(t)}.svg`,
       element: el,
-      w: BTN_W,
-      h: BTN_H,
+      w,
+      h,
     });
 
-  btn("linkedin", linkedinButton(theme));
-  btn("email", emailButton(theme));
-  btn("portfolio", portfolioButton(theme));
+  const cw = CONTACT_BTN_W;
+  const ch = CONTACT_BTN_H;
+  btn("linkedin", linkedinButton(theme), cw, ch);
+  btn("email", emailButton(theme), cw, ch);
+  btn("portfolio", portfolioButton(theme), cw, ch);
   for (const p of projects) {
     btn(`repo--${p.name.toLowerCase()}`, repoButton(theme));
     if (p.demo) btn(`demo--${p.name.toLowerCase()}`, demoButton(theme));
