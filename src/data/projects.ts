@@ -24,7 +24,7 @@ export const projects: Project[] = [
     tagline: "Charity & Donation Management",
     summary:
       "Charity and donation platform with JWT auth, RBAC, Razorpay payments, campaign management, receipts, volunteer dashboards, notifications and audit logging.",
-    stack: ["Django", "React", "PostgreSQL", "DRF", "JWT", "Razorpay"],
+    stack: ["Django", "React", "PostgreSQL", "DRF", "JWT", "Razorpay", "TypeScript", "Neon"],
     repo: "https://github.com/Aby020/TrustFund",
     demo: "https://trustfund-i8r1.onrender.com/",
     accent: "blue",
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     tagline: "AI Resume Analysis Platform",
     summary:
       "ATS platform with NLP-based skill matching, PDF parsing, authentication and 88 automated tests — resume scoring and job-description matching.",
-    stack: ["Python", "Django", "PostgreSQL", "NLP", "PDF Parsing"],
+    stack: ["Python", "Django", "PostgreSQL", "NLP", "PDF Parsing", "React", "OpenAI"],
     repo: "https://github.com/Aby020/ResumeAI",
     demo: "https://resumeai-frontend-nguv.onrender.com/",
     accent: "violet",
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     tagline: "Home Services & EV Charging",
     summary:
       "Booking platform for home services and EV charging with authentication, RBAC, service booking and EV station search.",
-    stack: ["Django", "Python", "JavaScript", "HTML5", "CSS3", "SQLite"],
+    stack: ["Django", "Python", "JavaScript", "HTML5", "CSS3", "SQLite", "Next.js", "Leaflet", "PostgreSQL"],
     repo: "https://github.com/Aby020/ServiGo",
     demo: "https://servigo-web.onrender.com/",
     accent: "amber",

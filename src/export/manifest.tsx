@@ -51,14 +51,14 @@ for (const t of THEMES) {
   builds.push({
     kind: "hero",
     rel: `hero/hero--desktop${suffix(t)}.svg`,
-    element: <HeroSection t={themes[t]} size="desktop" />,
+    element: <HeroSection t={themes[t]} theme={t} size="desktop" />,
     w: HERO_W_DESKTOP,
     h: HERO_H_DESKTOP,
   });
   builds.push({
     kind: "hero",
     rel: `hero/hero--mobile${suffix(t)}.svg`,
-    element: <HeroSection t={themes[t]} size="mobile" />,
+    element: <HeroSection t={themes[t]} theme={t} size="mobile" />,
     w: HERO_W_MOBILE,
     h: HERO_H_MOBILE,
   });

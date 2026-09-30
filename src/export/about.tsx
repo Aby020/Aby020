@@ -72,12 +72,6 @@ export function AboutSection({ t }: { t: ThemeTokens }) {
             <Text x={rightX + 18} y={cardY + 58} size={11.5} fill={t.textLow}>
               {e.years}
             </Text>
-            <g>
-              <rect x={rightX + 360 - 18 - 82} y={cardY - 4} width={82} height={26} rx={13} fill={t.green} opacity={0.12} stroke={t.green} strokeOpacity={0.5} strokeWidth={1} />
-              <Text x={rightX + 360 - 18 - 41} y={cardY + 13} size={11.5} fill={t.green} weight={600} anchor="middle">
-                CGPA {e.cgpa}
-              </Text>
-            </g>
             {i < profile.education.length - 1 && <Divider x={rightX + 18} y={cardY + 96 + 8} w={360 - 36} color={t.border} />}
           </g>
         );

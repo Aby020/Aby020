@@ -7,7 +7,6 @@
 export interface Education {
   degree: string;
   school: string;
-  cgpa: string;
   years: string;
 }
 
@@ -42,7 +41,6 @@ export const profile = {
     {
       degree: "MCA",
       school: "APJ Abdul Kalam Technological University",
-      cgpa: "7.65",
       years: "2024 – 2026",
     },
   ],
