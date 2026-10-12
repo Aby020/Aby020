@@ -186,6 +186,25 @@
 </a>
 </td>
 </tr>
+<tr><td colspan="2" style="padding:0 20px;"><div style="height:1px;background:#21262d;"></div></td></tr>
+<tr>
+<td style="padding:16px 6px 10px 20px;vertical-align:middle;width:75%;">
+<picture>
+  <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/cards/06--sortiq--dark.svg">
+  <source media="(prefers-color-scheme:light)" srcset="./assets/generated/cards/06--sortiq--light.svg">
+  <img src="./assets/generated/cards/06--sortiq--dark.svg" alt="Sortiq" width="100%" />
+</picture>
+</td>
+<td style="width:25%;text-align:center;vertical-align:middle;padding:16px 20px 10px 6px;">
+<a href="https://github.com/Aby020/Sortiq">
+  <picture>
+    <source media="(prefers-color-scheme:dark)" srcset="./assets/generated/buttons/repo--sortiq--dark.svg">
+    <source media="(prefers-color-scheme:light)" srcset="./assets/generated/buttons/repo--sortiq--light.svg">
+    <img src="./assets/generated/buttons/repo--sortiq--dark.svg" alt="View Sortiq Repository" height="31">
+  </picture>
+</a>
+</td>
+</tr>
 </table>
 </div>
 

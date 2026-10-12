@@ -13,7 +13,7 @@ export interface Project {
   summary: string;
   stack: string[];
   repo: string;
-  demo?: string;
+  demo?: string | null;
   accent: AccentKey;
 }
 
@@ -72,5 +72,16 @@ export const projects: Project[] = [
     repo: "https://github.com/Aby020/TrackWise",
     demo: "https://trackwise-frontend-tla4.onrender.com/",
     accent: "green",
+  },
+  {
+    num: "06",
+    name: "Sortiq",
+    tagline: "Intelligent, Offline-Safe Desktop File Management & Deduplication",
+    summary:
+      "A local-first, zero-telemetry desktop utility featuring in-process directory scanning, hash-based deduplication, dry-run auto-organization, and WAL-backed rollback.",
+    stack: ["Python 3.12", "React 19", "TypeScript", "Tailwind CSS", "SQLite WAL", "Rich TUI"],
+    repo: "https://github.com/Aby020/Sortiq",
+    demo: null,
+    accent: "violet",
   },
 ];

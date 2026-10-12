@@ -24,3 +24,8 @@ dist/
 
 # Claude Code local settings
 .claude/
+
+# Local runtime scripts
+cc.bat
+*.bat
+*.ps1
